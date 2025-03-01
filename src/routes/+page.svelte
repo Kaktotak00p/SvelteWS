@@ -22,6 +22,22 @@
         </div>
       </div>
     </section>
+
+    <!-- Text -->
+    <section class="py-32 h-auto " id="module2">
+      <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Text</h2>
+      <div class="max-w-7xl mx-auto px-4 flex flex-row">
+        <div class="w-1/3"></div>
+        <div class="w-1/3">
+          <p class="text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse placerat vulputate ex. Fusce vehicula gravida mi, 
+            ac placerat ligula commodo vitae
+          </p>
+        </div>
+        <div class="w-1/3"></div>
+      </div>
+    </section>
   
     <!-- Advantages / Features -->
     <section class="bg-gray-900 py-16 h-auto" id="module2">
