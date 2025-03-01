@@ -2,3 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+    .card {
+      position: relative;
+      background-color: #b4ff00; /* Bright green card color */
+      border-radius: 6px;
+    }

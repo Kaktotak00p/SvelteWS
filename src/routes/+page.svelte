@@ -11,13 +11,13 @@
               Suspendisse placerat vulputate ex. Fusce vehicula gravida mi, 
               ac placerat ligula commodo vitae.
             </p>
-            <button class="bg-green-500 px-6 py-2 rounded text-black font-bold hover:bg-green-600">
+            <button class="bg-brandGreen px-6 py-2 rounded text-black font-bold hover:bg-green-600">
               Call to Action
             </button>
           </div>
           <div class="md:w-1/2 flex justify-center">
             <!-- Placeholder green shape -->
-            <div class="bg-green-500 w-64 h-64"></div>
+            <div class="bg-brandGreen w-64 h-64"></div>
           </div>
         </div>
       </div>
@@ -38,48 +38,42 @@
               <div class="block"></div>
         
               <!-- Card 1 -->
-              <div class="flex flex-col items-center text-center bg-gray-800 p-4">
-                <div class="bg-green-500 w-16 h-16 mb-4"></div>
+              <div class="card flex flex-col items-center text-center pt-4 text-gray-600 ">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas nisl sed magna.
                 </p>
               </div>
         
               <!-- Card 2 -->
-              <div class="flex flex-col items-center text-center bg-gray-800 p-4">
-                <div class="bg-green-500 w-16 h-16 mb-4"></div>
+              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
        
               <!-- Card 3 -->
-              <div class="flex flex-col items-center text-center bg-gray-800 p-4">
-                <div class="bg-green-500 w-16 h-16 mb-4"></div>
+              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 4 -->
-              <div class="flex flex-col items-center text-center bg-gray-800 p-4">
-                <div class="bg-green-500 w-16 h-16 mb-4"></div>
+              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 5 -->
-              <div class="flex flex-col items-center text-center bg-gray-800 p-4">
-                <div class="bg-green-500 w-16 h-16 mb-4"></div>
+              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
                 <p>
                   In dictum non nulla sit amet commodo. Maecenas feugiat sem id ex efficitur, a luctus orci finibus.
                 </p>
               </div>
         
               <!-- Card 6 -->
-              <div class="flex flex-col items-center text-center bg-gray-800 p-4">
-                <div class="bg-green-500 w-16 h-16 mb-4"></div>
+              <div class="card flex flex-col items-center text-center p-4 text-gray-600">
                 <p>
                   Quisque consequat justo nec est tristique, eget malesuada neque faucibus.
                 </p>
@@ -117,10 +111,10 @@
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Partners</h2>
         <div class="flex flex-wrap gap-8">
-          <div class="bg-green-500 w-32 h-16"></div>
-          <div class="bg-green-500 w-32 h-16"></div>
-          <div class="bg-green-500 w-32 h-16"></div>
-          <div class="bg-green-500 w-32 h-16"></div>
+        <div class="bg-brandGreen w-32 h-16"></div>
+        <div class="bg-brandGreen w-32 h-16"></div>
+        <div class="bg-brandGreen w-32 h-16"></div>
+        <div class="bg-brandGreen w-32 h-16"></div>
         </div>
       </div>
     </section>
@@ -146,7 +140,7 @@
           ></textarea>
           <button 
             type="submit"
-            class="bg-green-500 px-6 py-2 rounded text-black font-bold hover:bg-green-600"
+            class="bg-brandGreen px-6 py-2 rounded text-black font-bold"
           >
             Submit
           </button>
