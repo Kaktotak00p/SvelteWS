@@ -24,7 +24,7 @@
     </section>
 
     <!-- Text -->
-    <section class="py-32 h-auto " id="module2">
+    <section class="py-32 h-auto px-4" id="module2">
       <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Text</h2>
       <div class="max-w-7xl mx-auto px-4 flex flex-row">
         <div class="w-1/3"></div>
