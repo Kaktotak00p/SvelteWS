@@ -32,5 +32,14 @@
 		<a href="#module3" class="block p-4 text-gray-300 hover:text-white" on:click={closeMenu}
 			>Module 3</a
 		>
+		<a href="#module4" class="block p-4 text-gray-300 hover:text-white" on:click={closeMenu}
+			>Module 4</a
+		>
+		<a href="#module5" class="block p-4 text-gray-300 hover:text-white" on:click={closeMenu}
+			>Module 5</a
+		>
+		<a href="#module6" class="block p-4 text-gray-300 hover:text-white" on:click={closeMenu}
+			>Module 6</a
+		>
 	</div>
 </div>
