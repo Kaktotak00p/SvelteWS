@@ -1,5 +1,42 @@
+<script>
+  import { fly } from 'svelte/transition';
+  import { onMount } from 'svelte';
+
+  const images = [
+    '/images/partners/247.png',
+    '/images/partners/betman.png',
+    '/images/partners/glory.png',
+    '/images/partners/most b.png',
+    '/images/partners/mr bet.png',
+    '/images/partners/v.png',
+    '/images/partners/чили.png',
+  ];
+
+  let currentStart = 0;
+  let displayedImages = [];
+  let showImages = true;
+
+  function updateImages() {
+    displayedImages = Array.from({ length: 4 }, (_, i) => images[(currentStart + i) % images.length]);
+    currentStart = (currentStart + 4) % images.length;
+  }
+
+  async function cycle() {
+    await new Promise(resolve => setTimeout(resolve, 3000));
+    showImages = false;
+    await new Promise(resolve => setTimeout(resolve, 500));
+    updateImages();
+    showImages = true;
+  }
+
+  onMount(() => {
+    updateImages();
+    const interval = setInterval(cycle, 3500);
+    return () => clearInterval(interval);
+  });
+</script>
+
 <main class="bg-black text-white min-h-screen flex flex-col">
-  
     <!-- Hero / Top Section -->
     <section class="h-screen" id="module1">
       <div class="max-w-7xl mx-auto px-4 py-16 h-3/4 flex">
@@ -54,42 +91,42 @@
               <div class="block"></div>
         
               <!-- Card 1 -->
-              <div class="card flex flex-col items-center text-center pt-4 text-gray-600 ">
+              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas nisl sed magna.
                 </p>
               </div>
         
               <!-- Card 2 -->
-              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
+              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
        
               <!-- Card 3 -->
-              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
+              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 4 -->
-              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
+              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 5 -->
-              <div class="card flex flex-col items-center text-center pt-4 text-gray-600">
+              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
                 <p>
                   In dictum non nulla sit amet commodo. Maecenas feugiat sem id ex efficitur, a luctus orci finibus.
                 </p>
               </div>
         
               <!-- Card 6 -->
-              <div class="card flex flex-col items-center text-center p-4 text-gray-600">
+              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
                 <p>
                   Quisque consequat justo nec est tristique, eget malesuada neque faucibus.
                 </p>
@@ -126,15 +163,45 @@
     <section class="bg-gray-900 py-16 h-auto" id="module4">
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Partners</h2>
-        <div class="flex flex-wrap gap-8">
-        <div class="bg-brandGreen w-32 h-16"></div>
-        <div class="bg-brandGreen w-32 h-16"></div>
-        <div class="bg-brandGreen w-32 h-16"></div>
-        <div class="bg-brandGreen w-32 h-16"></div>
+        <!-- Container with overflow-hidden so sliding images don’t show outside -->
+        <div class="overflow-hidden relative">
+          {#if showImages}
+            <!-- The fly transitions handle the slide effect:
+                 - in: from left (x: -200)
+                 - out: to right (x: 200) -->
+            <div
+              class="flex gap-8 justify-between min-h-44"
+              in:fly={{ x: -200, duration: 500 }}
+              out:fly={{ x: 200, duration: 500 }}
+            >
+              {#each displayedImages as img (img)}
+                <img src={img} alt="Partner logo" class="w-32 h-40 object-contain" />
+              {/each}
+            </div>
+          {/if}
         </div>
       </div>
     </section>
   
+    <!-- Sources -->
+    <section class="py-16 h-auto" id="module5">
+      <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Sources</h2>
+      <div class="flex flex-row space-x-8 justify-evenly">
+        <!-- Source 1 -->
+        <div class="transform rotate-45 hover:rotate-0 transition-transform duration-300">
+          <img src="/images/sources/fb.png" alt="Source 1" class="w-24 h-24 object-contain" />
+        </div>
+        <!-- Source 2 -->
+        <div class="transform rotate-45 hover:rotate-0 transition-transform duration-300">
+          <img src="/images/sources/google.png" alt="Source 2" class="w-24 h-24 object-contain" />
+        </div>
+        <!-- Source 3 -->
+        <div class="transform rotate-45 hover:rotate-0 transition-transform duration-300">
+          <img src="/images/sources/tt.png" alt="Source 3" class="w-24 h-24 object-contain" />
+        </div>
+      </div>
+    </section>
+
     <!-- Contact / Form -->
     <section class="py-16 h-auto" id="module5">
       <div class="max-w-7xl mx-auto px-4">
