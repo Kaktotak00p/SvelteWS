@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<nav class="bg-gray-800 p-4 fixed top-0 w-full z-10">
+<nav class="bg-transparent p-4 fixed top-0 w-full z-10">
   <div class="container mx-auto flex justify-between items-center">
     <div class="flex items-center">
         <a href="#" class="text-white font-bold text-xl mr-4">TRAFFHUB</a>

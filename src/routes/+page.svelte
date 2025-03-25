@@ -38,7 +38,8 @@
 
 <main class="bg-black text-white min-h-screen flex flex-col">
     <!-- Hero / Top Section -->
-    <section class="h-screen" id="module1">
+    <div class=" h-8"></div>
+    <section class=" h-fit rounded-xl border-brandGreen border-2" id="module1">
       <div class="max-w-7xl mx-auto px-4 py-16 h-3/4 flex">
         <div class="flex flex-col md:flex-row items-center justify-between">
           <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
@@ -54,7 +55,7 @@
           </div>
           <div class="md:w-1/2 flex justify-center">
             <!-- Placeholder green shape -->
-            <div class="bg-brandGreen w-64 h-64"></div>
+            <img src="/images/005.png" alt="Hero" class="w-96 h-96 object-contain" />
           </div>
         </div>
       </div>
@@ -91,42 +92,42 @@
               <div class="block"></div>
         
               <!-- Card 1 -->
-              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas nisl sed magna.
                 </p>
               </div>
         
               <!-- Card 2 -->
-              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
        
               <!-- Card 3 -->
-              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 4 -->
-              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 5 -->
-              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   In dictum non nulla sit amet commodo. Maecenas feugiat sem id ex efficitur, a luctus orci finibus.
                 </p>
               </div>
         
               <!-- Card 6 -->
-              <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-20 text-gray-600">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Quisque consequat justo nec est tristique, eget malesuada neque faucibus.
                 </p>
@@ -231,10 +232,4 @@
       </div>
     </section>
   
-    <!-- Footer -->
-    <footer class="border-t border-gray-700 py-4" id="module6">
-      <div class="max-w-7xl mx-auto px-4 text-center text-sm">
-        &copy; 2025 Lorem Ipsum. All rights reserved.
-      </div>
-    </footer>
   </main>
