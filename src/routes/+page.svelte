@@ -92,42 +92,42 @@
               <div class="block"></div>
         
               <!-- Card 1 -->
-            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas nisl sed magna.
                 </p>
               </div>
         
               <!-- Card 2 -->
-            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
        
               <!-- Card 3 -->
-            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/CardGreenShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 4 -->
-            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.
                 </p>
               </div>
 
               <!-- Card 5 -->
-            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   In dictum non nulla sit amet commodo. Maecenas feugiat sem id ex efficitur, a luctus orci finibus.
                 </p>
               </div>
         
               <!-- Card 6 -->
-            <div class="bg-no-repeat bg-center bg-contain bg-[url(images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/CardPinkShort.png)] flex flex-col items-center text-center pt-16 p-12 text-xs text-gray-600 ">
                 <p>
                   Quisque consequat justo nec est tristique, eget malesuada neque faucibus.
                 </p>

@@ -1099,6 +1099,14 @@ select {
   background-image: url(images/CardPinkShort.png);
 }
 
+.bg-\[url\(\/images\/CardGreenShort\.png\)\] {
+  background-image: url(/images/CardGreenShort.png);
+}
+
+.bg-\[url\(\/images\/CardPinkShort\.png\)\] {
+  background-image: url(/images/CardPinkShort.png);
+}
+
 .bg-contain {
   background-size: contain;
 }
