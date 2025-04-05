@@ -2,6 +2,8 @@
   import { fly } from 'svelte/transition';
   import { onMount } from 'svelte';
 
+  let showForm = false;
+
   const images = [
     '/images/partners/247.png',
     '/images/partners/betman.png',
@@ -37,25 +39,62 @@
 </script>
 
 <main class="bg-black text-white min-h-screen flex flex-col">
-    <!-- Hero / Top Section -->
+
+
+{#if showForm}
+  <!-- The form container covers the screen -->
+  <section class="fixed inset-0 bg-white z-50 flex items-center justify-center" transition:fly={{ x: 500, duration: 300 }}>
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Form</h2>
+      <form class="grid grid-cols-1 gap-4 max-w-md">
+        <input type="text" placeholder="Name" class="p-2 rounded text-black"/>
+        <input type="email" placeholder="Email" class="p-2 rounded text-black"/>
+        <textarea placeholder="Message" class="p-2 rounded text-black"></textarea>
+        <button type="submit" class="bg-brandGreen px-6 py-2 rounded text-black font-bold">
+          Submit
+        </button>
+      </form>
+      <button on:click={() => showForm = false} class="mt-4 bg-red-500 text-white px-4 py-2 rounded">
+      Close
+      </button>
+    </div>
+  </section>
+{/if}
+<!-- Hero / Top Section -->
     <div class=" h-8"></div>
-    <section class=" h-fit rounded-xl border-brandGreen border-2" id="module1">
-      <div class="max-w-7xl mx-auto px-4 py-16 h-3/4 flex">
-        <div class="flex flex-col md:flex-row items-center justify-between">
-          <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
-            <h1 class="text-4xl font-bold mb-4">Lorem Ipsum Title</h1>
-            <p class="mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Suspendisse placerat vulputate ex. Fusce vehicula gravida mi, 
-              ac placerat ligula commodo vitae.
-            </p>
-            <button class="bg-brandGreen px-6 py-2 rounded text-black font-bold hover:bg-green-600">
-              Call to Action
-            </button>
+    <section class=" h-[90dvh] rounded-xl border-brandGreen border-2" id="module1">
+      <div class=" h-full mx-auto px-16 py-16">
+        <div class="flex flex-col md:flex-row items-center justify-between h-full">
+          <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0 h-full">
+            <div class="h-2/3 flex flex-col justify-evenly">
+              <h1 class="text-4xl font-bold mb-4">Lorem Ipsum Title</h1>
+              <p class="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse placerat vulputate ex. Fusce vehicula gravida mi, 
+                ac placerat ligula commodo vitae.
+              </p>
+            </div>
+            <div class="bg-no-repeat bg-center bg-contain bg-[url(/images/DecorPlashka.png)] flex items-center justify-center text-center text-gray-600">
+              <div class="flex flex-col text-4xl text-black">
+                <p>Депов сделанно</p>
+                <div class="h-12"></div>
+                <p>Типо каунтер</p>
+                <div class="h-12"></div>
+              </div>
+            </div> 
           </div>
-          <div class="md:w-1/2 flex justify-center">
-            <!-- Placeholder green shape -->
-            <img src="/images/005.png" alt="Hero" class="w-96 h-96 object-contain" />
+          <div class="md:w-1/2 h-full flex items-center justify-center flex-col">
+            <div class="h-3/5 flex items-center justify-center">
+              <img src="/images/005.png" alt="Hero" class="max-w-full max-h-full object-contain"/>
+            </div>
+            <div class="h-3/5">
+              <div class="h-1/2"></div>
+              <div class="h-1/2">
+                <button class="bg-transparent px-6 py-2 rounded text-brandGreen font-bold text-2xl" on:click={() => showForm = true}>
+                  Клик Посмотреть
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -208,24 +247,10 @@
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Form</h2>
         <form class="grid grid-cols-1 gap-4 max-w-md">
-          <input 
-            type="text" 
-            placeholder="Name" 
-            class="p-2 rounded text-black"
-          />
-          <input 
-            type="email" 
-            placeholder="Email" 
-            class="p-2 rounded text-black"
-          />
-          <textarea 
-            placeholder="Message" 
-            class="p-2 rounded text-black"
-          ></textarea>
-          <button 
-            type="submit"
-            class="bg-brandGreen px-6 py-2 rounded text-black font-bold"
-          >
+          <input type="text" placeholder="Name" class="p-2 rounded text-black"/>
+          <input type="email" placeholder="Email" class="p-2 rounded text-black"/>
+          <textarea placeholder="Message" class="p-2 rounded text-black"></textarea>
+          <button type="submit" class="bg-brandGreen px-6 py-2 rounded text-black font-bold" on:click={() => showForm = true}>
             Submit
           </button>
         </form>
