@@ -36,6 +36,13 @@
     const interval = setInterval(cycle, 3500);
     return () => clearInterval(interval);
   });
+
+  // Add form handling function
+  function handleSubmit(event) {
+    event.preventDefault(); // Prevent default form submission
+    // Add your form submission logic here
+    showForm = true;
+  }
 </script>
 
 <main class="bg-black text-white min-h-screen flex flex-col">
@@ -43,10 +50,10 @@
 
 {#if showForm}
   <!-- The form container covers the screen -->
-  <section class="fixed inset-0 bg-white z-50 flex items-center justify-center" transition:fly={{ x: 500, duration: 300 }}>
+  <section class="fixed inset-0 bg-black z-50 flex items-center justify-center" transition:fly={{ x: 500, duration: 300 }}>
     <div class="max-w-7xl mx-auto px-4">
       <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Form</h2>
-      <form class="grid grid-cols-1 gap-4 max-w-md">
+      <form class="grid grid-cols-1 gap-4 max-w-md" on:submit={handleSubmit}>
         <input type="text" placeholder="Name" class="p-2 rounded text-black"/>
         <input type="email" placeholder="Email" class="p-2 rounded text-black"/>
         <textarea placeholder="Message" class="p-2 rounded text-black"></textarea>
@@ -246,11 +253,11 @@
     <section class="py-16 h-auto" id="module5">
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Form</h2>
-        <form class="grid grid-cols-1 gap-4 max-w-md">
+        <form class="grid grid-cols-1 gap-4 max-w-md" on:submit={handleSubmit}>
           <input type="text" placeholder="Name" class="p-2 rounded text-black"/>
           <input type="email" placeholder="Email" class="p-2 rounded text-black"/>
           <textarea placeholder="Message" class="p-2 rounded text-black"></textarea>
-          <button type="submit" class="bg-brandGreen px-6 py-2 rounded text-black font-bold" on:click={() => showForm = true}>
+          <button type="submit" class="bg-brandGreen px-6 py-2 rounded text-black font-bold">
             Submit
           </button>
         </form>
