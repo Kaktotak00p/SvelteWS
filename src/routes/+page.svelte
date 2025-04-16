@@ -24,16 +24,16 @@
   }
 
   async function cycle() {
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    await new Promise(resolve => setTimeout(resolve, 4000)); // Longer display time
     showImages = false;
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise(resolve => setTimeout(resolve, 300)); // Shorter transition time
     updateImages();
     showImages = true;
   }
 
   onMount(() => {
     updateImages();
-    const interval = setInterval(cycle, 3500);
+    const interval = setInterval(cycle, 4300); // Adjusted to match new timings
     return () => clearInterval(interval);
   });
 
@@ -108,7 +108,7 @@
     </section>
 
     <!-- Text -->
-    <section class="py-32 h-auto px-4" id="module2">
+    <section class="py-32 h-auto" id="module2">
       <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Text</h2>
       <div class="max-w-7xl mx-auto px-4 flex flex-row">
         <div class="w-1/3"></div>
@@ -124,9 +124,9 @@
     </section>
   
     <!-- Advantages / Features -->
-    <section class="bg-gray-900 py-16 h-auto" id="module2">
+    <section class=" py-16 h-auto" id="module2">
+      <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Advantages</h2>
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Advantages</h2>
             <div 
               class="
                 grid 
@@ -187,42 +187,53 @@
   
     <!-- Vacancies / Jobs -->
     <section class="py-16 h-auto" id="module3">
+      <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Vacancies</h2>
       <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Vacancies</h2>
-        <ul class="space-y-4">
-          <li class="border-b border-gray-700 pb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </li>
-          <li class="border-b border-gray-700 pb-4">
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </li>
-          <li class="border-b border-gray-700 pb-4">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-          </li>
-          <li class="border-b border-gray-700 pb-4">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
-          </li>
-        </ul>
+        <div class="flex flex-col md:flex-row gap-8 items-start">
+          <!-- Image container -->
+          <div class="w-full md:w-1/3">
+            <img 
+              src="./images/1.png" 
+              alt="Vacancies illustration" 
+              class="w-full h-auto object-contain"
+            />
+          </div>
+          
+          <!-- Vacancies list -->
+          <div class="w-full md:w-2/3">
+            <ul class="space-y-4">
+              <li class="border-b border-gray-700 pb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="border-b border-gray-700 pb-4">
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
+              <li class="border-b border-gray-700 pb-4">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   
     <!-- Partners / Logos -->
-    <section class="bg-gray-900 py-16 h-auto" id="module4">
+    <section class="py-16 h-auto" id="module4">
+      <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Partners</h2>
       <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8">Lorem Ipsum Partners</h2>
-        <!-- Container with overflow-hidden so sliding images don’t show outside -->
-        <div class="overflow-hidden relative">
+        <!-- Container with fixed height and overflow-hidden -->
+        <div class="overflow-hidden relative h-40">
+          <!-- Absolute positioning for smooth transitions -->
           {#if showImages}
-            <!-- The fly transitions handle the slide effect:
-                 - in: from left (x: -200)
-                 - out: to right (x: 200) -->
             <div
-              class="flex gap-8 justify-between min-h-44"
-              in:fly={{ x: -200, duration: 500 }}
-              out:fly={{ x: 200, duration: 500 }}
+              class="flex gap-8 justify-between absolute inset-0"
+              in:fly={{ x: -200, duration: 300, opacity: 1 }}
+              out:fly={{ x: 200, duration: 300, opacity: 1 }}
             >
               {#each displayedImages as img (img)}
-                <img src={img} alt="Partner logo" class="w-32 h-40 object-contain" />
+                <div class="w-32 h-40 flex items-center justify-center">
+                  <img src={img} alt="Partner logo" class="w-full h-full object-contain" />
+                </div>
               {/each}
             </div>
           {/if}
