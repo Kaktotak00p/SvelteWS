@@ -12,7 +12,7 @@
 		  </svelte:fragment>
 	  </Navbar>
 	</header>
-	<main class="container min-w-full mx-auto p-4">
+	<main class="container min-w-full mx-auto p-10">
 		<slot />
 	</main>
   </div>
