@@ -164,7 +164,7 @@
             <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_138"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_138_span">f</span></div>
             <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_139"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_139_span">H</span></div>
             <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_140"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_140_span">u</span></div>
-            <img class="rectangle--1" src="static/images/1ff360105e966717442a58e5236d152dfefc9687.png" />
+            <img class="rectangle--1" src="/images/1ff360105e966717442a58e5236d152dfefc9687.png" />
         </div>
     </div>
     
