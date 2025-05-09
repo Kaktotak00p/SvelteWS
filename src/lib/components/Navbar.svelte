@@ -21,19 +21,9 @@
   </div>
 </nav> -->
 
-<div class="frame- mx-auto">
-    <div class="vector"></div>
-    <div class="vector_01"></div>
-    <div class="vector_02"></div>
-    <div class="vector_03"></div>
-    <div class="vector_04"></div>
-    <div class="vector_05"></div>
-    <div class="vector_06"></div>
-    <div class="vector_07"></div>
-    <div class="vector_08"></div>
-    <div class="vector_09"></div>
-    <div class="vector_10"></div>
-    <div class="frame-112">
+<div class="frame-">
+    <img src="/images/лого.svg" alt="logo">
+    <div class="frame-112 mr-4">
         <div class="frame-56">
             <div><span class="fspan">[хто ми?]</span></div>
             <div><span class="fspan_01">[кар’єра]</span></div>
@@ -50,72 +40,6 @@
 </div>
 
 <style>
-.vector {
-    width: 184.56px;
-    height: 39px;
-    background: white;
-}
-
-.vector_01 {
-    width: 23.61px;
-    height: 25.42px;
-    background: black;
-}
-
-.vector_02 {
-    width: 21.42px;
-    height: 25.86px;
-    background: black;
-}
-
-.vector_03 {
-    width: 21.55px;
-    height: 18.79px;
-    background: black;
-}
-
-.vector_04 {
-    width: 19.63px;
-    height: 25.42px;
-    background: black;
-}
-
-.vector_05 {
-    width: 20.32px;
-    height: 18.29px;
-    background: black;
-}
-
-.vector_06 {
-    width: 13.97px;
-    height: 28.20px;
-    background: black;
-}
-
-.vector_07 {
-    width: 13.94px;
-    height: 28.19px;
-    background: black;
-}
-
-.vector_08 {
-    width: 14.87px;
-    height: 18.63px;
-    background: black;
-}
-
-.vector_09 {
-    width: 4.67px;
-    height: 5.39px;
-    background: white;
-}
-
-.vector_10 {
-    width: 4.56px;
-    height: 5px;
-    background: white;
-}
-
 .fspan {
     color: white;
     font-size: 20px;

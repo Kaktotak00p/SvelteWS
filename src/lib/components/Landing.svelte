@@ -1,5 +1,9 @@
-<div class=".desktop---10">
+<div class="desktop---10 ">
     <div class="rectangle--"></div>
+<div class="traffhub"></div>
+
+<style>
+</style>
     <div class="frame-173">
         <div class="frame--">
             <div class="frame-">
@@ -168,24 +172,25 @@
         </div>
     </div>
     
-<div class="rectangle--"></div>
+    <div class="rectangle--"></div>
 </div>
-    <style>
+<style>
 .desktop---10 {
-width: 100%;
-height: 100%;
-position: relative;
-background: #020202;
-overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #020202;
+    overflow: hidden;
 }
-    .rectangle-- {
+
+.rectangle-- {
     width: 100%;
     height: 100%;
     border: 1px #CAFF11 solid;
 }
-        .fspan {
-            color: white;
-            font-size: 50px;
+.fspan {
+    color: white;
+    font-size: 50px;
     font-family: Craftwork Grotesk;
     font-weight: 600;
     text-transform: uppercase;
