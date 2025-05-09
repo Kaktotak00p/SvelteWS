@@ -1,3 +1,4 @@
+<div class="section-small">
 <div class="frame-81">
     <div class="text--"><span class="fspan">//:НАШІ ПЕРЕваги</span></div>
     <div class="frame-97">
@@ -63,8 +64,13 @@
         </div>
     </div>
 </div>
+</div>
 
 <style>
+
+.section-small {
+  min-height: 50vh;
+}
 .fspan {
     color: white;
     font-size: 36px;
@@ -494,7 +500,7 @@
     align-self: stretch;
     justify-content: flex-end;
     align-items: center;
-    gap: 65px;
+    gap: 15%;
     display: inline-flex;
 }
 
@@ -502,12 +508,12 @@
     align-self: stretch;
     justify-content: flex-start;
     align-items: center;
-    gap: 65px;
+    gap: 15%;
     display: inline-flex;
 }
 
 .frame-97 {
-    width: 1371px;
+    width: 100%;
     left: 0px;
     top: 83px;
     position: absolute;

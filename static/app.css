@@ -856,8 +856,21 @@ select {
   height: 100vh;
 }
 
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-80 {
+  min-height: 20rem;
+}
+
+.min-h-96 {
+  min-height: 24rem;
 }
 
 .w-6 {

@@ -1,3 +1,4 @@
+<div class="section-small">
 <div class="frame-80">
     <div class="rectangle-23"></div>
     <div class="text--"><span class="fspan">//:ХТО МИ</span></div>
@@ -43,8 +44,12 @@
         </div>
     </div>
 </div>
-
+</div>
 <style>
+
+.section-small {
+  min-height: 50vh;
+}
 .rectangle-23 {
     width: 100%;
     height: 120px;
