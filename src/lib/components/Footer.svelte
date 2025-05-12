@@ -198,15 +198,22 @@
 .traffhub {
     background: rgba(255, 255, 255, 0);
     overflow: hidden;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
     display: inline-flex;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    height: 100px;
+    width: 100%;
 }
 
 .frame-89 {
     align-items: center;
+    width: 508px;
+    align-self: center;
+    gap: 40px;
     display: inline-flex;
+    text-wrap: nowrap;
 }
 
 .frame-86 {
@@ -251,6 +258,8 @@
 }
 
 .frame-108 {
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     width: 100%;
     height: 208px;

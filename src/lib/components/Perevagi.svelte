@@ -1,4 +1,4 @@
-<div class="section-small">
+<div class="section-small mx-auto w-[1370px] center">
 <div class="frame-81">
     <div class="text--"><span class="fspan">//:НАШІ ПЕРЕваги</span></div>
     <div class="frame-97">
@@ -81,10 +81,7 @@
 }
 
 .text-- {
-    width: 1232px;
-    left: 139px;
-    top: 0px;
-    position: absolute;
+    width: 1440px;
 }
 
 .rectangle-3 {
@@ -500,7 +497,7 @@
     align-self: stretch;
     justify-content: flex-end;
     align-items: center;
-    gap: 15%;
+    gap: 65px;
     display: inline-flex;
 }
 
@@ -508,7 +505,7 @@
     align-self: stretch;
     justify-content: flex-start;
     align-items: center;
-    gap: 15%;
+    gap: 65px;
     display: inline-flex;
 }
 

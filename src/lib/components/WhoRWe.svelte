@@ -1,7 +1,6 @@
 <div class="section-small">
 <div class="frame-80">
-    <div class="rectangle-23"></div>
-    <div class="text--"><span class="fspan">//:ХТО МИ</span></div>
+    <div class="mx-auto w-[1370px]"><span class="fspan">//:ХТО МИ</span></div>
     <div class="frame-93">
         <div class="frame-91">
             <div class="frame-62">
@@ -13,7 +12,7 @@
                 <div class="frame-61">
                     <div><span class="fspan_01 text-nowrap">З нами ти можеш вийти за межі стандартів,</span></div>
                     <img class="image_01" src="https://placehold.co/342x34" />
-                    <div class="image_02"></div>
+                    <!-- <div class="image_02"></div> -->
                 </div>
                 <div class="frame-60">
                     <img class="image_03" src="https://placehold.co/677x34" />
@@ -26,19 +25,21 @@
                 </div>
             </div>
         </div>
-        <div class="frame-92">
-            <div class="frame-65">
-                <div class="frame-38">
-                    <div><span class="f1336372_span">31 336 372</span></div>
-                    <div class="ftd"><span class="ftd_span">FTD</span></div>
+        <div class="self-stretch h-28 px-44 py-3.5 bg-lime-400 inline-flex flex-col justify-center items-start gap-2.5">
+            <div class="w-[1089px] inline-flex justify-start items-center gap-24 mx-auto">
+                <div class="inline-flex flex-col justify-start items-start">
+                    <div class="justify-start text-stone-950 text-4xl font-medium font-['Craftwork_Grotesk']">31 336 372</div>
+                    <div class="self-stretch justify-start text-stone-950 text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>
                 </div>
-                <div class="frame-39">
-                    <div><span class="igaming_span_01">iGaming</span></div>
-                    <div class="text-"><span class="fspan_04">вертикаль</span></div>
+                <div class="w-0 h-24 rounded outline outline-[3px] outline-offset-[-1.50px] outline-lime-600"></div>
+                <div class="w-36 h-24 inline-flex flex-col justify-center items-start">
+                    <div class="justify-start text-stone-950 text-4xl font-medium font-['Craftwork_Grotesk']">iGaming</div>
+                    <div class="self-stretch justify-start text-stone-950 text-xl font-semibold font-['Craftwork_Grotesk']">вертикаль</div>
                 </div>
-                <div class="frame-64">
-                    <div><span class="fbasoin-app_span">FB |ASO |IN-APP</span></div>
-                    <div class="text-_01"><span class="fspan_05">джерела</span></div>
+                <div class="w-0 h-24 rounded outline outline-[3px] outline-offset-[-1.50px] outline-lime-600"></div>
+                <div class="h-24 inline-flex flex-col justify-center items-start">
+                    <div class="justify-start text-stone-950 text-4xl font-medium font-['Craftwork_Grotesk']">FB |ASO |IN-APP</div>
+                    <div class="self-stretch justify-start text-stone-950 text-xl font-semibold font-['Craftwork_Grotesk']">джерела</div>
                 </div>
             </div>
         </div>
@@ -69,10 +70,7 @@
 }
 
 .text-- {
-    width: 1370px;
-    left: 35px;
-    top: 0px;
-    position: absolute;
+    width: 1440px;
 }
 
 .traffhub_span {
@@ -111,13 +109,6 @@
     width: 342px;
     height: 34px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
-}
-
-.image_02 {
-    width: 342px;
-    height: 34px;
-    mix-blend-mode: overlay;
-    background: rgba(189, 253, 0, 0.70);
 }
 
 .image_03 {
@@ -251,25 +242,22 @@
 
 .frame-61 {
     align-self: stretch;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 29px;
     display: inline-flex;
 }
 
 .frame-60 {
     align-self: stretch;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 24px;
     display: inline-flex;
 }
 
 .frame-59 {
     align-self: stretch;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 29px;
     display: inline-flex;
 }
 

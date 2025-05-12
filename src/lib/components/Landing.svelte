@@ -1,7 +1,7 @@
 <div class="flex flex-col h-[90vh]">
 
     <div class="desktop---10 px-10">
-        <div class="rectangle--"></div>
+        <div class="rectangle-- min-w-[120%]"></div>
         <div class="traffhub"></div>
         
         <div class="frame-173">
@@ -185,9 +185,8 @@
 .rectangle-- {
     position: absolute;
     top: 0;
-    right: 0;
+    left:-10%;
     z-index: 1;
-    width: 100%;
     height: 100%;
     background:none;
     border: 1px #CAFF11 solid;

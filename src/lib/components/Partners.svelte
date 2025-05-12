@@ -1,7 +1,7 @@
 <div class="section-small">
   <div class="frame-102">
     <div class="frame-101">
-      <div class="text-"><span class="fspan">//:Партнери</span></div>
+      <div class="text- w-[1370px] mx-auto"><span class="fspan">//:Партнери</span></div>
       <div class="partners-scroll">
         <div class="scroll-track">
             <!-- first set of logos -->

@@ -7,7 +7,7 @@
 	<header>
 	  <Navbar />
 	</header>
-	<main class="container min-w-full mx-auto p-4">
+	<main class="container min-w-full mx-auto pt-4 ">
 		<slot />
 	</main>
   </div>

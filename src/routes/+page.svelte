@@ -1,4 +1,5 @@
 <script>
+	import Career from "$lib/components/Career.svelte";
 	import Footer from "$lib/components/Footer.svelte";
   import Landing from "$lib/components/Landing.svelte";
 	import Partners from "$lib/components/Partners.svelte";
@@ -11,6 +12,7 @@
     <WhoRWe />
     <Perevagi />
     <Partners />
+    <!-- <Career /> -->
     <Footer />
 </div>
 
