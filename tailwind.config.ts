@@ -7,9 +7,11 @@ export default {
 
 	theme: {
 		extend: {
-			colors: {
-        brandGreen: "#b4ff00",
-      },
+			fontFamily: {
+				// “font-myfont” → uses the “Craftwork Grotesk” face, falling back to sans-serif
+				myfont: ['"Craftwork Grotesk"', 'sans-serif'],
+				Inter: ['"Inter"', 'sans-serif'],
+			  },
 		}
 	},
 

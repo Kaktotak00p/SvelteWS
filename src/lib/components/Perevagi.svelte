@@ -10,7 +10,7 @@
                     <img class="rectangle--3" src="https://placehold.co/73x89" />
                     <div class="text-"><span class="fspan_01">Експертиза</span></div>
                 </div>
-                <div class="vector-1"></div>
+                <div class="vector-1"> <img src="/images/Vector 1.svg" /></div>
             </div>
             <div class="frame-48">
                 <div class="rectangle-6"></div>
@@ -19,7 +19,7 @@
                     <img class="rectangle--1" src="https://placehold.co/69x78" />
                     <div class="text--_01"><span class="fspan_02">Фокус на результат</span></div>
                 </div>
-                <div class="vector-2"></div>
+                <div class="vector-1"> <img src="/images/Vector 1.svg" /></div>
             </div>
             <div class="frame-50">
                 <div class="rectangle-7"></div>
@@ -28,7 +28,7 @@
                     <img class="rectangle--1_01" src="https://placehold.co/92x100" />
                     <div class="text--_02"><span class="fspan_03">Культ підтримки</span></div>
                 </div>
-                <div class="vector-3"></div>
+                <div class="vector-1"> <img src="/images/Vector 1.svg" /></div>
             </div>
         </div>
         <div class="frame-96">
@@ -39,7 +39,7 @@
                     <img class="rectangle--2" src="https://placehold.co/92x77" />
                     <div class="text--_03"><span class="fspan_04">Кар’єрний розвиток</span></div>
                 </div>
-                <div class="vector-4"></div>
+                <div class="vector-1"> <img src="/images/Vector 5.svg" /></div>
             </div>
             <div class="frame-46">
                 <div class="rectangle-9"></div>
@@ -50,7 +50,7 @@
                         <div class="text--_04"><span class="fspan_05">Прозора сітка</span></div>
                     </div>
                 </div>
-                <div class="vector-5"></div>
+                <div class="vector-1"> <img src="/images/Vector 5.svg" /></div>
             </div>
             <div class="frame-47">
                 <div class="rectangle-10"></div>
@@ -59,7 +59,7 @@
                     <img class="rectangle--4" src="https://placehold.co/73x89" />
                     <div class="text-_01"><span class="fspan_06">Адаптивність</span></div>
                 </div>
-                <div class="vector-6"></div>
+                <div class="vector-1"> <img src="/images/Vector 5.svg" /></div>
             </div>
         </div>
     </div>
@@ -128,7 +128,6 @@
     left: 188px;
     top: 0px;
     position: absolute;
-    background: rgba(166, 219, 12, 0.70);
     border-radius: 4px;
 }
 
