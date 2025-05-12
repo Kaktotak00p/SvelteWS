@@ -874,6 +874,10 @@ select {
   margin-right: auto;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .ml-12 {
   margin-left: 3rem;
 }
@@ -884,6 +888,10 @@ select {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .flex {
@@ -912,6 +920,14 @@ select {
 
 .h-\[90vh\] {
   height: 90vh;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[63vh\] {
+  height: 63vh;
 }
 
 .min-h-\[1000px\] {
@@ -1055,12 +1071,12 @@ select {
   padding-top: 1rem;
 }
 
-.font-\[\'Craftwork_Grotesk\'\] {
-  font-family: 'Craftwork Grotesk';
-}
-
 .font-Inter {
   font-family: "Inter", sans-serif;
+}
+
+.font-\[\'Craftwork_Grotesk\'\] {
+  font-family: 'Craftwork Grotesk';
 }
 
 .text-4xl {
