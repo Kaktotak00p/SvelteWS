@@ -69,7 +69,7 @@
 <style>
 
 .section-small {
-  min-height: 50vh;
+  min-height: 600px;
 }
 .fspan {
     color: white;

@@ -21,7 +21,7 @@
   </div>
 </nav> -->
 
-<div class="frame-">
+<div class="frame- fixed top-0 w-full z-10 pr-4">
     <img src="/images/лого.svg" alt="logo">
     <div class="frame-112 mr-4">
         <div class="frame-56">
@@ -120,6 +120,7 @@
 .frame- {
     width: 100%;
     height: 100%;
+    max-height: 100px;
     justify-content: space-between;
     align-items: center;
     display: inline-flex;

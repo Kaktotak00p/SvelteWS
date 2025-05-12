@@ -795,24 +795,12 @@ select {
   position: relative;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .top-0 {
   top: 0px;
 }
 
-.top-16 {
-  top: 4rem;
-}
-
 .z-10 {
   z-index: 10;
-}
-
-.m-auto {
-  margin: auto;
 }
 
 .mx-auto {
@@ -824,16 +812,12 @@ select {
   margin-right: 1rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
 
-.block {
-  display: block;
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
 .flex {
@@ -848,33 +832,16 @@ select {
   display: none;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.min-h-80 {
-  min-height: 20rem;
-}
-
-.min-h-96 {
-  min-height: 24rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-full {
@@ -885,16 +852,8 @@ select {
   min-width: 100%;
 }
 
-.flex-shrink {
-  flex-shrink: 1;
-}
-
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -911,10 +870,6 @@ select {
 
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -944,11 +899,6 @@ select {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -957,12 +907,13 @@ select {
   padding: 1rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-xl {
@@ -992,15 +943,6 @@ select {
   text-decoration-line: underline;
 }
 
-.blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .card {
   position: relative;
   background-color: #b4ff00;
@@ -1011,16 +953,6 @@ select {
 .hover\:text-brandGreen:hover {
   --tw-text-opacity: 1;
   color: rgb(180 255 0 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 @media (min-width: 768px) {

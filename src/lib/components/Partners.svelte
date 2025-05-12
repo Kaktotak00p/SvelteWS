@@ -50,7 +50,7 @@
   height: 216px;
 }  
 .section-small {
-  min-height: 50vh;
+  min-height: 400px;
   }
 .fspan {
     color: white;

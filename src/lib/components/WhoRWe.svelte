@@ -48,7 +48,7 @@
 <style>
 
 .section-small {
-  min-height: 50vh;
+  min-height: 600px;
 }
 .rectangle-23 {
     width: 100%;

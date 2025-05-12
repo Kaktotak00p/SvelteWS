@@ -1,37 +1,37 @@
-<div class="desktop---10 ">
-    <div class="rectangle--"></div>
-<div class="traffhub"></div>
+<div class="flex flex-col h-[90vh]">
 
-<style>
-</style>
-    <div class="frame-173">
-        <div class="frame--">
-            <div class="frame-">
-                <div class="text-"><span class="fspan">медіабаїнгова</span></div>
-                <div class="text-_01"><span class="fspan_01">компанія</span></div>
-                <div class="frame-57">
-                    <div><span class="fspan_02">залив із</span></div>
-                    <div><span class="fspan_03">сенсом</span></div>
-                </div>
-                <div class="frame-58">
-                    <div class="frame--2-">
-                        <div><span class="fspan_04">команда</span></div>
-                        <div class="text-3"><span class="f_span">3</span></div>
+    <div class="desktop---10 px-10">
+        <div class="rectangle--"></div>
+        <div class="traffhub"></div>
+        
+        <div class="frame-173">
+            <div class="frame--">
+                <div class="frame-">
+                    <div class="text-"><span class="fspan">медіабаїнгова</span></div>
+                    <div class="text-_01"><span class="fspan_01">компанія</span></div>
+                    <div class="frame-57">
+                        <div><span class="fspan_02">залив із</span></div>
+                        <div><span class="fspan_03">сенсом</span></div>
                     </div>
-                    <div><span class="fspan_05">драйвом</span></div>
+                    <div class="frame-58">
+                        <div class="frame--2-">
+                            <div><span class="fspan_04">команда</span></div>
+                            <div class="text-3"><span class="f_span">3</span></div>
+                        </div>
+                        <div><span class="fspan_05">драйвом</span></div>
+                    </div>
+                    <div class="text-_05"><span class="fspan_06">///</span></div>
                 </div>
-                <div class="text-_05"><span class="fspan_06">///</span></div>
+                <div class="frame-79">
+                    <div class="text--_01"><span class="fspan_07">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span></div>
+                </div>
             </div>
-            <div class="frame-79">
-                <div class="text--_01"><span class="fspan_07">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span></div>
-            </div>
-        </div>
-        <div class="frame--1">
-            <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_span">T</span></div>
-            <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_01"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_01_span">r</span></div>
-            <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_02"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_02_span">a</span></div>
-            <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_03"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_03_span">f</span></div>
-            <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_04"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_04_span">f</span></div>
+            <div class="frame--1">
+                <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_span">T</span></div>
+                <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_01"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_01_span">r</span></div>
+                <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_02"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_02_span">a</span></div>
+                <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_03"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_03_span">f</span></div>
+                <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_04"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_04_span">f</span></div>
             <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_05"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_05_span">H</span></div>
             <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_06"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_06_span">u</span></div>
             <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_07"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_07_span">b</span></div>
@@ -171,8 +171,7 @@
             <img class="rectangle--1" src="/images/1ff360105e966717442a58e5236d152dfefc9687.png" />
         </div>
     </div>
-    
-    <div class="rectangle--"></div>
+</div>
 </div>
 <style>
 .desktop---10 {
@@ -184,8 +183,13 @@
 }
 
 .rectangle-- {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
     width: 100%;
     height: 100%;
+    background:none;
     border: 1px #CAFF11 solid;
 }
 .fspan {
@@ -3050,6 +3054,8 @@
 }
 
 .frame-173 {
+    position: relative;
+    z-index: 2;
     width: 100%;
     height: 100%;
     min-width: 100%;
