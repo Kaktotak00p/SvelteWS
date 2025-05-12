@@ -874,8 +874,8 @@ select {
   margin-right: auto;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .ml-12 {
@@ -888,10 +888,6 @@ select {
 
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
 }
 
 .flex {
@@ -918,16 +914,40 @@ select {
   height: 7rem;
 }
 
-.h-\[90vh\] {
-  height: 90vh;
-}
-
-.h-\[80\%\] {
-  height: 80%;
-}
-
 .h-\[63vh\] {
   height: 63vh;
+}
+
+.h-\[1000\] {
+  height: 1000;
+}
+
+.h-\[1100\] {
+  height: 1100;
+}
+
+.h-\[2000\] {
+  height: 2000;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[580px\] {
+  height: 580px;
+}
+
+.h-\[570px\] {
+  height: 570px;
 }
 
 .min-h-\[1000px\] {

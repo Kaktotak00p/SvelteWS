@@ -1,4 +1,4 @@
-<div class="flex flex-col h-[63vh] mb-24">
+<div class="flex flex-col h-[570px] mb-24">
 
     <div class="desktop---10 px-10">
         <div class="rectangle-- min-w-[120%]"></div>

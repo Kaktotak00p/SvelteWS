@@ -3,7 +3,6 @@
     <div class="frame-112 mr-4">
         <div class="frame-56">
             <div><span class="fspan">[хто ми?]</span></div>
-            <div><span class="fspan_01">[кар’єра]</span></div>
             <div><span class="fspan_02">[приєднатися]</span></div>
             <div><span class="fspan_03">[контакти]</span></div>
         </div>
@@ -22,15 +21,6 @@
     font-size: 20px;
     font-family: Craftwork Grotesk;
     font-weight: 400;
-    word-wrap: break-word;
-}
-
-.fspan_01 {
-    color: white;
-    font-size: 20px;
-    font-family: Craftwork Grotesk;
-    font-weight: 400;
-    text-decoration: underline;
     word-wrap: break-word;
 }
 
