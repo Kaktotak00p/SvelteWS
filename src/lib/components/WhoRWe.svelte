@@ -1,4 +1,4 @@
-<div class="section-small">
+<div class="section-small" id="who">
 <div class="frame-80">
     <div class="mx-auto w-[1370px]"><span class="fspan">//:ХТО МИ</span></div>
     <div class="frame-93">

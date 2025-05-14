@@ -1,4 +1,4 @@
-<div class="section-small">
+<div class="section-small" id="footer">
 <div class="frame-109">
     <div class="frame-32">
         <div class="traffhub">

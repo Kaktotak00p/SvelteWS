@@ -1,4 +1,10 @@
-<div class="flex flex-col h-[570px] mb-24">
+<script>
+	import ContactForm from "./ContactForm.svelte";
+
+    let isOpen = false;
+</script>
+
+<div class="flex flex-col h-[570px] mb-24" id="landing">
 
     <div class="desktop---10 px-10">
         <div class="rectangle-- min-w-[120%]"></div>
@@ -22,9 +28,9 @@
                     </div>
                     <div class="text-_05"><span class="fspan_06">///</span></div>
                 </div>
-                <div class="frame-79">
+                <button class="frame-79" on:click={() => {isOpen = true}}>
                     <div class="text--_01"><span class="fspan_07">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span></div>
-                </div>
+                </button>
             </div>
             <div class="frame--1">
                 <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_span">T</span></div>
@@ -173,6 +179,8 @@
     </div>
 </div>
 </div>
+
+<ContactForm isOpen={isOpen} on:close={() => (isOpen = false)} />
 <style>
 .desktop---10 {
     width: 100%;
