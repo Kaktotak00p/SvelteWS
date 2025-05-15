@@ -20,7 +20,7 @@
             <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">*contact*</div>
         </div>
     </div>
-    <div class="w-full left-[15px] top-[534px] absolute inline-flex flex-col justify-start items-center gap-5">
+    <div class="w-full left-0 px-[5px] top-[534px] absolute inline-flex flex-col justify-start items-center gap-5">
         <div class="w-full inline-flex justify-between items-center">
             <div class="text-center justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] uppercase">Instagram</div>
             <div class="text-center justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] uppercase">LinkedIn</div>
