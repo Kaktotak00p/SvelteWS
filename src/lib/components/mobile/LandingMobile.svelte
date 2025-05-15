@@ -1,7 +1,7 @@
 <div class="w-full h-[858px] relative bg-black overflow-hidden mx-auto">
     <div class="left-[10px] top-[218px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">медіабаїнгова</div>
-    <div class="left-[170px] top-[261px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">компанія</div>
-    <div class="w-96 h-[455.18px] left-0 top-[295.33px] absolute">
+    <div class="right-[10px] top-[261px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">компанія</div>
+    <div class="w-96 h-[455.18px] left-1/2 -translate-x-1/2 top-[295.33px] absolute mx-auto">
         <div class="left-[363px] top-[210.17px] absolute origin-top-left rotate-[91.55deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">T</div>
         <div class="left-[362.61px] top-[221.45px] absolute origin-top-left rotate-[94.20deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">r</div>
         <div class="left-[362.29px] top-[226.20px] absolute origin-top-left rotate-[96.18deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">a</div>
@@ -145,7 +145,7 @@
         <div class="left-[362.54px] top-[197.81px] absolute origin-top-left rotate-[87.35deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">u</div>
         <img class="w-96 h-[455.18px] left-0 top-0 absolute rounded-[32.11px] shadow-[3.211174249649048px_3.211174249649048px_19.267047882080078px_-33.71732711791992px_rgba(0,0,0,0.35)]" src="/images/1ff360105e966717442a58e5236d152dfefc9687.png" />
     </div>
-    <button class="h-14 px-4 py-3.5 left-0 top-[748px] absolute bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5">
+    <button class="w-full h-14 px-4 py-3.5 left-0 top-[748px] absolute bg-fuchsia-500 rounded inline-flex justify-center items-center">
         <div class="justify-center text-white text-xl font-bold font-['Craftwork_Grotesk'] text-nowrap">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</div>
     </button>
 </div>
