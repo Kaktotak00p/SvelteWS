@@ -5,26 +5,35 @@
 	import {device} from '$lib/stores/device.js';
 	import NavbarMobile from '$lib/components/mobile/NavbarMobile.svelte';
 
-	onMount(() => {
-    const mql = window.matchMedia('(max-width: 768px)');
+    export let isMobile = false;
 
-    // set initial value
-    device.set(mql.matches);
+    // Subscribe to the device store
+    $: isMobile = $device;
 
-    // subscribe to changes
-    const handler = (e) => device.set(e.matches);
-    mql.addEventListener('change', handler);
+    onMount(() => {
+        const mql = window.matchMedia('(max-width: 768px)');
 
-    return () => {
-      mql.removeEventListener('change', handler);
-    };
-	});
+        // set initial value
+        isMobile = mql.matches;
+        device.set(mql.matches);
+
+        // subscribe to changes
+        const handler = (e) => {
+            isMobile = e.matches;
+            device.set(e.matches);
+        };
+        mql.addEventListener('change', handler);
+
+        return () => {
+            mql.removeEventListener('change', handler);
+        };
+    });
 
 </script>
   
   <div class="min-h-screen bg-black">
 	<header>
-		{#if !device}
+		{#if !isMobile}
 	  <Navbar />
 	  {:else}
 	  <!-- <NavbarMobile /> -->

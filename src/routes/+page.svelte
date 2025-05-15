@@ -10,11 +10,14 @@
 	import PerevagiMobile from "$lib/components/mobile/PerevagiMobile.svelte";
 	import WhoRWeMobile from "$lib/components/mobile/WhoRWeMobile.svelte";
 
-	import {device} from '$lib/stores/device.js';
+  import { device } from "$lib/stores/device.js";
+
+  // Subscribe to the device store
+  $: isMobile = $device;  
 </script>
 
 <div class="layout">
-  {#if !device}
+  {#if !isMobile}
   <Landing />
   <WhoRWe />
   <Perevagi />
