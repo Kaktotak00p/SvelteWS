@@ -1,4 +1,4 @@
-<div class="w-[100%] h-[1000px] relative bg-black overflow-hidden mx-auto">
+<div class="w-[100%] h-[1000px] relative bg-black overflow-hidden mx-auto" id="who">
     <div class=" w-[100%] h-[924px] relative">
         <div class="left-[15px] top-0 absolute text-white text-3xl font-normal font-['Craftwork_Grotesk'] uppercase">//:ХТО МИ</div>
         <div class="w-full px-[15px] relative inline-flex flex-col justify-start items-start gap-10 mt-12">

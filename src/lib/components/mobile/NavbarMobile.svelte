@@ -1,14 +1,17 @@
 <script>
+	import ContactFormMobile from "./ContactFormMobile.svelte";
     import ContactForm from "./ContactFormMobile.svelte";
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         if (section) {
-            section.scrollIntoView({ behavior: 'smooth', block: 'center'});
+            section.scrollIntoView({ behavior: 'smooth', block: 'start'});
         }
     }
     
     // Add language state management
     let currentLang = 'ua'; // Default language
+
+    let menuOpen = false;
 
     let isOpen = false; 
     
@@ -16,21 +19,39 @@
         currentLang = lang;
         console.log(`Language switched to: ${lang}`);
     }
-</script>
 
-<div class="frame- fixed top-0 w-full z-10 pr-4">
+    function openMenu() {
+        menuOpen = true;
+    }
+
+    function closeMenu() {
+        menuOpen = false;
+    }
+</script>
+<div class="w-full fixed top-4 z-10 inline-flex flex-col justify-start items-center gap-8">
     <button on:click={() => scrollToSection("landing")}>
-        <img src="/images/лого.svg" class="ml-12" alt="logo">
+        <img src="/images/лого.svg" alt="logo">
     </button>
-    <div class="frame-112 mr-4">
-        <div class="frame-56">
-            <div><button class="fspan" on:click={() => scrollToSection("who")}>[хто ми?]</button></div>
-            <div><button class="fspan_02" on:click={() => {isOpen = true}}>[приєднатися]</button></div>
-            <div><button class="fspan_03" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
+    {#if menuOpen}
+    <div class="w-full h-[1000px] bg-lime-400 backdrop-blur-md">
+        <div class="w-full h-[39px] px-5 py-5"><button class=" absolute top-5 right-5" on:click={() => closeMenu()}><img src="/images/cross.svg"/></button></div>
+        <div class="inline-flex flex-col justify-center items-start gap-5 px-2">
+            <button on:click={()=>{closeMenu(); scrollToSection("who")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[хто ми?]</button>
+            <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div>
+            <!-- <button class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[вакансії]</button>
+            <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div> -->
+            <button on:click={() => {closeMenu(); isOpen=true}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[приєднатися]</button>
+            <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div>
+            <button on:click={()=>{closeMenu(); scrollToSection("footer")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[контакти]</button>
         </div>
-        <div class="frame-57">
-            <div class="frame-111">
-                <button 
+    </div>
+    {:else}
+    <div class="self-stretch flex flex-col justify-start items-center gap-8">
+        <div class="w-full h-0 outline outline-1 outline-offset-[-0.50px] outline-lime-400"></div>
+        <div class="w-full inline-flex justify-between items-center px-10">
+            <div class="flex justify-start items-center gap-24">
+                <div class="flex justify-start items-center gap-2.5">
+               <button 
                     class="lang-button" 
                     class:active={currentLang === 'ua'} 
                     on:click={() => switchLanguage('ua')}
@@ -44,75 +65,21 @@
                 >
                     <span class="font-Inter">[EN]</span>
                 </button>
+                </div>
             </div>
+            <button on:click={()=>openMenu()} class="w-10 inline-flex flex-col justify-start items-start gap-2.5">
+                <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-lime-400"></div>
+                <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-lime-400"></div>
+                <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-lime-400"></div>
+            </button>
         </div>
     </div>
+    {/if}
 </div>
 
-<ContactForm isOpen={isOpen} onClose={() => (isOpen = false)} />
+<ContactFormMobile isOpen={isOpen} onClose={() => (isOpen = false)} />
+
 <style>
-.fspan {
-    color: white;
-    font-size: 20px;
-    font-family: Craftwork Grotesk;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.fspan_02 {
-    color: white;
-    font-size: 20px;
-    font-family: Craftwork Grotesk;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.fspan_03 {
-    color: white;
-    font-size: 20px;
-    font-family: Craftwork Grotesk;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-
-.frame-56 {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 100px;
-    display: flex;
-}
-
-.frame-111 {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    display: flex;
-}
-
-.frame-57 {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 98px;
-    display: flex;
-}
-
-.frame-112 {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 100px;
-    display: flex;
-}
-
-.frame- {
-    width: 100%;
-    height: 100%;
-    max-height: 100px;
-    justify-content: space-between;
-    align-items: center;
-    display: inline-flex;
-}
-
 .lang-button {
     background: none;
     border: none;

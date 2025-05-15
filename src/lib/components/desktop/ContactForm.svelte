@@ -7,6 +7,9 @@
 
 <div class="fixed inset-0 bg-black overflow-hidden z-40 mx-auto">
 <div class="w-[1440px] h-[1028px] fixed inset-0 bg-black overflow-hidden z-40 mx-auto">
+    <button on:click={() => onClose()} class="absolute top-5 right-5 invert">
+        <img src="/images/cross.svg" alt="logo">
+    </button>
     <div class="w-[539px] left-[174px] top-[133px] absolute inline-flex flex-col justify-start items-start gap-14">
         <div class="self-stretch flex flex-col justify-start items-start gap-10">
             <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
@@ -24,9 +27,11 @@
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">На яку позицію відгукуєтесь?*</div>
                 <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
-                    <div class="w-[489px] h-8 justify-center text-zinc-500 text-2xl font-normal font-['Craftwork_Grotesk']">Media Buyer</div>
-                    <div class="w-6 h-2 origin-top-left rotate-[135deg] bg-zinc-500 outline outline-2 outline-offset-[-1px] outline-fuchsia-500"></div>
-                    <div class="w-[539px] h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
+            <div class="w-full flex flex-row justify-between">
+                <div class="w-72 h-8 justify-center text-zinc-500 text-xl font-normal font-['Craftwork_Grotesk']">Media Buyer</div>
+                <img src="./images/Vector 16.svg" />
+            </div>
+            <div class="w-[539px] h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
                 </div>
             </div>
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
@@ -55,7 +60,7 @@
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Звідки про нас дізнались*</div>
                 <div class="self-stretch inline-flex justify-start items-center gap-3.5">
-                    <div class="w-32 h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-white inline-flex flex-col justify-center items-start gap-2.5">
+                    <div class="w-36 h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-white inline-flex flex-col justify-center items-start gap-2.5">
                         <div class="inline-flex justify-start items-center gap-1.5">
                             <div class="w-5 h-5 rounded-full border border-white"></div>
                             <div class="w-3.5 h-3.5 bg-fuchsia-500 rounded-full"></div>
@@ -71,7 +76,7 @@
                     <div class="w-40 h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-neutral-400 inline-flex flex-col justify-center items-start gap-2.5">
                         <div class="inline-flex justify-start items-center gap-1.5">
                             <div class="w-5 h-5 rounded-full border border-neutral-400"></div>
-                            <div class="justify-center text-neutral-400 text-xl font-normal font-['Craftwork_Grotesk']">Від знайомих</div>
+                            <div class="justify-center text-neutral-400 text-xl font-normal font-['Craftwork_Grotesk'] text-nowrap">Від знайомих</div>
                         </div>
                     </div>
                     <div class="w-20 h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-neutral-400 inline-flex flex-col justify-center items-start gap-2.5">

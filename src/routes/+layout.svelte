@@ -36,7 +36,7 @@
 		{#if !isMobile}
 	  <Navbar />
 	  {:else}
-	  <!-- <NavbarMobile /> -->
+	  <NavbarMobile />
 	  {/if}
 	</header>
 	<main class="container min-w-full mx-auto pt-4 ">

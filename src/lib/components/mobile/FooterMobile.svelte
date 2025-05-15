@@ -1,4 +1,4 @@
-<div class="w-full h-[648px] relative bg-black overflow-hidden">
+<div class="w-full h-[648px] relative bg-black overflow-hidden" id="footer">
     <div class=" w-full left-0 top-0 absolute inline-flex flex-col justify-start items-center gap-8">
         <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-zinc-500"></div>
         <div class="bg-white/0 inline-flex justify-start items-center gap-2.5 overflow-hidden">
