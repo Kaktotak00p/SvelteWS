@@ -4,7 +4,7 @@
     let isOpen = false;
 </script>
 
-<div class="flex flex-col h-[570px] mb-24" id="landing">
+<div class="flex flex-col h-[655px] mb-24" id="landing">
 
     <div class="desktop---10 px-10">
         <div class="rectangle-- min-w-[120%]"></div>
@@ -2990,7 +2990,7 @@
     width: 452px;
     height: 567px;
     left: 0px;
-    top: 0px;
+    top: 44px;
     position: absolute;
     box-shadow: 4px 4px 24px -42px rgba(0, 0, 0, 0.35);
     border-radius: 40px;
