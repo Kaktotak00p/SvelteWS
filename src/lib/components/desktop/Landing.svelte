@@ -180,7 +180,7 @@
 </div>
 </div>
 
-<ContactForm isOpen={isOpen} on:close={() => (isOpen = false)} />
+<ContactForm isOpen={isOpen} onClose={() => (isOpen = false)} />
 <style>
 .desktop---10 {
     width: 100%;
