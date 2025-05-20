@@ -1,7 +1,8 @@
 <script>
-	import ContactFormMobile from "./ContactFormMobile.svelte";
+    import ContactFormMobile from "./ContactFormMobile.svelte";
     import ContactForm from "./ContactFormMobile.svelte";
     import { onMount } from 'svelte';
+    import { currentLang, switchLanguage } from '$lib/stores/language';
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -14,8 +15,6 @@
         return () => window.removeEventListener('scroll', handleScroll);
     });
     // Add language state management
-    let currentLang = 'ua'; // Default language
-
     let menuOpen = false;
 
     let isOpen = false; 
@@ -26,9 +25,8 @@
         scrolled = window.scrollY > 20;
     }
 
-    function switchLanguage(lang) {
-        currentLang = lang;
-        console.log(`Language switched to: ${lang}`);
+    function handleLanguageSwitch(lang) {
+        switchLanguage(lang);
     }
 
     function openMenu() {
@@ -61,15 +59,15 @@
                 <div class="flex justify-start items-center gap-2.5">
                <button 
                     class="lang-button" 
-                    class:active={currentLang === 'ua'} 
-                    on:click={() => switchLanguage('ua')}
+                    class:active={$currentLang === 'ua'} 
+                    on:click={() => handleLanguageSwitch('ua')}
                 >
                     <span class="font-Inter">[UA]</span>
                 </button>
                 <button 
                     class="lang-button" 
-                    class:active={currentLang === 'en'} 
-                    on:click={() => switchLanguage('en')}
+                    class:active={$currentLang === 'en'} 
+                    on:click={() => handleLanguageSwitch('en')}
                 >
                     <span class="font-Inter">[EN]</span>
                 </button>

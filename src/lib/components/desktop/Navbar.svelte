@@ -1,5 +1,6 @@
 <script>
     import ContactForm from "./ContactForm.svelte";
+    import { currentLang, switchLanguage } from '$lib/stores/language';
     let scrolled = false;
 
     function handleScroll() {
@@ -21,15 +22,11 @@
         }
     }
     
-    // Add language state management
-    let currentLang = 'ua'; // Default language
-
-    let isOpen = false; 
-    
-    function switchLanguage(lang) {
-        currentLang = lang;
-        console.log(`Language switched to: ${lang}`);
+    function handleLanguageSwitch(lang) {
+        switchLanguage(lang);
     }
+    
+    let isOpen = false; 
 </script>
 
 <div class="frame- fixed top-0 w-full z-10 pr-4" class:scrolled>
@@ -46,15 +43,15 @@
             <div class="frame-111">
                 <button 
                     class="lang-button" 
-                    class:active={currentLang === 'ua'} 
-                    on:click={() => switchLanguage('ua')}
+                    class:active={$currentLang === 'ua'} 
+                    on:click={() => handleLanguageSwitch('ua')}
                 >
                     <span class="font-Inter">[UA]</span>
                 </button>
                 <button 
                     class="lang-button" 
-                    class:active={currentLang === 'en'} 
-                    on:click={() => switchLanguage('en')}
+                    class:active={$currentLang === 'en'} 
+                    on:click={() => handleLanguageSwitch('en')}
                 >
                     <span class="font-Inter">[EN]</span>
                 </button>
