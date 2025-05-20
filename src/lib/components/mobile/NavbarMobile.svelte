@@ -1,6 +1,7 @@
 <script>
 	import ContactFormMobile from "./ContactFormMobile.svelte";
     import ContactForm from "./ContactFormMobile.svelte";
+    import { onMount } from 'svelte';
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -8,6 +9,10 @@
         }
     }
     
+    onMount(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    });
     // Add language state management
     let currentLang = 'ua'; // Default language
 
@@ -15,6 +20,12 @@
 
     let isOpen = false; 
     
+    let scrolled = false;
+
+    function handleScroll() {
+        scrolled = window.scrollY > 20;
+    }
+
     function switchLanguage(lang) {
         currentLang = lang;
         console.log(`Language switched to: ${lang}`);
@@ -29,11 +40,8 @@
     }
 </script>
 <div class="w-full fixed top-4 z-10 inline-flex flex-col justify-start items-center gap-8">
-    <button on:click={() => scrollToSection("landing")}>
-        <img src="/images/лого.svg" alt="logo">
-    </button>
     {#if menuOpen}
-    <div class="w-full h-[1000px] bg-lime-400 backdrop-blur-md">
+    <div class="w-full h-[1000px] bg-lime-400" class:scrolled>
         <div class="w-full h-[39px] px-5 py-5"><button class=" absolute top-5 right-5" on:click={() => closeMenu()}><img src="/images/cross.svg"/></button></div>
         <div class="inline-flex flex-col justify-center items-start gap-5 px-2">
             <button on:click={()=>{closeMenu(); scrollToSection("who")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[хто ми?]</button>
@@ -46,10 +54,10 @@
         </div>
     </div>
     {:else}
-    <div class="self-stretch flex flex-col justify-start items-center gap-8">
+    <div class="self-stretch flex flex-col justify-start items-center gap-4">
         <div class="w-full h-0 outline outline-1 outline-offset-[-0.50px] outline-lime-400"></div>
-        <div class="w-full inline-flex justify-between items-center px-10">
-            <div class="flex justify-start items-center gap-24">
+        <div class="w-full inline-flex justify-between items-center">
+            <div class=" pl-[20px] flex justify-start items-center gap-24">
                 <div class="flex justify-start items-center gap-2.5">
                <button 
                     class="lang-button" 
@@ -67,7 +75,12 @@
                 </button>
                 </div>
             </div>
-            <button on:click={()=>openMenu()} class="w-10 inline-flex flex-col justify-start items-start gap-2.5">
+
+            <button on:click={() => scrollToSection("landing")}>
+                <img src="/images/лого.svg" alt="logo" class="w-20">
+            </button>
+
+            <button on:click={()=>openMenu()} class="w-[110px] inline-flex flex-col justify-start items-center gap-2.5">
                 <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-lime-400"></div>
                 <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-lime-400"></div>
                 <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-lime-400"></div>
@@ -97,5 +110,20 @@
 .lang-button.active span {
     color: #BDFD02;
     font-weight: 600;
+}
+
+.frame- {
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    transition: all 0.1s ease;
+}
+
+.frame-.scrolled {
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 </style>
