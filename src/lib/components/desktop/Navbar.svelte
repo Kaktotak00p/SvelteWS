@@ -1,5 +1,19 @@
 <script>
     import ContactForm from "./ContactForm.svelte";
+    let scrolled = false;
+
+    function handleScroll() {
+        scrolled = window.scrollY > 20;
+    }
+
+    // Browser-safe onMount scroll listener
+    import { onMount } from 'svelte';
+    
+    onMount(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    });
+    
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -18,7 +32,7 @@
     }
 </script>
 
-<div class="frame- fixed top-0 w-full z-10 pr-4">
+<div class="frame- fixed top-0 w-full z-10 pr-4" class:scrolled>
     <button on:click={() => scrollToSection("landing")}>
         <img src="/images/лого.svg" class="ml-12" alt="logo">
     </button>
@@ -50,6 +64,7 @@
 </div>
 
 <ContactForm isOpen={isOpen} onClose={() => (isOpen = false)} />
+
 <style>
 .fspan {
     color: white;
@@ -111,6 +126,12 @@
     justify-content: space-between;
     align-items: center;
     display: inline-flex;
+    transition: all 0.1s ease;
+}
+
+.frame-.scrolled {
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .lang-button {

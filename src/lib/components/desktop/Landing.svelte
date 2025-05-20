@@ -10,6 +10,7 @@
         <div class="rectangle-- min-w-[120%]"></div>
         <div class="traffhub"></div>
         
+        <!-- <div class="h-[88px]"></div> -->
         <div class="frame-173">
             <div class="frame--">
                 <div class="frame-">
@@ -29,7 +30,7 @@
                     <div class="text-_05"><span class="fspan_06">///</span></div>
                 </div>
                 <button class="frame-79" on:click={() => {isOpen = true}}>
-                    <div class="text--_01"><span class="fspan_07">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span></div>
+                    <div class="text--_01 text-nowrap"><span class="fspan_07">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span></div>
                 </button>
             </div>
             <div class="frame--1">
