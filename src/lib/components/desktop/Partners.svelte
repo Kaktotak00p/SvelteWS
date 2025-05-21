@@ -105,7 +105,7 @@
 .track {
   display: flex;
   flex: none;                /* don’t shrink */
-  width: 50%;                /*  half of .scroll-track’s width */
+  width: 100%;                /*  half of .scroll-track’s width */
 }
 
 .partner-block {
