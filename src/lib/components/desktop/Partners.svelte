@@ -1,84 +1,118 @@
-<div class="section-small">
-  <div class="frame-102">
-    <div class="frame-101">
-      <div class="text- w-[1370px] mx-auto"><span class="fspan">//:Партнери</span></div>
-      <div class="partners-scroll">
+<div class="w-full inline-flex flex-col justify-start items-start gap-10">
+    <div class="self-stretch justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:Партнери</div>
+    <div class="partners-scroll">
         <div class="scroll-track">
-            <!-- first set of logos -->
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
-            <img class="partner-logo" src="https://placehold.co/216x216" />
+          <div class="track">
+            <div class="partner-block">
+              <img src="/images/partners/1xBet.svg" class="h-[216px] w-[216px]" />
+            </div>
+            <div class="partner-block">
+              <img src="/images/partners/1xCasino.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/A-.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/BC.game.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/BetmenAffiliates.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/Digika.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/DoItPartners.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/MelBet.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/MioMedia.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/NPartners.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/RocksPartners.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/UNO.svg" class="h-[216px] w-[216px]"/>
+            </div>
+          </div>
+          <div class="track">
+            <div class="partner-block">
+              <img src="/images/partners/1xBet.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+              <img src="/images/partners/1xCasino.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/A-.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/BC.game.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/BetmenAffiliates.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/Digika.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/DoItPartners.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/MelBet.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/MioMedia.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/NPartners.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/RocksPartners.svg" class="h-[216px] w-[216px]"/>
+            </div>
+            <div class="partner-block">
+                <img src="/images/partners/UNO.svg" class="h-[216px] w-[216px]"/>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <style>
- .partners-scroll {
-  position: relative;
-  overflow: hidden;    
+@keyframes scroll {
+  from { transform: translateX(0);     }
+  to   { transform: translateX(-50%);  }
+}
+.partners-scroll {
   width: 100%;
+  overflow: hidden;           /* hide the “seam” */
 }
 
 .scroll-track {
   display: flex;
-  gap: 10%;
+  width: 200%;               /* two copies side by side */
   animation: scroll 30s linear infinite;
 }
 
 .scroll-track:hover {
-  animation-play-state: paused; 
+  animation-play-state: paused;
 }
 
-@keyframes scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+.track {
+  display: flex;
+  flex: none;                /* don’t shrink */
+  width: 50%;                /*  half of .scroll-track’s width */
 }
 
-.partner-logo {
+.partner-block {
+  /* your existing sizing… */
   width: 216px;
   height: 216px;
-}  
-.section-small {
-  min-height: 400px;
-  }
-.fspan {
-    color: white;
-    font-size: 36px;
-    font-family: Craftwork Grotesk;
-    font-weight: 400;
-    text-transform: uppercase;
-    word-wrap: break-word;
+  position: relative;
 }
 
-.text- {
-    align-self: stretch;
-}
-
-.frame-101 {
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: inline-flex;
-}
-
-.frame-102 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
 </style>
