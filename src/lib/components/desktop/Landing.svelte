@@ -3072,7 +3072,7 @@
     min-height: 100%;
     justify-content: flex-start;
     align-items: center;
-    gap: 30%;
+    gap: 20%;
     display: inline-flex;
 }
 </style>
