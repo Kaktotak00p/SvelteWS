@@ -7,9 +7,12 @@
 <div class="flex flex-col h-[655px] mb-24" id="landing">
 
     <div class="desktop---10 px-10">
-        <div class="rectangle-- min-w-[120%]"></div>
-        <div class="traffhub"></div>
-       <span class="w-[1335px] h-80 white/40 blur-xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white text-[240px] font-['Craftwork_Grotesk']">TRAFFHUB</span> 
+        <div class="rectangle-- min-w-[120%] flex flex-col justify-center items-center">
+            <img src="/images/TRAFFHUB.png" class=" w-[1335px]">
+        </div>
+        <div class="traffhub">
+        </div>
+       <!-- <span class="w-[1335px] h-80 white/40 blur-xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white text-[240px] font-['Craftwork_Grotesk']">TRAFFHUB</span>  -->
         <div class="frame-173">
             <div class="frame--">
                 <div class="frame-">
