@@ -8,7 +8,7 @@
     <div class="frame-108 flex flex-col content-center">
         <div class="frame-107">
             <div class="frame-86">
-                <div class="text--traffhub"><span class="traffhub_span">Розпочати кар’єру в TraffHub</span></div>
+                <div class="text--traffhub"><span class="traffhub_span text-nowrap">Розпочати кар’єру в TraffHub</span></div>
                 <div class="contact"><span class="contact_span">*contact*</span></div>
             </div>
             <div class="frame-87">
