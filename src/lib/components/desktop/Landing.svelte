@@ -9,8 +9,7 @@
     <div class="desktop---10 px-10">
         <div class="rectangle-- min-w-[120%]"></div>
         <div class="traffhub"></div>
-        
-        <!-- <div class="h-[88px]"></div> -->
+       <span class="w-[1335px] h-80 white/40 blur-xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white text-[240px] font-['Craftwork_Grotesk']">TRAFFHUB</span> 
         <div class="frame-173">
             <div class="frame--">
                 <div class="frame-">
