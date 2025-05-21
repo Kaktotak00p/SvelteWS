@@ -9,15 +9,15 @@
         <div class="frame-107">
             <div class="frame-86">
                 <div class="text--traffhub"><span class="traffhub_span text-nowrap">Розпочати кар’єру в TraffHub</span></div>
-                <div class="contact"><span class="contact_span">*contact*</span></div>
+                <div class="contact"><a href="https://t.me/hrtraffhub" class="contact_span">*contact*</a></div>
             </div>
             <div class="frame-87">
                 <div class="text--traffhub_01"><span class="traffhub_span_01">Партнерство з TraffHub </span></div>
-                <div class="contact_01"><span class="contact_01_span">*contact*</span></div>
+                <div class="contact_01"><a href="https://t.me/glebtraffhub" class="contact_01_span">*contact*</a></div>
             </div>
             <div class="frame-88">
                 <div class="pr--"><span class="pr-_span">PR та медіа-партнерство</span></div>
-                <div class="contact_02"><span class="contact_02_span">*contact*</span></div>
+                <div class="contact_02"><a href="https://t.me/PR_traffhub" class="contact_02_span">*contact*</a></div>
             </div>
         </div>
         <div class="frame-89 justify-around">
