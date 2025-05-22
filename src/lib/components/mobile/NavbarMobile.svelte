@@ -37,7 +37,7 @@
         menuOpen = false;
     }
 </script>
-<div class="w-full fixed top-0 pt-4 z-10 inline-flex flex-col justify-start items-center gap-8" class:scrolled>
+<div class="w-full fixed top-0 z-10 inline-flex flex-col justify-start items-center gap-8" class:scrolled>
     {#if menuOpen}
     <div class="w-full h-[1000px] bg-lime-400" class:scrolled>
         <div class="w-full h-[39px] px-5 py-5"><button class=" absolute top-5 right-5" on:click={() => closeMenu()}><img src="/images/cross.svg"/></button></div>
@@ -52,7 +52,7 @@
         </div>
     </div>
     {:else}
-    <div class="self-stretch flex flex-col justify-start items-center gap-4">
+    <div class="self-stretch flex flex-col justify-start items-center gap-4 mt-4">
         <div class="w-full inline-flex justify-between items-center">
             <div class=" pl-[20px] flex justify-start items-center gap-24">
                 <div class="flex justify-start items-center gap-2.5">
