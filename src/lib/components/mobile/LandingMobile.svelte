@@ -150,7 +150,7 @@
         <div class="left-[362.54px] top-[197.81px] absolute origin-top-left rotate-[87.35deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">u</div>
         <img class="w-96 h-[455.18px] left-0 top-0 absolute rounded-[32.11px] shadow-[3.211174249649048px_3.211174249649048px_19.267047882080078px_-33.71732711791992px_rgba(0,0,0,0.35)]" src="/images/1ff360105e966717442a58e5236d152dfefc9687.png" />
     </div>
-    <button on:click={()=>isOpen=true} class="w-[80%] mx-[10%] h-14 px-4 py-3.5 left-0 top-[648px] absolute bg-[#FF41DF] rounded inline-flex justify-center items-center">
+    <button on:click={()=>isOpen=true} class="w-[80%] mx-[10%] h-14 px-4 py-3.5 left-0 top-[600px] absolute bg-[#FF41DF] rounded inline-flex justify-center items-center">
         <div class="justify-center text-white text-l font-bold font-['Craftwork_Grotesk'] text-nowrap">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</div>
     </button>
 </div>

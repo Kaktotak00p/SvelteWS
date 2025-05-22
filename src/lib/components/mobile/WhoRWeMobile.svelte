@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
-                <div class="self-stretch justify-start text-white text-[25px] font-semibold font-['Craftwork_Grotesk'] uppercase text-nowrap">підкорити нові вершини</div>
+                <div class="self-stretch justify-start text-white text-[22px] font-semibold font-['Craftwork_Grotesk'] uppercase text-nowrap">підкорити нові вершини</div>
                 <img class="image w-full h-10" src="/images/advantages3m.png" />
             </div>
             <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk'] uppercase text-justify"> і працювати з командою, <br>яка надихає результатами</div>
