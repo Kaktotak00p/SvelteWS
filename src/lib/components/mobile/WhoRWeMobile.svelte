@@ -22,7 +22,7 @@
             </div>
             <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk'] uppercase"> і працювати з командою, <br>яка надихає результатами</div>
         </div>
-        <div class="w-[100%] h-96 left-0 top-[503px] absolute">
+        <div class="w-[100%] h-96 left-0 top-[533px] absolute">
             <div class="w-[100%] h-96 left-0 top-0  bg-lime-400">
                 <div class=" w-full inline-flex flex-col justify-start items-center text-nowrap gap-5 mt-12">
                     <div class="w-48 flex flex-col justify-start items-center">
