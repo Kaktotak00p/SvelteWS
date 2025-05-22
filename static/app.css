@@ -2121,6 +2121,10 @@ select {
   top: 100%;
 }
 
+.top-\[230px\] {
+  top: 230px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -3527,6 +3531,10 @@ select {
 
 .font-\[\'Poppins\'\] {
   font-family: 'Poppins';
+}
+
+.font-\[sans\] {
+  font-family: sans;
 }
 
 .text-2xl {
