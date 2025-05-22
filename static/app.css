@@ -2147,6 +2147,16 @@ select {
   margin-bottom: 0.25rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-\[10\%\] {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -2442,6 +2452,10 @@ select {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .min-w-\[120\%\] {
