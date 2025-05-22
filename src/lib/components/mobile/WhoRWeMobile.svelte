@@ -6,21 +6,21 @@
                 <div class="self-stretch justify-start text-white text-2xl font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap text-justify">TraffHub – це компанія</div>
                 <div class="w-full inline-flex justify-between items-center">
                     <div class="justify-center text-white text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">у сфери iGaming</div>
-                    <img class="image w-[150px] h-[26px]" src="/images/advantages1.png" />
+                    <img class="image w-[150px] h-[26px]" src="/images/advantages1m.png" />
                 </div>
             </div>
             <div class="self-stretch flex flex-col justify-start items-start gap-[3px]">
                 <div class="self-stretch justify-start text-white text-[22px] font-semibold font-['Craftwork_Grotesk'] uppercase text-nowrap">З нами ти можеш вийти за</div>
                 <div class="self-stretch inline-flex justify-between items-center">
-                    <img class="image w-32 h-6" src="/images/advantages2.png" />
+                    <img class="image w-32 h-6" src="/images/advantages2m.png" />
                     <div class="text-right justify-start text-white text-[22px] font-semibold font-['Craftwork_Grotesk'] uppercase text-nowrap">межі стандартів</div>
                 </div>
             </div>
             <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
-                <div class="self-stretch justify-start text-white text-[25px] font-semibold font-['Craftwork_Grotesk'] uppercase">підкорити нові вершини</div>
-                <img class="image w-full h-10" src="/images/advantages3.png" />
+                <div class="self-stretch justify-start text-white text-[25px] font-semibold font-['Craftwork_Grotesk'] uppercase text-nowrap">підкорити нові вершини</div>
+                <img class="image w-full h-10" src="/images/advantages3m.png" />
             </div>
-            <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk'] uppercase"> і працювати з командою, <br>яка надихає результатами</div>
+            <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk'] uppercase text-justify"> і працювати з командою, <br>яка надихає результатами</div>
         </div>
         <div class="w-[100%] h-96 left-0 top-[533px] absolute">
             <div class="w-[100%] h-96 left-0 top-0  bg-lime-400">
