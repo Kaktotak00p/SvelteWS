@@ -3,7 +3,7 @@
 
     let isOpen = false;
 </script>
-<div class="w-full h-[758px] relative bg-black overflow-hidden mx-auto" id="landing">
+<div class="w-full h-[972px] relative bg-black overflow-hidden mx-auto" id="landing">
     <div class="left-[10px] top-[68px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">медіабаїнгова</div>
     <div class="right-[10px] top-[111px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">компанія</div>
     <div class="w-96 h-[455.18px] left-1/2 -translate-x-1/2 top-[145.33px] absolute mx-auto">
@@ -153,6 +153,17 @@
     <button on:click={()=>isOpen=true} class="w-[80%] mx-[10%] h-14 px-4 py-3.5 left-0 top-[600px] absolute bg-[#FF41DF] rounded inline-flex justify-center items-center">
         <div class="justify-center text-white text-l font-bold font-['Craftwork_Grotesk'] text-nowrap">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</div>
     </button>
+<div class="absolute left-[0px] top-[700px] w-full px-4 pb-8 border-b-[2px] border-[#CAFF11]">
+    <div class="w-full inline-flex flex-col justify-start items-end gap-[5px]">
+        <div class="self-stretch justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">залив  із</div>
+        <div class="self-stretch text-right justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">сенсом</div>
+        <div class="self-stretch inline-flex justify-start items-center gap-20">
+            <div class="justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">команда</div>
+            <div class="text-right justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">3</div>
+        </div>
+        <div class="self-stretch text-right justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">драйвом</div>
+    </div>
+</div>
 </div>
 
 <ContactFormMobile isOpen={isOpen} onClose={() => (isOpen = false)} />
