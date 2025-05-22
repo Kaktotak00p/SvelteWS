@@ -22,7 +22,7 @@
     let scrolled = false;
 
     function handleScroll() {
-        scrolled = window.scrollY > 20;
+        scrolled = (window.scrollY > 20) && !menuOpen;
     }
 
     function handleLanguageSwitch(lang) {
