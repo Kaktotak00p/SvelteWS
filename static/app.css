@@ -2181,6 +2181,10 @@ select {
   margin-top: 0.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -2325,6 +2329,10 @@ select {
   height: 100%;
 }
 
+.h-\[26px\] {
+  height: 26px;
+}
+
 .min-h-\[30vh\] {
   min-height: 30vh;
 }
@@ -2456,6 +2464,10 @@ select {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[150px\] {
+  width: 150px;
 }
 
 .min-w-\[120\%\] {
@@ -3531,6 +3543,10 @@ select {
   text-align: right;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-Inter {
   font-family: "Inter", sans-serif;
 }
@@ -3613,6 +3629,14 @@ select {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
 }
 
 .font-bold {
