@@ -35,9 +35,9 @@
     </button>
     <div class="frame-112 mr-4">
         <div class="frame-56">
-            <div><button class="fspan" on:click={() => scrollToSection("who")}>[хто ми?]</button></div>
-            <div><button class="fspan_02" on:click={() => {isOpen = true}}>[приєднатися]</button></div>
-            <div><button class="fspan_03" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
+            <div><button class="fspan hover:text-[#BDFD02]" on:click={() => scrollToSection("who")}>[хто ми?]</button></div>
+            <div><button class="fspan_02 hover:text-[#BDFD02]" on:click={() => {isOpen = true}}>[приєднатися]</button></div>
+            <div><button class="fspan_03 hover:text-[#BDFD02]" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
         </div>
         <div class="frame-57">
             <div class="frame-111">
@@ -143,6 +143,12 @@
     font-size: 20px;
     font-weight: 400;
     word-wrap: break-word;
+}
+.lang-button:hover span {
+    color: #FF41df;
+}
+.lang-button.active:hover span {
+    color: white;
 }
 
 .lang-button.active span {

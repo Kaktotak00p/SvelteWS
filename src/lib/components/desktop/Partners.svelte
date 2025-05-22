@@ -85,7 +85,7 @@
 <style>
 @keyframes scroll {
   from { transform: translateX(0);     }
-  to   { transform: translateX(-50%);  }
+  to   { transform: translateX(-3000px);  }
 }
 .partners-scroll {
   width: 100%;
@@ -95,7 +95,7 @@
 .scroll-track {
   display: flex;
   width: 200%;               /* two copies side by side */
-  animation: scroll 30s linear infinite;
+  animation: scroll 15s linear infinite;
 }
 
 .scroll-track:hover {
@@ -104,8 +104,9 @@
 
 .track {
   display: flex;
+  justify-content: space-around;
   flex: none;                /* don’t shrink */
-  width: 100%;                /*  half of .scroll-track’s width */
+  width: 3000px;                /*  half of .scroll-track’s width */
 }
 
 .partner-block {

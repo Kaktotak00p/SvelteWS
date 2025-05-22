@@ -9,15 +9,15 @@
     <div class="w-full left-[16px] top-[153px] absolute inline-flex flex-col justify-start items-start gap-12">
         <div class="self-stretch flex flex-col justify-start items-start gap-3.5">
             <div class="self-stretch justify-center text-white text-xl font-bold font-['Craftwork_Grotesk']">Розпочати кар’єру в TraffHub</div>
-            <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">*contact*</div>
+            <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"><a href="https://t.me/hrtraffhub" class="hover:text-[#BDFD02]">TG: @hrtraffhub</a></div>
         </div>
         <div class="flex flex-col justify-start items-start gap-3.5">
             <div class="justify-center text-white text-xl font-bold font-['Craftwork_Grotesk']">Партнерство з TraffHub </div>
-            <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">*contact*</div>
+            <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"><a href="https://t.me/glebtraffhub" class="hover:text-[#BDFD02]">TG: @glebtraffhub</a></div>
         </div>
         <div class="flex flex-col justify-start items-start gap-3.5">
             <div class="justify-center text-white text-xl font-bold font-['Craftwork_Grotesk']">PR та медіа-партнерство</div>
-            <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">*contact*</div>
+            <div class="self-stretch justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"><a href="https://t.me/PR_traffhub" class="hover:text-[#BDFD02]">TG: @PR_traffhub</a></div>
         </div>
     </div>
     <div class="w-full left-0 px-[5px] top-[534px] absolute inline-flex flex-col justify-start items-center gap-5">
