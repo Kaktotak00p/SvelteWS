@@ -9,26 +9,26 @@
             <div class="flex flex-wrap justify-center items-start gap-x-32 gap-y-8 w-full">
                 <div class="inline-flex flex-col justify-start items-start gap-4 w-[399px]">
                     <div class="flex flex-col justify-center w-full">
-                        <span class="text-white text-[26px] font-bold font-['Craftwork_Grotesk'] whitespace-nowrap">Розпочати кар'єру в TraffHub</span>
+                        <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk'] whitespace-nowrap">Розпочати кар'єру в TraffHub</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk']">TG: @hrtraffhub</a>
+                        <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @hrtraffhub</a>
                     </div>
                 </div>
                 <div class="inline-flex flex-col justify-start items-start gap-4">
                     <div class="flex flex-col justify-center">
-                        <span class="text-white text-[26px] font-bold font-['Craftwork_Grotesk']">Партнерство з TraffHub</span>
+                        <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">Партнерство з TraffHub</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/glebtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk']">TG: @glebtraffhub</a>
+                        <a href="https://t.me/glebtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @glebtraffhub</a>
                     </div>
                 </div>
                 <div class="inline-flex flex-col justify-start items-start gap-4">
                     <div class="flex flex-col justify-center">
-                        <span class="text-white text-[26px] font-bold font-['Craftwork_Grotesk']">PR та медіа-партнерство</span>
+                        <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">PR та медіа-партнерство</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/PR_traffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk']">TG: @PR_traffhub</a>
+                        <a href="https://t.me/PR_traffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @PR_traffhub</a>
                     </div>
                 </div>
             </div>
