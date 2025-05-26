@@ -2561,6 +2561,10 @@ select {
   min-width: 100%;
 }
 
+.min-w-\[452px\] {
+  min-width: 452px;
+}
+
 .max-w-\[1370px\] {
   max-width: 1370px;
 }
