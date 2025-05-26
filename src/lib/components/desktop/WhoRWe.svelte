@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="self-stretch h-28 px-44 py-3.5 bg-lime-400 inline-flex flex-col justify-center items-start gap-2.5 text-nowrap">
-            <div class=" inline-flex justify-start items-center gap-24 mx-auto">
+            <div class=" inline-flex justify-start items-center gap-16 mx-auto">
                 <div class="inline-flex flex-col justify-start items-start">
                     <div class="justify-start text-stone-950 text-4xl font-medium font-['Craftwork_Grotesk']">31 336 372</div>
                     <div class="self-stretch justify-start text-stone-950 text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>

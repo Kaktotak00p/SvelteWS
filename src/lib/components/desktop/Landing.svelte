@@ -5,36 +5,44 @@
 </script>
 
 <div class="flex flex-col h-[655px] mb-24" id="landing">
-
-    <div class="desktop---10 px-10">
-        <div class="rectangle-- min-w-[120%] flex flex-col justify-center items-center">
-            <img src="/images/TRAFFHUB.png" class=" w-[1335px]">
+    <div class="w-full h-full relative bg-[#020202] overflow-hidden px-10">
+        <div class="absolute top-0 -left-[10%] z-[1] h-full bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center">
+            <img src="/images/TRAFFHUB.png" class="w-full">
         </div>
-        <div class="traffhub">
-        </div>
-       <!-- <span class="w-[1335px] h-80 white/40 blur-xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white text-[240px] font-['Craftwork_Grotesk']">TRAFFHUB</span>  -->
-        <div class="frame-173">
-            <div class="frame--">
-                <div class="frame-">
-                    <div class="text-"><span class="fspan">медіабаїнгова</span></div>
-                    <div class="text-_01"><span class="fspan_01">компанія</span></div>
-                    <div class="frame-57">
-                        <div><span class="fspan_02">залив із</span></div>
-                        <div><span class="fspan_03">сенсом</span></div>
+        <div class="relative"></div>
+        <div class="relative z-[2] w-full h-full min-w-full min-h-full flex justify-between items-center">
+            <div class="relative w-[679px] h-[430px]">
+                <div class="absolute w-[679px] h-[320px] left-0 top-0">
+                    <div class="absolute left-[136px] top-0">
+                        <span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">медіабаїнгова</span>
                     </div>
-                    <div class="frame-58">
-                        <div class="frame--2-">
-                            <div><span class="fspan_04">команда</span></div>
-                            <div class="text-3"><span class="f_span">3</span></div>
+                    <div class="absolute left-0 top-[60px]">
+                        <span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">компанія</span>
+                    </div>
+                    <div class="absolute left-[140px] top-[200px] flex justify-start items-center gap-10">
+                        <div><span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">залив із</span></div>
+                        <div><span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">сенсом</span></div>
+                    </div>
+                    <div class="absolute left-0 top-[260px] flex justify-start items-center gap-[54px]">
+                        <div class="flex justify-start items-center gap-[30px]">
+                            <div><span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">команда</span></div>
+                            <div class="text-right"><span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">3</span></div>
                         </div>
-                        <div><span class="fspan_05">драйвом</span></div>
+                        <div><span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">драйвом</span></div>
                     </div>
-                    <div class="text-_05"><span class="fspan_06">///</span></div>
+                    <div class="absolute left-[140px] top-[130px]">
+                        <span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">///</span>
+                    </div>
                 </div>
-                <button class="frame-79" on:click={() => {isOpen = true}}>
-                    <div class="text--_01 text-nowrap"><span class="fspan_07">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span></div>
+                <button class="absolute left-0 top-[370px] h-[60px] px-[21px] py-[14px] bg-[#FF41DF] rounded-[4px] flex justify-center items-center gap-[10px]" 
+                        on:click={() => {isOpen = true}}>
+                    <div class="flex flex-col justify-center text-nowrap">
+                        <span class="text-white text-[26px] font-[700] font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span>
+                    </div>
                 </button>
             </div>
+
+
             <div class="frame--1">
                 <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_span">T</span></div>
                 <div class="copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_01"><span class="copytraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhubtraffhub_01_span">r</span></div>
@@ -3070,9 +3078,8 @@
     height: 100%;
     min-width: 100%;
     min-height: 100%;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 20%;
     display: inline-flex;
 }
 </style>

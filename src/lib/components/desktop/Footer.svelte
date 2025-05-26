@@ -5,8 +5,8 @@
                 <div><span class="text-white text-[32px] font-bold font-['Craftwork_Grotesk']">TRAFFHUB</span></div>
             </div>
         </div>
-        <div class="flex flex-col content-center justify-between items-center flex-wrap w-full h-[208px]">
-            <div class="inline-flex justify-start items-center gap-32">
+        <div class="flex flex-col content-center justify-between items-center flex-wrap w-full h-auto min-h-[208px]">
+            <div class="flex flex-wrap justify-center items-start gap-x-32 gap-y-8 w-full">
                 <div class="inline-flex flex-col justify-start items-start gap-4 w-[399px]">
                     <div class="flex flex-col justify-center w-full">
                         <span class="text-white text-[26px] font-bold font-['Craftwork_Grotesk'] whitespace-nowrap">Розпочати кар'єру в TraffHub</span>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="inline-flex items-center justify-around gap-10 w-[508px]">
+            <div class="inline-flex items-center justify-around gap-10 w-[508px] mt-8">
                 <div class="flex flex-col justify-center text-center">
                     <span class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">Instagram</span>
                 </div>
