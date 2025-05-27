@@ -33,8 +33,8 @@
     <button on:click={() => scrollToSection("landing")}>
         <img src="/images/лого.svg" class="ml-12" alt="logo">
     </button>
-    <div class="frame-112 mr-4">
-        <div class="frame-56">
+    <div class="frame-112 mr-4 flex-col md:flex-row">
+        <div class="frame-56 flex-col md:flex-row items-center gap-4 md:gap-100">
             <div><button class="fspan hover:text-[#BDFD02]" on:click={() => scrollToSection("who")}>[хто ми?]</button></div>
             <div><button class="fspan_02 hover:text-[#BDFD02]" on:click={() => {isOpen = true}}>[приєднатися]</button></div>
             <div><button class="fspan_03 hover:text-[#BDFD02]" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
@@ -124,6 +124,12 @@
     align-items: center;
     display: inline-flex;
     transition: all 0.1s ease;
+    flex-wrap: wrap;
+}
+@media (max-width: 994px) {
+    .frame-{
+        justify-content: center;
+    }
 }
 
 .frame-.scrolled {
