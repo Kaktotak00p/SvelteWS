@@ -9,26 +9,37 @@
 	import PartnersMobile from "$lib/components/mobile/PartnersMobile.svelte";
 	import PerevagiMobile from "$lib/components/mobile/PerevagiMobile.svelte";
 	import WhoRWeMobile from "$lib/components/mobile/WhoRWeMobile.svelte";
+	import FooterTablet from "$lib/components/tablet/FooterTablet.svelte";
+	import LandingTablet from "$lib/components/tablet/LandingTablet.svelte";
+	import PartnersTablet from "$lib/components/tablet/PartnersTablet.svelte";
+	import PerevagiTablet from "$lib/components/tablet/PerevagiTablet.svelte";
+	import WhoRWeTablet from "$lib/components/tablet/WhoRWeTablet.svelte";
 
   import { device } from "$lib/stores/device.js";
 
   // Subscribe to the device store
-  $: isMobile = $device;  
+  $: deviceType = $device;  
 </script>
 
 <div class="layout">
-  {#if !isMobile}
+  {#if deviceType === 'desktop'}
   <Landing />
   <WhoRWe />
   <Perevagi />
   <Partners />
   <Footer />
-  {:else}
+  {:else if deviceType === 'mobile'}
   <LandingMobile />
   <WhoRWeMobile />
   <PerevagiMobile />
   <PartnersMobile />
   <FooterMobile />
+  {:else if deviceType === 'tablet'}
+  <LandingTablet />
+  <WhoRWeTablet />
+  <PerevagiTablet />
+  <PartnersTablet />
+  <FooterTablet />
   {/if}
 </div>
 

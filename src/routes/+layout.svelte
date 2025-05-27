@@ -2,44 +2,52 @@
 	import Navbar from '$lib/components/desktop/Navbar.svelte';
 	import '../app.postcss';
 	import { onMount } from 'svelte';
-	import {device} from '$lib/stores/device.js';
+	import { device } from '$lib/stores/device.js';
+	import { DeviceType } from '$lib/stores/device.js';
 	import NavbarMobile from '$lib/components/mobile/NavbarMobile.svelte';
+	import NavbarTablet from '$lib/components/tablet/NavbarTablet.svelte';
 
-    export let isMobile = false;
+	export let deviceType = 'desktop';
 
-    // Subscribe to the device store
-    $: isMobile = $device;
+	// Subscribe to the device store
+	$: deviceType = $device;
 
-    onMount(() => {
-        const mql = window.matchMedia('(max-width: 768px)');
+	onMount(() => {
+		const checkDeviceType = () => {
+			if (window.matchMedia('(max-width: 767px)').matches) {
+				return DeviceType.MOBILE;
+			} else if (window.matchMedia('(max-width: 1160px)').matches) {
+				return DeviceType.TABLET;
+			}
+			return DeviceType.DESKTOP;
+		};
 
-        // set initial value
-        isMobile = mql.matches;
-        device.set(mql.matches);
+		// set initial value
+		deviceType = checkDeviceType();
+		device.set(deviceType);
 
-        // subscribe to changes
-        const handler = (e) => {
-            isMobile = e.matches;
-            device.set(e.matches);
-        };
-        mql.addEventListener('change', handler);
+		// subscribe to changes
+		const handler = () => {
+			deviceType = checkDeviceType();
+			device.set(deviceType);
+		};
 
-        return () => {
-            mql.removeEventListener('change', handler);
-        };
-    });
-
+		window.addEventListener('resize', handler);
+		return () => window.removeEventListener('resize', handler);
+	});
 </script>
-  
-  <div class="min-h-screen bg-black">
+
+<div class="min-h-screen bg-black">
 	<header>
-		{#if !isMobile}
-	  <Navbar />
-	  {:else}
-	  <NavbarMobile />
-	  {/if}
+		{#if deviceType === 'desktop'}
+			<Navbar />
+		{:else if deviceType === 'mobile'}
+			<NavbarMobile />
+		{:else if deviceType === 'tablet'}
+			<NavbarTablet />
+		{/if}
 	</header>
-	<main class="container min-w-full mx-auto pt-4 ">
+	<main class="container mx-auto min-w-full pt-4">
 		<slot />
 	</main>
-  </div>
+</div>
