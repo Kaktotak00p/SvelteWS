@@ -4,7 +4,7 @@
 	let isOpen = false;
 </script>
 
-<div class="relative h-[505px] w-full overflow-hidden bg-[#020202]">
+<div class="relative h-[505px] w-full overflow-hidden bg-[#020202] mt-[-5px]">
 	<div class="flex h-full w-full flex-row justify-between items-end">
 		<div class="">
 			<div
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="absolute right-[-10%] top-[25px] h-[460px] w-[120%] border border-[#caff11]"></div>
+		<div class="absolute right-[-10%] top-[0px] h-[485px] w-[120%] border border-[#caff11]"></div>
 		<div class="relative h-[419px] w-[300px] mb-[20px]">
 			<div
 				class="absolute left-[299.01px] top-[149.31px] origin-top-left rotate-[91.55deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
