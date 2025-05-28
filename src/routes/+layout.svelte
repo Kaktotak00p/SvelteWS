@@ -16,7 +16,7 @@
 		const checkDeviceType = () => {
 			if (window.matchMedia('(max-width: 767px)').matches) {
 				return DeviceType.MOBILE;
-			} else if (window.matchMedia('(max-width: 1160px)').matches) {
+			} else if (window.matchMedia('(max-width: 1400px)').matches) {
 				return DeviceType.TABLET;
 			}
 			return DeviceType.DESKTOP;
