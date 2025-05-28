@@ -1,38 +1,76 @@
-<div class="w-full inline-flex flex-col justify-center items-center gap-[50px]">
-  <div class="w-full flex flex-col justify-center items-center gap-2.5">
-    <div class="w-full inline-flex justify-center items-center gap-[25px]">
-      <div class="justify-start text-white text-2xl font-bold font-['Craftwork_Grotesk'] uppercase">TraffHub – це компанія у сфери iGaming</div>
-    </div>
-    <img class="w-[785px] h-[60px]" src="/images/advantages1m.png" />
-  </div>
-  <div class="self-stretch flex flex-col justify-center items-center gap-5">
-    <div class="w-full inline-flex justify-between items-center">
-      <div class="justify-start text-white text-2xl font-semibold font-['Craftwork_Grotesk'] uppercase">З нами ти можеш вийти за межі стандартів,</div>
-      <img class="w-[137px] h-[34px] bg-black/20" src="/images/advantages2m.png"/>
-    </div>
-    <div class="w-full inline-flex justify-between items-center gap-6">
-      <img class="w-[424px] h-[34px]" src="/images/advantages3m.png" />
-      <div class="justify-start text-white text-2xl font-semibold font-['Craftwork_Grotesk'] uppercase">підкорити нові вершини</div>
-    </div>
-    <div class="w-fit justify-center text-white text-2xl font-semibold font-['Craftwork_Grotesk'] uppercase"> і працювати з командою, яка надихає результатами</div>
-  </div>
-  <div class="w-full h-[200px]">
-      <img src="/images/Union.svg" class="absolute z-0 object-cover px-4" />
-<div class="w-full inline-flex justify-around items-center pt-2.5">
-  <div class="size- inline-flex flex-col justify-start items-start">
-    <div class="justify-start text-white text-3xl font-medium font-['Craftwork_Grotesk']">31 336 372</div>
-    <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>
-  </div>
-  <div class="w-0 h-[92px] rounded-sm outline outline-[3px] outline-offset-[-1.50px] outline-[#bdfd02]"></div>
-  <div class="w-[145px] h-[92px] inline-flex flex-col justify-center items-start">
-    <div class="w-[145px] justify-start text-white text-3xl font-medium font-['Craftwork_Grotesk']">iGaming</div>
-    <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">вертикаль</div>
-  </div>
-  <div class="w-0 h-[92px] rounded-sm outline outline-[3px] outline-offset-[-1.50px] outline-[#bdfd02]"></div>
-  <div class="h-[92px] inline-flex flex-col justify-center items-start">
-    <div class="justify-start text-white text-3xl font-medium font-['Craftwork_Grotesk']">FB |ASO |IN-APP</div>
-    <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">джерела</div>
-  </div>
-</div>
-  </div>
+<div class="inline-flex w-full flex-col items-center justify-center gap-[50px]">
+	<div class="flex w-full flex-col items-center justify-center gap-2.5">
+		<div class="inline-flex w-[700px] items-center justify-center gap-[25px]">
+			<div class="justify-start font-['Craftwork_Grotesk'] text-2xl font-bold uppercase text-white">
+				TraffHub – це компанія у сфери iGaming
+			</div>
+		</div>
+		<img class="h-[60px] w-[785px]" src="/images/advantages1t.png" />
+	</div>
+	<div class="flex flex-col items-center justify-center gap-5 2-[700px]">
+		<div class="inline-flex w-full items-center justify-between">
+			<div
+				class="justify-start font-['Craftwork_Grotesk'] text-2xl font-semibold uppercase text-white"
+			>
+				З нами ти можеш вийти за межі стандартів,
+			</div>
+			<img class="h-[34px] w-[137px] bg-black/20" src="/images/advantages2t.png" />
+		</div>
+		<div class="inline-flex w-full items-center justify-between gap-6">
+			<img class="h-[34px] w-[424px]" src="/images/advantages3t.png" />
+			<div
+				class="justify-start font-['Craftwork_Grotesk'] text-2xl font-semibold uppercase text-white"
+			>
+				підкорити нові вершини
+			</div>
+		</div>
+		<div
+			class="w-fit justify-center font-['Craftwork_Grotesk'] text-2xl font-semibold uppercase text-white"
+		>
+			і працювати з командою, яка надихає результатами
+		</div>
+	</div>
+	<div class="h-[200px] w-full">
+		<img src="/images/UnionT.svg" class="absolute z-0 object-cover object-fill px-4" />
+		<div class="inline-flex w-full items-center justify-around pt-2.5">
+			<div class="size- inline-flex flex-col items-start justify-start">
+				<div class="justify-start font-['Craftwork_Grotesk'] text-3xl font-medium text-white">
+					31 336 372
+				</div>
+				<div
+					class="justify-start self-stretch font-['Craftwork_Grotesk'] text-xl font-semibold text-white"
+				>
+					FTD
+				</div>
+			</div>
+			<div
+				class="h-[92px] w-0 rounded-sm outline outline-[3px] outline-offset-[-1.50px] outline-[#bdfd02]"
+			></div>
+			<div class="inline-flex h-[92px] w-[145px] flex-col items-start justify-center">
+				<div
+					class="w-[145px] justify-start font-['Craftwork_Grotesk'] text-3xl font-medium text-white"
+				>
+					iGaming
+				</div>
+				<div
+					class="justify-start self-stretch font-['Craftwork_Grotesk'] text-xl font-semibold text-white"
+				>
+					вертикаль
+				</div>
+			</div>
+			<div
+				class="h-[92px] w-0 rounded-sm outline outline-[3px] outline-offset-[-1.50px] outline-[#bdfd02]"
+			></div>
+			<div class="inline-flex h-[92px] flex-col items-start justify-center">
+				<div class="justify-start font-['Craftwork_Grotesk'] text-3xl font-medium text-white">
+					FB |ASO |IN-APP
+				</div>
+				<div
+					class="justify-start self-stretch font-['Craftwork_Grotesk'] text-xl font-semibold text-white"
+				>
+					джерела
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
