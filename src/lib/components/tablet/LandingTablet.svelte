@@ -1,175 +1,749 @@
 <script>
-	import ContactFormMobile from "./ContactFormTablet.svelte";
+	import ContactFormMobile from './ContactFormTablet.svelte';
 
-    let isOpen = false;
+	let isOpen = false;
 </script>
-<div class="w-[1353px] h-[567px] relative">
-  <div class="size- left-0 top-0 absolute inline-flex justify-between items-center">
-    <div class="w-[679px] h-[430px] relative">
-      <div class="w-[679px] h-80 left-0 top-0 absolute">
-        <div class="left-[136px] top-0 absolute justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">медіабаїнгова</div>
-        <div class="left-0 top-[60px] absolute justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">компанія</div>
-        <div class="size- left-[140px] top-[200px] absolute inline-flex justify-start items-center gap-10">
-          <div class="justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">залив із</div>
-          <div class="justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">сенсом</div>
-        </div>
-        <div class="size- left-0 top-[260px] absolute inline-flex justify-start items-center gap-[54px]">
-          <div class="size- flex justify-start items-center gap-[30px]">
-            <div class="justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">команда</div>
-            <div class="text-right justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">3</div>
-          </div>
-          <div class="justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">драйвом</div>
-        </div>
-        <div class="left-[140px] top-[130px] absolute justify-start text-white text-[50px] font-semibold font-['Craftwork_Grotesk'] uppercase">///</div>
-      </div>
-      <div class="h-[60px] px-[21px] py-3.5 left-0 top-[370px] absolute bg-[#ff41df] rounded-sm inline-flex justify-center items-center gap-2.5">
-        <div class="justify-center text-white text-[26px] font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</div>
-      </div>
+
+<div class="relative h-[605px] w-full overflow-hidden bg-[#020202]">
+	<div>
+
+	<div
+		class="absolute left-[826.01px] top-[328.31px] origin-top-left rotate-[91.55deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[825.69px] top-[337.60px] origin-top-left rotate-[94.20deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[825.42px] top-[341.52px] origin-top-left rotate-[96.18deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[824.65px] top-[348.46px] origin-top-left rotate-[98.61deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[823.78px] top-[354.10px] origin-top-left rotate-[100.80deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[822.74px] top-[359.72px] origin-top-left rotate-[103.64deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[820.59px] top-[368.39px] origin-top-left rotate-[106.68deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[818.54px] top-[375.23px] origin-top-left rotate-[109.71deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[815.66px] top-[383.10px] origin-top-left rotate-[112.07deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[814.38px] top-[386.39px] origin-top-left rotate-[114.42deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[810.61px] top-[394.52px] origin-top-left rotate-[116.98deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[808.70px] top-[398.30px] origin-top-left rotate-[119.09deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[805.22px] top-[404.51px] origin-top-left rotate-[121.63deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[802.31px] top-[409.22px] origin-top-left rotate-[123.73deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[799.22px] top-[413.89px] origin-top-left rotate-[126.45deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[793.77px] top-[421.19px] origin-top-left rotate-[129.58deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[789.30px] top-[426.59px] origin-top-left rotate-[132.50deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[783.67px] top-[432.66px] origin-top-left rotate-[134.79deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[781.19px] top-[435.21px] origin-top-left rotate-[137.08deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[774.60px] top-[441.24px] origin-top-left rotate-[139.58deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[771.27px] top-[444.09px] origin-top-left rotate-[141.88deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[765.83px] top-[448.33px] origin-top-left rotate-[144.18deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[761.31px] top-[451.57px] origin-top-left rotate-[146.27deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[756.53px] top-[454.79px] origin-top-left rotate-[149.22deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[748.80px] top-[459.34px] origin-top-left rotate-[152.18deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[742.57px] top-[462.62px] origin-top-left rotate-[155.15deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[735.03px] top-[466.04px] origin-top-left rotate-[157.50deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[731.70px] top-[467.46px] origin-top-left rotate-[159.86deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[723.26px] top-[470.48px] origin-top-left rotate-[162.45deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[719.19px] top-[471.78px] origin-top-left rotate-[164.62deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[712.48px] top-[473.59px] origin-top-left rotate-[167.02deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[707.02px] top-[474.83px] origin-top-left rotate-[169.20deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[701.44px] top-[475.91px] origin-top-left rotate-[172.05deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[692.49px] top-[477.12px] origin-top-left rotate-[175.14deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[685.50px] top-[477.71px] origin-top-left rotate-[178.01deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[676.68px] top-[477.93px] origin-top-left rotate-[-179.56deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[673.03px] top-[477.94px] origin-top-left rotate-[-177.13deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[664.12px] top-[477.43px] origin-top-left rotate-[-174.70deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[659.86px] top-[477.04px] origin-top-left rotate-[-172.49deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[652.98px] top-[476.10px] origin-top-left rotate-[-170.08deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[647.47px] top-[475.13px] origin-top-left rotate-[-167.89deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[641.91px] top-[473.96px] origin-top-left rotate-[-165.05deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[633.22px] top-[471.59px] origin-top-left rotate-[-162.02deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[626.53px] top-[469.42px] origin-top-left rotate-[-159deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[618.83px] top-[466.40px] origin-top-left rotate-[-156.65deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[615.49px] top-[465.01px] origin-top-left rotate-[-154.30deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[607.46px] top-[461.07px] origin-top-left rotate-[-151.75deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[603.71px] top-[459.07px] origin-top-left rotate-[-149.64deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[597.79px] top-[455.55px] origin-top-left rotate-[-147.32deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[593.02px] top-[452.48px] origin-top-left rotate-[-145.01deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[588.40px] top-[449.27px] origin-top-left rotate-[-142.29deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[581.26px] top-[443.69px] origin-top-left rotate-[-139.16deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[575.96px] top-[439.11px] origin-top-left rotate-[-136.25deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[570.02px] top-[433.35px] origin-top-left rotate-[-133.96deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[567.54px] top-[430.84px] origin-top-left rotate-[-131.67deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[561.67px] top-[424.14px] origin-top-left rotate-[-129.17deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[558.86px] top-[420.71px] origin-top-left rotate-[-126.87deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[554.78px] top-[415.23px] origin-top-left rotate-[-124.57deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[551.65px] top-[410.68px] origin-top-left rotate-[-122.47deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[548.49px] top-[405.75px] origin-top-left rotate-[-119.52deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[544.16px] top-[398.03px] origin-top-left rotate-[-116.55deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[541.01px] top-[391.73px] origin-top-left rotate-[-113.57deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[537.72px] top-[384.05px] origin-top-left rotate-[-111.21deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[536.40px] top-[380.77px] origin-top-left rotate-[-108.84deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[533.56px] top-[372.23px] origin-top-left rotate-[-106.25deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[532.34px] top-[368.12px] origin-top-left rotate-[-104.07deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[530.68px] top-[361.43px] origin-top-left rotate-[-101.67deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[529.54px] top-[355.87px] origin-top-left rotate-[-99.48deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[528.64px] top-[350.68px] origin-top-left rotate-[-96.85deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[527.60px] top-[341.69px] origin-top-left rotate-[-93.76deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[527.14px] top-[334.79px] origin-top-left rotate-[-90.88deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[527.08px] top-[325.44px] origin-top-left rotate-[-88.23deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[527.12px] top-[322.29px] origin-top-left rotate-[-86.02deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[527.83px] top-[313.06px] origin-top-left rotate-[-83.37deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[528.33px] top-[308.66px] origin-top-left rotate-[-81.18deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[529.41px] top-[301.81px] origin-top-left rotate-[-78.76deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[530.38px] top-[296.92px] origin-top-left rotate-[-76.80deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[531.81px] top-[290.72px] origin-top-left rotate-[-73.75deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[534.29px] top-[282.31px] origin-top-left rotate-[-70.72deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[536.65px] top-[275.55px] origin-top-left rotate-[-67.72deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[539.60px] top-[268.43px] origin-top-left rotate-[-65.58deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[541.27px] top-[264.66px] origin-top-left rotate-[-63.02deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[545.36px] top-[256.75px] origin-top-left rotate-[-60.48deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[547.37px] top-[253.14px] origin-top-left rotate-[-58.37deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[550.81px] top-[247.56px] origin-top-left rotate-[-56.06deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[554.32px] top-[242.38px] origin-top-left rotate-[-53.76deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[557.43px] top-[238.05px] origin-top-left rotate-[-51.04deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[563.30px] top-[230.86px] origin-top-left rotate-[-47.91deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[567.96px] top-[225.68px] origin-top-left -rotate-45 justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[573.92px] top-[219.80px] origin-top-left rotate-[-42.71deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[576.21px] top-[217.60px] origin-top-left rotate-[-40.42deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[582.94px] top-[211.92px] origin-top-left rotate-[-37.91deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[586.12px] top-[209.40px] origin-top-left rotate-[-35.82deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[592.18px] top-[205.05px] origin-top-left rotate-[-33.31deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[596.70px] top-[202.08px] origin-top-left rotate-[-31.20deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[601.24px] top-[199.26px] origin-top-left rotate-[-28.46deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[609.58px] top-[194.78px] origin-top-left rotate-[-25.27deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[616.05px] top-[191.71px] origin-top-left rotate-[-22.28deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[624.02px] top-[188.51px] origin-top-left rotate-[-19.92deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[627.18px] top-[187.30px] origin-top-left rotate-[-17.55deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[635.92px] top-[184.61px] origin-top-left rotate-[-14.95deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[639.08px] top-[183.71px] origin-top-left rotate-[-12.98deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[646.84px] top-[181.96px] origin-top-left rotate-[-10.36deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[651.47px] top-[181.09px] origin-top-left rotate-[-8.39deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[657.36px] top-[180.18px] origin-top-left rotate-[-5.52deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[666.53px] top-[179.33px] origin-top-left rotate-[-2.43deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[674.03px] top-[179px] origin-top-left rotate-[0.66deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[682.12px] top-[179.13px] origin-top-left rotate-[2.87deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[685.95px] top-[179.26px] origin-top-left rotate-[5.30deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[694.28px] top-[180.06px] origin-top-left rotate-[7.73deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[698.77px] top-[180.64px] origin-top-left rotate-[9.92deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[705.55px] top-[181.83px] origin-top-left rotate-[12.33deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[711.13px] top-[183.04px] origin-top-left rotate-[14.51deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[716.59px] top-[184.40px] origin-top-left rotate-[17.33deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[725.82px] top-[187.33px] origin-top-left rotate-[20.57deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[732.57px] top-[189.86px] origin-top-left rotate-[23.57deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[739.44px] top-[192.88px] origin-top-left rotate-[25.70deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[743.30px] top-[194.69px] origin-top-left rotate-[28.25deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[751.11px] top-[198.95px] origin-top-left rotate-[30.78deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[754.64px] top-[201.02px] origin-top-left rotate-[32.89deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[760.10px] top-[204.55px] origin-top-left rotate-[35.20deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[765.29px] top-[208.23px] origin-top-left rotate-[37.50deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[769.52px] top-[211.42px] origin-top-left rotate-[40.21deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[776.61px] top-[217.46px] origin-top-left rotate-[43.33deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[781.68px] top-[222.24px] origin-top-left rotate-[46.25deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[787.43px] top-[228.32px] origin-top-left rotate-[48.54deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	></div>
+	<div
+		class="absolute left-[789.60px] top-[230.69px] origin-top-left rotate-[50.83deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[795.15px] top-[237.58px] origin-top-left rotate-[53.34deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[797.63px] top-[240.86px] origin-top-left rotate-[55.43deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[801.81px] top-[246.97px] origin-top-left rotate-[57.95deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[804.71px] top-[251.60px] origin-top-left rotate-[60.06deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[807.46px] top-[256.30px] origin-top-left rotate-[62.81deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[811.72px] top-[264.68px] origin-top-left rotate-[66deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<div
+		class="absolute left-[814.64px] top-[271.21px] origin-top-left rotate-[69deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		b
+	</div>
+	<div
+		class="absolute left-[817.50px] top-[278.63px] origin-top-left rotate-[72.24deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		T
+	</div>
+	<div
+		class="absolute left-[820.21px] top-[287.30px] origin-top-left rotate-[74.84deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		r
+	</div>
+	<div
+		class="absolute left-[821.37px] top-[291.49px] origin-top-left rotate-[77.02deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		a
+	</div>
+	<div
+		class="absolute left-[822.91px] top-[298.22px] origin-top-left rotate-[79.42deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[823.95px] top-[303.86px] origin-top-left rotate-[81.61deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		f
+	</div>
+	<div
+		class="absolute left-[824.83px] top-[309.65px] origin-top-left rotate-[84.48deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		H
+	</div>
+	<div
+		class="absolute left-[825.63px] top-[318.13px] origin-top-left rotate-[87.35deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
+	>
+		u
+	</div>
+	<img
+		class="absolute left-[492px] top-[165px] h-[419px] w-[361px]"
+		src="/images/1ff360105e966717442a58e5236d152dfefc9687.png"
+	/>
     </div>
-    <div class="w-[452.17px] h-[567px] relative">
-      <div class="left-[452.17px] top-[231.79px] absolute origin-top-left rotate-[91.55deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[451.68px] top-[245.85px] absolute origin-top-left rotate-[94.20deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[451.28px] top-[251.77px] absolute origin-top-left rotate-[96.18deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[450.11px] top-[262.27px] absolute origin-top-left rotate-[98.61deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[448.81px] top-[270.79px] absolute origin-top-left rotate-[100.80deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[447.22px] top-[279.30px] absolute origin-top-left rotate-[103.64deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[443.98px] top-[292.41px] absolute origin-top-left rotate-[106.68deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[440.88px] top-[302.76px] absolute origin-top-left rotate-[109.71deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[436.52px] top-[314.66px] absolute origin-top-left rotate-[112.07deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[434.58px] top-[319.64px] absolute origin-top-left rotate-[114.42deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[428.89px] top-[331.93px] absolute origin-top-left rotate-[116.98deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[426px] top-[337.65px] absolute origin-top-left rotate-[119.09deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[420.73px] top-[347.03px] absolute origin-top-left rotate-[121.63deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[416.33px] top-[354.16px] absolute origin-top-left rotate-[123.73deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[411.66px] top-[361.22px] absolute origin-top-left rotate-[126.45deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[403.42px] top-[372.25px] absolute origin-top-left rotate-[129.58deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[396.66px] top-[380.43px] absolute origin-top-left rotate-[132.50deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[388.14px] top-[389.60px] absolute origin-top-left rotate-[134.79deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[384.39px] top-[393.46px] absolute origin-top-left rotate-[137.08deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[374.42px] top-[402.58px] absolute origin-top-left rotate-[139.58deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[369.38px] top-[406.90px] absolute origin-top-left rotate-[141.88deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[361.17px] top-[413.29px] absolute origin-top-left rotate-[144.18deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[354.32px] top-[418.20px] absolute origin-top-left rotate-[146.27deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[347.10px] top-[423.07px] absolute origin-top-left rotate-[149.22deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[335.41px] top-[429.95px] absolute origin-top-left rotate-[152.18deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[325.99px] top-[434.91px] absolute origin-top-left rotate-[155.15deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[314.59px] top-[440.08px] absolute origin-top-left rotate-[157.50deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[309.54px] top-[442.23px] absolute origin-top-left rotate-[159.86deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[296.78px] top-[446.79px] absolute origin-top-left rotate-[162.45deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[290.62px] top-[448.76px] absolute origin-top-left rotate-[164.62deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[280.48px] top-[451.49px] absolute origin-top-left rotate-[167.02deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[272.23px] top-[453.37px] absolute origin-top-left rotate-[169.20deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[263.78px] top-[455.01px] absolute origin-top-left rotate-[172.05deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[250.25px] top-[456.83px] absolute origin-top-left rotate-[175.14deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[239.69px] top-[457.73px] absolute origin-top-left rotate-[178.01deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[226.34px] top-[458.07px] absolute origin-top-left rotate-[-179.56deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[220.83px] top-[458.09px] absolute origin-top-left rotate-[-177.13deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[207.34px] top-[457.31px] absolute origin-top-left rotate-[-174.70deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[200.91px] top-[456.72px] absolute origin-top-left rotate-[-172.49deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[190.50px] top-[455.30px] absolute origin-top-left rotate-[-170.08deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[182.17px] top-[453.83px] absolute origin-top-left rotate-[-167.89deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[173.76px] top-[452.06px] absolute origin-top-left rotate-[-165.05deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[160.62px] top-[448.48px] absolute origin-top-left rotate-[-162.02deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[150.50px] top-[445.19px] absolute origin-top-left rotate-[-159deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[138.85px] top-[440.62px] absolute origin-top-left rotate-[-156.65deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[133.81px] top-[438.52px] absolute origin-top-left rotate-[-154.30deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[121.66px] top-[432.56px] absolute origin-top-left rotate-[-151.75deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[116px] top-[429.54px] absolute origin-top-left rotate-[-149.64deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[107.03px] top-[424.23px] absolute origin-top-left rotate-[-147.32deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[99.82px] top-[419.57px] absolute origin-top-left rotate-[-145.01deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[92.83px] top-[414.72px] absolute origin-top-left rotate-[-142.29deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[82.04px] top-[406.29px] absolute origin-top-left rotate-[-139.16deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[74.02px] top-[399.36px] absolute origin-top-left rotate-[-136.25deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[65.05px] top-[390.65px] absolute origin-top-left rotate-[-133.96deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[61.29px] top-[386.85px] absolute origin-top-left rotate-[-131.67deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[52.42px] top-[376.72px] absolute origin-top-left rotate-[-129.17deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[48.16px] top-[371.53px] absolute origin-top-left rotate-[-126.87deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[42px] top-[363.25px] absolute origin-top-left rotate-[-124.57deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[37.27px] top-[356.36px] absolute origin-top-left rotate-[-122.47deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[32.48px] top-[348.90px] absolute origin-top-left rotate-[-119.52deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[25.94px] top-[337.24px] absolute origin-top-left rotate-[-116.55deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[21.18px] top-[327.70px] absolute origin-top-left rotate-[-113.57deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[16.20px] top-[316.09px] absolute origin-top-left rotate-[-111.21deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[14.20px] top-[311.13px] absolute origin-top-left rotate-[-108.84deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[9.90px] top-[298.22px] absolute origin-top-left rotate-[-106.25deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[8.06px] top-[291.99px] absolute origin-top-left rotate-[-104.07deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[5.55px] top-[281.88px] absolute origin-top-left rotate-[-101.67deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[3.83px] top-[273.48px] absolute origin-top-left rotate-[-99.48deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[2.46px] top-[265.63px] absolute origin-top-left rotate-[-96.85deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[0.90px] top-[252.03px] absolute origin-top-left rotate-[-93.76deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[0.20px] top-[241.60px] absolute origin-top-left rotate-[-90.88deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[0.11px] top-[227.46px] absolute origin-top-left rotate-[-88.23deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[0.18px] top-[222.69px] absolute origin-top-left rotate-[-86.02deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[1.25px] top-[208.73px] absolute origin-top-left rotate-[-83.37deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[2px] top-[202.07px] absolute origin-top-left rotate-[-81.18deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[3.63px] top-[191.73px] absolute origin-top-left rotate-[-78.76deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[5.09px] top-[184.32px] absolute origin-top-left rotate-[-76.80deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[7.26px] top-[174.96px] absolute origin-top-left rotate-[-73.75deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[11.01px] top-[162.24px] absolute origin-top-left rotate-[-70.72deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[14.58px] top-[152.01px] absolute origin-top-left rotate-[-67.72deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[19.05px] top-[141.25px] absolute origin-top-left rotate-[-65.58deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[21.56px] top-[135.55px] absolute origin-top-left rotate-[-63.02deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[27.75px] top-[123.57px] absolute origin-top-left rotate-[-60.48deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[30.79px] top-[118.12px] absolute origin-top-left rotate-[-58.37deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[36px] top-[109.68px] absolute origin-top-left rotate-[-56.06deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[41.30px] top-[101.84px] absolute origin-top-left rotate-[-53.76deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[46.01px] top-[95.30px] absolute origin-top-left rotate-[-51.04deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[54.89px] top-[84.42px] absolute origin-top-left rotate-[-47.91deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[61.93px] top-[82.25px] absolute origin-top-left -rotate-45 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[70.94px] top-[67.70px] absolute origin-top-left rotate-[-42.71deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[74.40px] top-[64.38px] absolute origin-top-left rotate-[-40.42deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[84.59px] top-[55.79px] absolute origin-top-left rotate-[-37.91deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[89.40px] top-[51.97px] absolute origin-top-left rotate-[-35.82deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[98.56px] top-[45.40px] absolute origin-top-left rotate-[-33.31deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[105.39px] top-[40.90px] absolute origin-top-left rotate-[-31.20deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[112.26px] top-[36.64px] absolute origin-top-left rotate-[-28.46deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[124.87px] top-[29.86px] absolute origin-top-left rotate-[-25.27deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[134.65px] top-[25.22px] absolute origin-top-left rotate-[-22.28deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[146.71px] top-[20.38px] absolute origin-top-left rotate-[-19.92deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[151.48px] top-[18.56px] absolute origin-top-left rotate-[-17.55deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[164.70px] top-[14.48px] absolute origin-top-left rotate-[-14.95deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[169.48px] top-[13.13px] absolute origin-top-left rotate-[-12.98deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[181.21px] top-[10.48px] absolute origin-top-left rotate-[-10.36deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[188.23px] top-[9.17px] absolute origin-top-left rotate-[-8.39deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[197.13px] top-[7.79px] absolute origin-top-left rotate-[-5.52deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[211px] top-[6.49px] absolute origin-top-left rotate-[-2.43deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[222.34px] top-[6px] absolute origin-top-left rotate-[0.66deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[234.57px] top-[6.20px] absolute origin-top-left rotate-[2.87deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[240.36px] top-[6.40px] absolute origin-top-left rotate-[5.30deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[252.96px] top-[7.61px] absolute origin-top-left rotate-[7.73deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[259.74px] top-[8.48px] absolute origin-top-left rotate-[9.92deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[269.99px] top-[10.28px] absolute origin-top-left rotate-[12.33deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[278.44px] top-[12.11px] absolute origin-top-left rotate-[14.51deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[286.70px] top-[14.17px] absolute origin-top-left rotate-[17.33deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[300.66px] top-[18.60px] absolute origin-top-left rotate-[20.57deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[310.86px] top-[22.42px] absolute origin-top-left rotate-[23.57deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[321.25px] top-[26.99px] absolute origin-top-left rotate-[25.70deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[327.09px] top-[29.73px] absolute origin-top-left rotate-[28.25deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[338.90px] top-[36.17px] absolute origin-top-left rotate-[30.78deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[344.24px] top-[39.30px] absolute origin-top-left rotate-[32.89deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[352.50px] top-[44.64px] absolute origin-top-left rotate-[35.20deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[360.34px] top-[50.21px] absolute origin-top-left rotate-[37.50deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[366.74px] top-[55.03px] absolute origin-top-left rotate-[40.21deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[377.46px] top-[64.17px] absolute origin-top-left rotate-[43.33deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[385.13px] top-[71.39px] absolute origin-top-left rotate-[46.25deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[393.83px] top-[80.59px] absolute origin-top-left rotate-[48.54deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']"> </div>
-      <div class="left-[397.11px] top-[84.17px] absolute origin-top-left rotate-[50.83deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[405.51px] top-[94.59px] absolute origin-top-left rotate-[53.34deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[409.25px] top-[99.54px] absolute origin-top-left rotate-[55.43deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[415.58px] top-[108.79px] absolute origin-top-left rotate-[57.95deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[419.96px] top-[115.79px] absolute origin-top-left rotate-[60.06deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[424.13px] top-[122.89px] absolute origin-top-left rotate-[62.81deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[430.57px] top-[135.58px] absolute origin-top-left rotate-[66deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <div class="left-[434.98px] top-[145.45px] absolute origin-top-left rotate-[69deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">b</div>
-      <div class="left-[439.30px] top-[156.66px] absolute origin-top-left rotate-[72.24deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">T</div>
-      <div class="left-[443.41px] top-[169.78px] absolute origin-top-left rotate-[74.84deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">r</div>
-      <div class="left-[445.16px] top-[176.12px] absolute origin-top-left rotate-[77.02deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">a</div>
-      <div class="left-[447.48px] top-[186.30px] absolute origin-top-left rotate-[79.42deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[449.06px] top-[194.83px] absolute origin-top-left rotate-[81.61deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">f</div>
-      <div class="left-[450.39px] top-[203.57px] absolute origin-top-left rotate-[84.48deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">H</div>
-      <div class="left-[451.60px] top-[216.40px] absolute origin-top-left rotate-[87.35deg] justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">u</div>
-      <img class="w-[505px] h-[587px] left-[-30px] top-[-21px] absolute" src="/images/1ff360105e966717442a58e5236d152dfefc9687.png" />
-    </div>
-  </div>
+	<div
+		class="absolute left-[152px] top-[207px] justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+	>
+		медіабаїнгова
+	</div>
+	<div
+		class="absolute left-[25px] top-[255px] justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+	>
+		компанія
+	</div>
+	<div class="size- absolute left-[92px] top-[371px] inline-flex items-center justify-start gap-10">
+		<div
+			class="justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+		>
+			залив із
+		</div>
+		<div
+			class="justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+		>
+			сенсом
+		</div>
+	</div>
+	<div
+		class="size- absolute left-[25px] top-[419px] inline-flex items-center justify-start gap-[54px]"
+	>
+		<div class="size- flex items-center justify-start gap-[30px]">
+			<div
+				class="justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+			>
+				команда
+			</div>
+			<div
+				class="justify-start text-right font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+			>
+				3
+			</div>
+		</div>
+		<div
+			class="justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+		>
+			драйвом
+		</div>
+	</div>
+	<div
+		class="absolute left-[165px] top-[313px] justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
+	>
+		///
+	</div>
+	<div
+		class="absolute left-[25px] top-[495px] inline-flex h-[60px] items-center justify-center gap-2.5 rounded-md bg-[#ff41df] px-[21px] py-3.5"
+	>
+		<div class="justify-center font-['Craftwork_Grotesk'] text-[22px] font-bold text-white">
+			ВІДГУКНУТИСЬ НА ВАКАНСІЮ
+		</div>
+	</div>
+	<div class="absolute right-[-10%] top-[25px] h-[560px] w-[120%] border border-[#caff11]"></div>
 </div>
 <!-- <ContactFormMobile isOpen={isOpen} onClose={() => (isOpen = false)} /> -->
