@@ -33,4 +33,9 @@
         <div class="justify-start text-neutral-500 text-[16px] font-['Craftwork_Grotesk'] leading-[18px] relative z-10 pt-4 pb-20">+ $250 щомісяця протягом 5 місяців = $1250 </div>
         <img src="/images/cardBigM.svg" class="absolute">
     </div>
+    <div class="w-full flex flex-col justify-center items-center my-10">
+        <div class="h-[60px] px-[21px] py-3.5 bg-[#ff41df] rounded-sm inline-flex justify-center items-center">
+            <div class="justify-center text-white text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase">залишити  кандидата</div>
+        </div>
+    </div>
 </div>

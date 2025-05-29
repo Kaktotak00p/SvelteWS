@@ -3563,6 +3563,11 @@ select {
   margin-bottom: auto;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -3947,6 +3952,14 @@ select {
 
 .h-\[832px\] {
   height: 832px;
+}
+
+.h-\[426px\] {
+  height: 426px;
+}
+
+.h-\[781px\] {
+  height: 781px;
 }
 
 .min-h-\[208px\] {

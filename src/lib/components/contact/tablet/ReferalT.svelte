@@ -1,4 +1,4 @@
-<div class="w-full h-[626px] relative bg-[#020202] overflow-hidden">
+<div class="w-full h-[426px] relative bg-[#020202] overflow-hidden">
     <div class="size- left-[25px] top-[50px] absolute inline-flex flex-col justify-start items-start gap-2.5">
         <img src="/images/Vector 73.svg" class="absolute scale-[1.2]"/>
         <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase">//:реферальна програм</div>
