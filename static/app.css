@@ -4093,6 +4093,22 @@ select {
   right: 110px;
 }
 
+.right-\[40px\] {
+  right: 40px;
+}
+
+.top-\[330px\] {
+  top: 330px;
+}
+
+.top-\[360px\] {
+  top: 360px;
+}
+
+.top-\[440px\] {
+  top: 440px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -5139,6 +5155,14 @@ select {
 
 .w-\[530px\] {
   width: 530px;
+}
+
+.w-\[430px\] {
+  width: 430px;
+}
+
+.w-\[330px\] {
+  width: 330px;
 }
 
 .min-w-\[120\%\] {
