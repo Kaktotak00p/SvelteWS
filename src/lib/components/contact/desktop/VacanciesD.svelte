@@ -54,7 +54,7 @@
 
 <div class="w-full flex flex-col justify-center items-center py-5">
     <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase w-full px-10">//:вакансії</div>
-<div class="w-[1400px] flex flex-row justify-center items-center">
+<div class="w-[1400px] flex flex-row justify-center">
     <img class="w-[465px] h-[396px] rounded-[10px] shadow-[4px_4px_0px_0px_rgba(255,65,223,1.00)]" src="/images/office1.jpg" alt="office" />
     <div class="w-full px-20 py-20">
         {#each vacancies as vacancy}
