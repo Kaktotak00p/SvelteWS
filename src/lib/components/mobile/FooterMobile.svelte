@@ -15,7 +15,7 @@
                         <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @hrtraffhub</a>
                     </div>
                 </div>
-                <div class="inline-flex flex-col justify-start items-start gap-4">
+                <div class="inline-flex flex-col justify-start items-start gap-4 w-[399px]">
                     <div class="flex flex-col justify-center">
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">Партнерство з TraffHub</span>
                     </div>
@@ -23,7 +23,7 @@
                         <a href="https://t.me/glebtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @glebtraffhub</a>
                     </div>
                 </div>
-                <div class="inline-flex flex-col justify-start items-start gap-4">
+                <div class="inline-flex flex-col justify-start items-start gap-4 2-[399px]">
                     <div class="flex flex-col justify-center">
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">PR та медіа-партнерство</span>
                     </div>

@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
     import ContactForm from "./ContactFormTablet.svelte";
     import { currentLang, switchLanguage } from '$lib/stores/language';
-    let scrolled = false;
+    import { page } from '$app/state';
+    let scrolled = $state(false);
 
     function handleScroll() {
         scrolled = window.scrollY > 20;
@@ -9,34 +10,37 @@
 
     // Browser-safe onMount scroll listener
     import { onMount } from 'svelte';
+	import { goto } from "$app/navigation";
+
+    let contact =$derived( page.url.pathname === "/contact");
+
     
     onMount(() => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     });
     
-    function scrollToSection(sectionId) {
+    function scrollToSection(sectionId: string) {
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth', block: 'center'});
         }
     }
     
-    function handleLanguageSwitch(lang) {
+    function handleLanguageSwitch(lang: string) {
         switchLanguage(lang);
     }
     
-    let isOpen = false; 
+    let isOpen = $state(false); 
 </script>
-
 <div class="frame- fixed top-0 w-full z-10 pr-4" class:scrolled>
-    <button on:click={() => scrollToSection("landing")}>
+    <button on:click={() => {goto("/");scrollToSection("landing");}}>
         <img src="/images/лого.svg" class="ml-12" alt="logo">
     </button>
     <div class="frame-112 mr-4 flex-col md:flex-row">
         <div class="frame-56 flex-col md:flex-row items-center gap-4 md:gap-100">
             <div><button class="fspan hover:text-[#BDFD02]" on:click={() => scrollToSection("who")}>[хто ми?]</button></div>
-            <div><button class="fspan_02 hover:text-[#BDFD02]" on:click={() => {isOpen = true}}>[приєднатися]</button></div>
+            <div><button class="fspan_02 hover:text-[#BDFD02]" class:active={contact} on:click={() => {isOpen = true}}><span>[приєднатися]</span></button></div>
             <div><button class="fspan_03 hover:text-[#BDFD02]" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
         </div>
         <div class="frame-57">
@@ -153,7 +157,7 @@
     color: white;
 }
 
-.lang-button.active span {
+.active span {
     color: #BDFD02;
     font-weight: 600;
 }
