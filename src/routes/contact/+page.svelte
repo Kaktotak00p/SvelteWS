@@ -2,6 +2,7 @@
 	import CLanding from "$lib/components/contact/desktop/CLanding.svelte";
 	import CardsT from "$lib/components/contact/tablet/CardsT.svelte";
 	import CLandingT from "$lib/components/contact/tablet/CLandingT.svelte";
+	import Referal2T from "$lib/components/contact/tablet/Referal2T.svelte";
 	import ReferalT from "$lib/components/contact/tablet/ReferalT.svelte";
 	import VacanciesT from "$lib/components/contact/tablet/VacanciesT.svelte";
 	import Footer from "$lib/components/desktop/Footer.svelte";
@@ -25,6 +26,7 @@
   <CardsT />
   <VacanciesT />
   <ReferalT />
+  <Referal2T />
   <FooterTablet />
   {/if}
 </div>
