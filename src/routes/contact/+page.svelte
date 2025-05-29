@@ -2,6 +2,8 @@
 	import CLanding from "$lib/components/contact/desktop/CLanding.svelte";
 	import Referal2D from "$lib/components/contact/desktop/Referal2D.svelte";
 	import VacanciesD from "$lib/components/contact/desktop/VacanciesD.svelte";
+	import CardsM from "$lib/components/contact/mobile/CardsM.svelte";
+	import CLandingM from "$lib/components/contact/mobile/CLandingM.svelte";
 	import Art from "$lib/components/contact/tablet/Art.svelte";
 	import CardsT from "$lib/components/contact/tablet/CardsT.svelte";
 	import CLandingT from "$lib/components/contact/tablet/CLandingT.svelte";
@@ -28,6 +30,8 @@
   <Art />
   <Footer />
   {:else if deviceType === 'mobile'}
+  <CLandingM />
+  <CardsM />
   <Art />
   <FooterMobile />
   {:else if deviceType === 'tablet'}
