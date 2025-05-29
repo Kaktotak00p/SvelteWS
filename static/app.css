@@ -5045,6 +5045,18 @@ select {
   width: 1px;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
+}
+
+.w-\[1400px\] {
+  width: 1400px;
+}
+
 .min-w-\[120\%\] {
   min-width: 120%;
 }
@@ -6363,6 +6375,11 @@ select {
 .px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .pb-8 {

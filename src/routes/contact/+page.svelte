@@ -1,5 +1,6 @@
 <script>
 	import CLanding from "$lib/components/contact/desktop/CLanding.svelte";
+	import VacanciesD from "$lib/components/contact/desktop/VacanciesD.svelte";
 	import Art from "$lib/components/contact/tablet/Art.svelte";
 	import CardsT from "$lib/components/contact/tablet/CardsT.svelte";
 	import CLandingT from "$lib/components/contact/tablet/CLandingT.svelte";
@@ -20,6 +21,7 @@
   {#if deviceType === 'desktop'}
   <CLanding />
   <CardsT />
+  <VacanciesD />
   <Art />
   <Footer />
   {:else if deviceType === 'mobile'}
