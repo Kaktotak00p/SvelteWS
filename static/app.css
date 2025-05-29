@@ -3397,6 +3397,58 @@ select {
   top: 230px;
 }
 
+.top-\[20px\] {
+  top: 20px;
+}
+
+.top-\[180px\] {
+  top: 180px;
+}
+
+.top-\[170px\] {
+  top: 170px;
+}
+
+.top-\[168px\] {
+  top: 168px;
+}
+
+.top-\[165px\] {
+  top: 165px;
+}
+
+.top-\[30px\] {
+  top: 30px;
+}
+
+.top-\[40px\] {
+  top: 40px;
+}
+
+.top-\[45px\] {
+  top: 45px;
+}
+
+.right-\[-10\] {
+  right: -10;
+}
+
+.right-\[-10px\] {
+  right: -10px;
+}
+
+.top-\[-10px\] {
+  top: -10px;
+}
+
+.right-\[-5px\] {
+  right: -5px;
+}
+
+.top-\[-5px\] {
+  top: -5px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -3502,6 +3554,16 @@ select {
 
 .hidden {
   display: none;
+}
+
+.size-14 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.size-\[60px\] {
+  width: 60px;
+  height: 60px;
 }
 
 .h-0 {
@@ -3674,6 +3736,30 @@ select {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[238\] {
+  height: 238;
+}
+
+.h-\[238px\] {
+  height: 238px;
+}
+
+.h-\[540px\] {
+  height: 540px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[480px\] {
+  height: 480px;
+}
+
+.h-\[470px\] {
+  height: 470px;
 }
 
 .min-h-\[208px\] {
@@ -3883,6 +3969,30 @@ select {
 
 .w-\[100\.99px\] {
   width: 100.99px;
+}
+
+.w-\[185px\] {
+  width: 185px;
+}
+
+.w-\[201px\] {
+  width: 201px;
+}
+
+.w-\[203px\] {
+  width: 203px;
+}
+
+.w-\[783px\] {
+  width: 783px;
+}
+
+.w-\[219px\] {
+  width: 219px;
+}
+
+.w-\[667px\] {
+  width: 667px;
 }
 
 .min-w-\[120\%\] {
@@ -4786,6 +4896,10 @@ select {
   gap: 70px;
 }
 
+.gap-\[63px\] {
+  gap: 63px;
+}
+
 .gap-x-32 {
   -moz-column-gap: 8rem;
        column-gap: 8rem;
@@ -4962,6 +5076,22 @@ select {
 .bg-zinc-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 216 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black\/60 {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.bg-\[url\(\'\/images\/card-bg\.svg\'\)\] {
+  background-image: url('/images/card-bg.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-cover {
@@ -5398,6 +5528,10 @@ select {
 
 .outline-zinc-500 {
   outline-color: #71717a;
+}
+
+.outline-black {
+  outline-color: #000;
 }
 
 .blur {
