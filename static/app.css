@@ -3529,6 +3529,10 @@ select {
   z-index: 2;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-\[10\%\] {
   margin-left: 10%;
   margin-right: 10%;
