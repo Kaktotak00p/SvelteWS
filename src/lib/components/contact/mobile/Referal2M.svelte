@@ -16,7 +16,7 @@
             <div class="w-[234px inline-flex flex-col justify-start items-center">
                 <div class="self-stretch text-center justify-start text-[#111111] text-[78px] font-black font-['Craftwork_Grotesk'] uppercase">5%</div>
                 <div class="w-[233px] text-center justify-start text-[#111111] text-lg font-normal font-['Craftwork_Grotesk'] leading-[18px]">від чистого профіту байера з урахуванням всіх костів</div>
-                <div class="w-[234px] h-[18px] top-[170px] absolute text-center justify-start text-[#a0a0a0] text-lg font-normal font-['Craftwork_Grotesk'] leading-[18px]">(протягом 5 місяців)</div>
+                <div class="w-[234px] h-[18px] top-[170px] absolute text-center justify-start text-[#a0a0a0] text-lg font-normal font-['Craftwork_Grotesk'] leading-[18px] pt-1">(протягом 5 місяців)</div>
             </div>
         </div>
     </div>

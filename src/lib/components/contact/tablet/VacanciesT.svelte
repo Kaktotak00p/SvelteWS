@@ -58,6 +58,7 @@
         {#each vacancies as vacancy}
             <div class="w-full">
                 <div class="w-full inline-flex justify-between items-center">
+
                     <div class="flex justify-start items-end gap-2.5">
                         <div class="justify-start">
                             <span class="text-[#bdfd00] text-lg font-normal font-['Inter']">{vacancy.id}</span>
@@ -66,16 +67,21 @@
                         <div class="justify-start text-white text-lg font-bold font-['Craftwork_Grotesk'] uppercase">{vacancy.title}</div>
                     </div>
                     <div class="w-[328px] flex justify-between items-center">
+                        
                         <div class="justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">{vacancy.location}</div>
                         <div class="size- flex justify-start items-center gap-[5px]">
-                            <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300" 
-                                 class:rotate-180={vacancy.isOpen}
-                                 src="/images/arrowPink.png" 
-                                 alt="arrow" />
                             <button 
                                 on:click={() => toggleVacancy(vacancy.id)}
                                 class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
-                                [{vacancy.isOpen ? 'згорнути' : 'відгукнутись'}]
+                            <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300" 
+                            class:rotate-180={vacancy.isOpen}
+                            src="/images/arrowPink.png" 
+                            alt="arrow" />
+                            </button>
+                            <button 
+                                on:click={() =>{} }
+                                class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
+                                ['відгукнутись']
                             </button>
                         </div>
                     </div>

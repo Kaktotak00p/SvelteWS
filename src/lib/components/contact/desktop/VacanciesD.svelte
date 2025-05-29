@@ -70,14 +70,17 @@
                     <div class="w-[328px] flex justify-between items-center">
                         <div class="justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">{vacancy.location}</div>
                         <div class="size- flex justify-start items-center gap-[5px]">
+                            <button 
+                                on:click={() => toggleVacancy(vacancy.id)}>
                             <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300" 
                                  class:rotate-180={vacancy.isOpen}
                                  src="/images/arrowPink.png" 
                                  alt="arrow" />
+                            </button>
                             <button 
-                                on:click={() => toggleVacancy(vacancy.id)}
+                                on:click={() => {}}
                                 class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
-                                [{vacancy.isOpen ? 'згорнути' : 'відгукнутись'}]
+                                [відгукнутись]
                             </button>
                         </div>
                     </div>
