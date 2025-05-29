@@ -66,7 +66,7 @@
 			</div>
 		</div>
 		<div class="absolute right-[-10%] top-[0px] h-[485px] w-[120%] border border-[#caff11]"></div>
-		<div class="relative h-[419px] w-[300px] mb-[20px]">
+		<div class="relative h-[419px] w-[361px] mb-[20px] translate-x-[60px]">
 			<div
 				class="absolute left-[299.01px] top-[149.31px] origin-top-left rotate-[91.55deg] justify-center font-['Craftwork_Grotesk'] text-sm font-normal text-white"
 			>
@@ -745,7 +745,7 @@
 				u
 			</div>
 	<img
-		class="h-[419px] w-[361px] relative"
+		class="h-[419px] w-[361px] absolute top-0 left-[-40px]"
 		src="/images/1ff360105e966717442a58e5236d152dfefc9687.png"
 	/>
 		</div>

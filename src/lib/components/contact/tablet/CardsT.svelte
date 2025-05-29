@@ -1,4 +1,4 @@
-<div class="inline-flex flex-wrap items-center justify-center px-10 gap-10 mx-auto ">
+<div class="inline-flex flex-wrap items-center justify-center px-1 gap-10 mx-auto ">
     <div class="flex inline-flex justify-between gap-10">
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:1</span>

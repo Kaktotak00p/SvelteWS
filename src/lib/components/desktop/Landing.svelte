@@ -6,9 +6,7 @@
 
 <div class="flex flex-col h-[655px] mb-24" id="landing">
     <div class="w-full h-full relative bg-[#020202] overflow-hidden px-10">
-        <div class="absolute top-0 -left-[10%] z-[1] h-full bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center">
-            <img src="/images/TRAFFHUB.png" class="w-full">
-        </div>
+        <div class="absolute top-0 -left-[10%] z-[1] h-full bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center"></div>
         <div class="relative"></div>
         <div class="relative z-[2] w-full h-full min-w-full min-h-full flex justify-between items-center">
             <div class="relative w-[679px] h-[430px]">

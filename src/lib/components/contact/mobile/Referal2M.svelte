@@ -7,6 +7,7 @@
     <div class="flex flex-col justify-center px-[25px] w-full gap-[10px]">
         <div class="w-full h-[171px] bg-[#bdfd02] rounded-md border-1 border-black relative flex flex-col items-center">
             <div class="w-[234px] inline-flex flex-col justify-start items-center">
+                <img src="/images/Vector 1.svg" class="absolute top-[-5px] right-[-5px]" />
                 <div class="text-center justify-start text-[#111111] text-[78px] font-black font-['Craftwork_Grotesk'] uppercase">$200</div>
                 <div class="w-[257px] text-center justify-start text-[#111111] text-lg font-normal font-['Craftwork_Grotesk'] leading-[18px]">фіксована виплата після випробовувального (1 місяць)</div>
             </div>
@@ -14,6 +15,7 @@
         <div class="text-[#bdfd02] text-[78px] font-black font-['Craftwork_Grotesk'] uppercase mx-auto">+</div>
         <div class="w-full h-[171px] bg-[#bdfd02] rounded-md border-1 border-black relative flex flex-col items-center">
             <div class="w-[234px inline-flex flex-col justify-start items-center">
+                <img src="/images/Vector 1.svg" class="absolute top-[-5px] right-[-5px]" />
                 <div class="self-stretch text-center justify-start text-[#111111] text-[78px] font-black font-['Craftwork_Grotesk'] uppercase">5%</div>
                 <div class="w-[233px] text-center justify-start text-[#111111] text-lg font-normal font-['Craftwork_Grotesk'] leading-[18px]">від чистого профіту байера з урахуванням всіх костів</div>
                 <div class="w-[234px] h-[18px] top-[170px] absolute text-center justify-start text-[#a0a0a0] text-lg font-normal font-['Craftwork_Grotesk'] leading-[18px] pt-1">(протягом 5 місяців)</div>
