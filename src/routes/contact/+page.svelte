@@ -25,7 +25,7 @@
 
 <div class="layout">
   {#if deviceType === 'desktop'}
-  <CLandingT />
+  <CLanding />
   <CardsT />
   <VacanciesD />
   <ReferalT />

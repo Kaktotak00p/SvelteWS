@@ -3505,6 +3505,30 @@ select {
   left: -50px;
 }
 
+.right-\[180px\] {
+  right: 180px;
+}
+
+.right-\[410px\] {
+  right: 410px;
+}
+
+.right-\[38px\] {
+  right: 38px;
+}
+
+.right-\[380px\] {
+  right: 380px;
+}
+
+.right-\[350px\] {
+  right: 350px;
+}
+
+.right-\[360px\] {
+  right: 360px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -5873,6 +5897,10 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[45px\] {
+  font-size: 45px;
 }
 
 .font-\[36px\] {
