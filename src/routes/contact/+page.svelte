@@ -1,7 +1,8 @@
 <script>
 	import CLanding from "$lib/components/contact/desktop/CLanding.svelte";
-	import Cards from "$lib/components/contact/tablet/CardsT.svelte";
+	import CardsT from "$lib/components/contact/tablet/CardsT.svelte";
 	import CLandingT from "$lib/components/contact/tablet/CLandingT.svelte";
+	import VacanciesT from "$lib/components/contact/tablet/VacanciesT.svelte";
 	import Footer from "$lib/components/desktop/Footer.svelte";
 	import FooterMobile from "$lib/components/mobile/FooterMobile.svelte";
 	import FooterTablet from "$lib/components/tablet/FooterTablet.svelte";
@@ -20,7 +21,8 @@
   <FooterMobile />
   {:else if deviceType === 'tablet'}
   <CLandingT />
-  <Cards />
+  <CardsT />
+  <VacanciesT />
   <FooterTablet />
   {/if}
 </div>

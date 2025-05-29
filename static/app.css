@@ -3566,6 +3566,11 @@ select {
   height: 60px;
 }
 
+.size-\[35px\] {
+  width: 35px;
+  height: 35px;
+}
+
 .h-0 {
   height: 0px;
 }
@@ -3760,6 +3765,10 @@ select {
 
 .h-\[470px\] {
   height: 470px;
+}
+
+.h-\[396px\] {
+  height: 396px;
 }
 
 .min-h-\[208px\] {
@@ -3995,6 +4004,26 @@ select {
   width: 667px;
 }
 
+.w-\[465px\] {
+  width: 465px;
+}
+
+.w-\[235px\] {
+  width: 235px;
+}
+
+.w-\[309px\] {
+  width: 309px;
+}
+
+.w-\[328px\] {
+  width: 328px;
+}
+
+.w-\[784px\] {
+  width: 784px;
+}
+
 .min-w-\[120\%\] {
   min-width: 120%;
 }
@@ -4017,6 +4046,10 @@ select {
 
 .origin-top-left {
   transform-origin: top left;
+}
+
+.origin-center {
+  transform-origin: center;
 }
 
 .-translate-x-1\/2 {
@@ -4744,6 +4777,16 @@ select {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-rotate-180 {
+  --tw-rotate: -180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-\[-1\] {
+  --tw-scale-x: -1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -4965,6 +5008,10 @@ select {
   border-radius: 8px;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -5177,6 +5224,16 @@ select {
   padding-bottom: 14px;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -5235,6 +5292,10 @@ select {
 
 .font-\[sans\] {
   font-family: sans;
+}
+
+.font-\[\'Cabinet_Grotesk\'\] {
+  font-family: 'Cabinet Grotesk';
 }
 
 .text-2xl {
@@ -5403,6 +5464,11 @@ select {
   color: rgb(113 113 122 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#bdfd00\] {
+  --tw-text-opacity: 1;
+  color: rgb(189 253 0 / var(--tw-text-opacity, 1));
+}
+
 .shadow-\[3\.1840412616729736px_3\.1840412616729736px_0px_0px_rgba\(255\2c 65\2c 223\2c 1\.00\)\] {
   --tw-shadow: 3.1840412616729736px 3.1840412616729736px 0px 0px rgba(255,65,223,1.00);
   --tw-shadow-colored: 3.1840412616729736px 3.1840412616729736px 0px 0px var(--tw-shadow-color);
@@ -5436,6 +5502,12 @@ select {
 .shadow-\[3\.18px_3\.18px_0px_0px_rgba\(1\2c 1\2c 1\2c 1\)\] {
   --tw-shadow: 3.18px 3.18px 0px 0px rgba(1,1,1,1);
   --tw-shadow-colored: 3.18px 3.18px 0px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[4px_4px_0px_0px_rgba\(255\2c 65\2c 223\2c 1\.00\)\] {
+  --tw-shadow: 4px 4px 0px 0px rgba(255,65,223,1.00);
+  --tw-shadow-colored: 4px 4px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
