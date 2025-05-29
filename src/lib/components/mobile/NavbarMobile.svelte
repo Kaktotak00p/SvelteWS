@@ -39,7 +39,7 @@
 </script>
 <div class="w-full fixed top-0 z-40 inline-flex flex-col justify-start items-center gap-8" class:scrolled>
     {#if menuOpen}
-    <div class="w-full h-[1000px] bg-lime-400" class:scrolled>
+    <div class="w-full h-[1000px] bg-lime-400">
         <div class="w-full h-[39px] px-5 py-5"><button class=" absolute top-5 right-5" on:click={() => closeMenu()}><img src="/images/cross.svg"/></button></div>
         <div class="inline-flex flex-col justify-center items-start gap-5 px-2">
             <button on:click={()=>{closeMenu(); scrollToSection("who")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[хто ми?]</button>
