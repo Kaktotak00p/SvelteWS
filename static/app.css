@@ -3491,6 +3491,14 @@ select {
   margin-top: -5px;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -3743,6 +3751,18 @@ select {
 
 .h-\[176px\] {
   height: 176px;
+}
+
+.h-\[1200px\] {
+  height: 1200px;
+}
+
+.h-\[1400px\] {
+  height: 1400px;
+}
+
+.h-\[1300px\] {
+  height: 1300px;
 }
 
 .min-h-\[208px\] {
@@ -4952,6 +4972,10 @@ select {
   gap: 70px;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-x-32 {
   -moz-column-gap: 8rem;
        column-gap: 8rem;
@@ -5250,6 +5274,16 @@ select {
 .py-\[14px\] {
   padding-top: 14px;
   padding-bottom: 14px;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .pb-20 {
