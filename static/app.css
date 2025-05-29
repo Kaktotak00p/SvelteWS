@@ -4311,6 +4311,18 @@ select {
   width: 1915px;
 }
 
+.w-\[1000px\] {
+  width: 1000px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[900px\] {
+  width: 900px;
+}
+
 .min-w-\[120\%\] {
   min-width: 120%;
 }
