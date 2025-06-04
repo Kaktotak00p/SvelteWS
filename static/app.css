@@ -5566,6 +5566,10 @@ select {
   line-height: 1rem;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .font-\[36px\] {
   font-weight: 36px;
 }

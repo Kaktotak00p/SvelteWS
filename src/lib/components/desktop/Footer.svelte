@@ -46,6 +46,6 @@
         </div>
     </div>
     <div class="flex flex-col justify-center items-center text-center mt-10">
-        <span class="text-[#929191] text-[26px] font-normal font-['Craftwork_Grotesk']">© TraffHub 2025. All rights reserved.</span>
+        <span class="text-[#929191] text-[18px] font-normal font-['Craftwork_Grotesk']">© TraffHub 2025. All rights reserved.</span>
     </div>
 </div>
