@@ -1,4 +1,5 @@
 <script>
+	import ContactForm from '$lib/components/desktop/ContactForm.svelte';
     import { fade } from 'svelte/transition';
 
     let vacancies = [
@@ -50,6 +51,8 @@
             return { ...v, isOpen: false };
         });
     }
+
+    let isOpen = false;
 </script>
 
 <div class="w-full flex flex-col justify-center items-center py-5">
@@ -78,7 +81,7 @@
                                  alt="arrow" />
                             </button>
                             <button 
-                                on:click={() => {}}
+                                on:click={() => {isOpen = true;}}
                                 class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
                                 [відгукнутись]
                             </button>
@@ -99,7 +102,7 @@
                                 <div class="self-stretch justify-start text-[#ff41df] text-lg font-bold font-['Craftwork_Grotesk']">Що важливо:</div>
                                 <div class="self-stretch justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">
                                     {#each vacancy.requirements as requirement}
-                                        {requirement}<br/>
+                                        - {requirement}<br/>
                                     {/each}
                                 </div>
                             </div>
@@ -110,7 +113,7 @@
                                 <div class="self-stretch justify-start text-[#ff41df] text-lg font-bold font-['Craftwork_Grotesk']">Що ми даємо:</div>
                                 <div class="self-stretch justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">
                                     {#each vacancy.benefits as benefit}
-                                        {benefit}<br/>
+                                        - {benefit}<br/>
                                     {/each}
                                 </div>
                             </div>
@@ -122,3 +125,5 @@
     </div>
 </div>
 </div>
+
+<ContactForm isOpen={isOpen} onClose={() => (isOpen = false)} />

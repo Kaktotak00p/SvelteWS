@@ -2,24 +2,6 @@
     export let isOpen = false;
     export let onClose = () => {};
 
-    let source = "Instagram";
-    let isDropdownOpen = false;
-    let selectedPosition = "Media Buyer";
-
-    const positions = [
-        "Media Buyer",
-        "Media Buyer",
-        "Media Buyer",
-        "Media Buyer"
-    ];
-
-    const sources = [
-        "Instagram",
-        "Реклама",
-        "Від знайомих",
-        "Інше"
-    ];
-
     function setSource(value) {
         source = value;
     }
@@ -70,59 +52,37 @@
     <button on:click={() => onClose()} class="absolute top-5 right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-<div class="w-[110%] h-[900px] fixed top-[100px] left-[-1%] inset-0 bg-black overflow-hidden z-40 mx-auto border border-white  shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10">
+<div class="w-[680px] h-[832px] fixed top-[100px] inset-0 bg-black overflow-hidden z-40 mx-auto border border-white rounded-[10px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10">
     <div class="w-full mx-auto inline-flex flex-col justify-start items-start gap-14">
         <div class="w-[90%] self-stretch flex flex-col justify-start items-start gap-10 mx-auto">
         <input 
             id="name"
             type="text"
-            placeholder="Ім'я"
-            class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            placeholder="Ім'я*"
+            class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
         <input 
             id="name"
             type="text"
-            placeholder="E-mail"
-            class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            placeholder="E-mail*"
+            class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
         <input 
             id="name"
             type="text"
-            placeholder="Нік в Telegram"
-            class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            placeholder="Нік в Telegram*"
+            class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
-            <div class="self-stretch flex flex-col justify-start items-start gap-4">
-                <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">На яку позицію відгукуєтесь?*</div>
-                <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
-        <div class="w-full flex flex-col justify-start items-start gap-[5px] relative">
-            <button 
-                on:click={toggleDropdown} 
-                class="w-full flex flex-row justify-between cursor-pointer"
-            >
-                <div class="w-fit h-8 text-zinc-500 text-xl font-normal font-['Craftwork_Grotesk']">{selectedPosition}</div>
-                <img src="./images/Vector 16.svg" class:rotate-180={isDropdownOpen} />
-            </button>
-            <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
-            
-            {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-black z-50">
-                {#each positions as position}
-                    <button 
-                        on:click={() => selectPosition(position)}
-                        class="self-stretch h-8 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:bg-zinc-800"
-                    >
-                        {position}
-                    </button>
-                    <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-zinc-400"></div>
-                {/each}
-            </div>
-            {/if}
-        </div>
-                </div>
-            </div>
+        <input 
+            id="name"
+            type="text"
+            placeholder="Нік в Telegram*"
+            class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            required
+        />
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо*</div>
                 <div class="inline-flex justify-start items-center gap-5">
@@ -144,28 +104,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-4">
-                <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Звідки про нас дізнались*</div>
-                <div class="self-stretch inline-flex justify-start flex-wrap items-center gap-3.5">
-                {#each sources as item}
-                {#if item === source}
-                    <div class="w-fit h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-white inline-flex flex-col justify-center items-start gap-2.5">
-                        <div class="inline-flex justify-start items-center gap-1.5">
-                            <div class="w-5 h-5 rounded-full border bg-fuchsia-500"></div>
-                            <div class="justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] text-nowrap">{item}</div>
-                        </div>
-                    </div>
-                {:else}
-                    <button on:click={() => setSource(item)} class="w-fit h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-neutral-400 inline-flex flex-col justify-center items-start gap-2.5">
-                        <div class="inline-flex justify-start items-center gap-1.5">
-                            <div class="w-5 h-5 rounded-full border border-neutral-400"></div>
-                            <div class="justify-center text-neutral-400 text-xl font-normal font-['Craftwork_Grotesk'] text-nowrap">{item}</div>
-                        </div>
-                    </button>
-                {/if}
-                {/each}
                 </div>
             </div>
             <button class="w-64 h-14 px-5 py-3.5 bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5 mx-auto">

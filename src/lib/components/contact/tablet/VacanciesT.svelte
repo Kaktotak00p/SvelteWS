@@ -1,4 +1,5 @@
 <script>
+	import ContactForm from '$lib/components/desktop/ContactForm.svelte';
     import { fade } from 'svelte/transition';
 
     let vacancies = [
@@ -50,6 +51,8 @@
             return { ...v, isOpen: false };
         });
     }
+
+    let isOpen = false;
 </script>
 
 <div class="w-full flex flex-col justify-center items-center py-5">
@@ -79,7 +82,7 @@
                             alt="arrow" />
                             </button>
                             <button 
-                                on:click={() =>{} }
+                                on:click={() =>{isOpen = true} }
                                 class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
                                 ['відгукнутись']
                             </button>
@@ -123,3 +126,4 @@
     </div>
     <img class="w-[465px] h-[396px] rounded-[10px] shadow-[4px_4px_0px_0px_rgba(255,65,223,1.00)]" src="/images/office1.jpg" alt="office" />
 </div>
+<ContactForm isOpen={isOpen} onClose={() => (isOpen = false)} />

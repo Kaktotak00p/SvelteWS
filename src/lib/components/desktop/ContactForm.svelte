@@ -4,7 +4,7 @@
 
     let source = "Instagram";
     let isDropdownOpen = false;
-    let selectedPosition = "Media Buyer";
+    let selectedPosition = "Обрати";
 
     const positions = [
         "Media Buyer",
@@ -70,27 +70,27 @@
     <button on:click={() => onClose()} class="absolute top-5 right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-<div class="w-[680px] h-[832px] fixed top-[100px] inset-0 bg-black overflow-hidden z-40 mx-auto border border-white rounded-[10px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)]">
-    <div class="w-[539px] top-[20px] left-4 absolute inline-flex flex-col justify-start items-start gap-14">
-        <div class="self-stretch flex flex-col justify-start items-start gap-10">
+<div class="w-[680px] h-[832px] fixed top-[100px] inset-0 bg-black overflow-hidden z-40 mx-auto border border-white rounded-[10px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10">
+    <div class="w-full mx-auto inline-flex flex-col justify-start items-start gap-14">
+        <div class="w-[90%] self-stretch flex flex-col justify-start items-start gap-10 mx-auto">
         <input 
             id="name"
             type="text"
-            placeholder="Ім'я"
+            placeholder="Ім'я*"
             class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
         <input 
             id="name"
             type="text"
-            placeholder="E-mail"
+            placeholder="E-mail*"
             class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
         <input 
             id="name"
             type="text"
-            placeholder="Нік в Telegram"
+            placeholder="Нік в Telegram*"
             class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
@@ -102,7 +102,7 @@
                 on:click={toggleDropdown} 
                 class="w-full flex flex-row justify-between cursor-pointer"
             >
-                <div class="w-fit h-8 text-zinc-500 text-xl font-normal font-['Craftwork_Grotesk']">{selectedPosition}</div>
+                <div class="w-fit h-8 {selectedPosition === 'Обрати' ? 'text-zinc-500' : 'text-white'} text-xl font-normal font-['Craftwork_Grotesk']">{selectedPosition}</div>
                 <img src="./images/Vector 16.svg" class:rotate-180={isDropdownOpen} />
             </button>
             <div class="w-[539px] h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
@@ -168,10 +168,10 @@
                 {/each}
                 </div>
             </div>
+            <button class="w-64 h-14 px-5 py-3.5 bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5 mx-auto">
+                <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
+            </button>
         </div>
-    </div>
-    <div class="w-64 h-14 px-5 py-3.5 left-1/2 -translate-x-1/2 top-[678px] absolute bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5">
-        <button class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</button>
     </div>
     <div class="w-96 h-96 left-[855px] top-[159px] absolute bg-zinc-300"></div>
 </div>

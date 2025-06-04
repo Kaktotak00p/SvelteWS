@@ -1,3 +1,10 @@
+<script>
+	import ReferalForm from "$lib/components/desktop/ReferalForm.svelte";
+
+
+    let isOpen = false;
+</script>
+
 
 <div class="w-full h-[781px] relative bg-[#020202] overflow-hidden">
     <div class="w-[374px] h-[108px] inline-flex justify-start items-center px-[25px] text-nowrap">
@@ -36,8 +43,12 @@
         <img src="/images/cardBig.svg" class="absolute">
     </div>
     <div class="w-full flex flex-col justify-center items-center mt-10">
-        <div class="h-[60px] px-[21px] py-3.5 bg-[#ff41df] rounded-sm inline-flex justify-center items-center">
+        <button on:click={()=>{isOpen=true;}} class="h-[60px] px-[21px] py-3.5 bg-[#ff41df] rounded-sm inline-flex justify-center items-center">
             <div class="justify-center text-white text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase">залишити  кандидата</div>
-        </div>
+        </button>
     </div>
 </div>
+
+<ReferalForm
+    onClose={() => isOpen = false}
+    isOpen={isOpen}/>

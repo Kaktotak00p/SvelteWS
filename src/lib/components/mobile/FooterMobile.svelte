@@ -34,13 +34,13 @@
             </div>
             <div class="flex flex-col items-center justify-around  mt-8">
                 <div class="flex flex-col justify-center text-center">
-                    <span class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">Instagram</span>
+                    <a href="https://www.instagram.com/traffhub.ua/" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">Instagram</a>
                 </div>
                 <div class="flex flex-col justify-center text-center">
-                    <span class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">LinkedIn</span>
+                    <a href="https://www.linkedin.com/company/traffhub/" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">LinkedIn</a>
                 </div>
                 <div class="flex flex-col justify-center text-center">
-                    <span class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase text-nowrap">Контакт HR</span>
+                    <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase text-nowrap">Контакт HR</a>
                 </div>
             </div>
         </div>
