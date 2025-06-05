@@ -47,7 +47,7 @@
             <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div>
             <!-- <button class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[вакансії]</button>
             <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div> -->
-            <button on:click={() => {closeMenu(); goto("/contact")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[приєднатися]</button>
+            <button on:click={() => {closeMenu(); goto("/contact")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[career]</button>
             <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div>
             <button on:click={()=>{closeMenu(); scrollToSection("footer")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[контакти]</button>
         </div>

@@ -1,7 +1,9 @@
 
 <script>
+	import ContactFormMobile from '$lib/components/mobile/ContactFormMobile.svelte';
     import { fade } from 'svelte/transition';
 
+    let isOpen = false;
     let vacancies = [
         {
             id: '001',
@@ -81,7 +83,7 @@
                     <div class="w-full inline-flex justify-end">
 
                         <button 
-                            on:click={() => {}}
+                            on:click={() => {isOpen = true;}}
                             class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
                             [відгукнутись]
                         </button>
@@ -123,3 +125,7 @@
     <img class="w-[465px] h-[396px] rounded-[10px] shadow-[4px_4px_0px_0px_rgba(255,65,223,1.00)] mx-auto" src="/images/office1.jpg" alt="office" />
     </div>
 </div>
+
+<ContactFormMobile
+    onClose={() => isOpen = false}
+    isOpen={isOpen} />
