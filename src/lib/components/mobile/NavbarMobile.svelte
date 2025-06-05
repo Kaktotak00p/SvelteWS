@@ -37,17 +37,25 @@
     function closeMenu() {
         menuOpen = false;
     }
+    let isHome = $derived(page.url.pathname === "/" || page.url.pathname === "");
+    function handleWhoClick() {
+        if (isHome) {
+            scrollToSection("who");
+        } else {
+            goto("/?section=who");
+        }
+    }
 </script>
 <div class="w-full fixed top-0 z-40 inline-flex flex-col justify-start items-center gap-8" class:scrolled>
     {#if menuOpen}
     <div class="w-full h-[1000px] bg-lime-400">
         <div class="w-full h-[39px] px-5 py-5"><button class=" absolute top-5 right-5" on:click={() => closeMenu()}><img src="/images/cross.svg"/></button></div>
         <div class="inline-flex flex-col justify-center items-start gap-5 px-2">
-            <button on:click={()=>{closeMenu(); scrollToSection("who")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[хто ми?]</button>
+            <button on:click={()=>{closeMenu(); handleWhoClick();}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[хто ми?]</button>
             <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div>
             <!-- <button class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[вакансії]</button>
             <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div> -->
-            <button on:click={() => {closeMenu(); goto("/contact")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[career]</button>
+            <button on:click={() => {closeMenu(); goto("/career")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[приєднатися]</button>
             <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-neutral-700"></div>
             <button on:click={()=>{closeMenu(); scrollToSection("footer")}} class="justify-start text-black text-lg font-semibold font-['Craftwork_Grotesk']">[контакти]</button>
         </div>

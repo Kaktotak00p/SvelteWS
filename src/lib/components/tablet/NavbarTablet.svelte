@@ -30,8 +30,15 @@
     function handleLanguageSwitch(lang: string) {
         switchLanguage(lang);
     }
-    
-    let isOpen = $state(false); 
+    let isHome = $derived(page.url.pathname === "/" || page.url.pathname === "");
+
+    function handleWhoClick() {
+        if (isHome) {
+            scrollToSection("who");
+        } else {
+            goto("/?section=who");
+        }
+    }
 </script>
 <div class="frame- fixed top-0 w-full z-10 pr-4" class:scrolled>
     <button on:click={() => {goto("/");scrollToSection("landing");}}>
@@ -39,8 +46,8 @@
     </button>
     <div class="frame-112 mr-4 flex-col md:flex-row">
         <div class="frame-56 flex-col md:flex-row items-center gap-4 md:gap-100">
-            <div><button class="fspan hover:text-[#BDFD02]" on:click={() => {scrollToSection("who")}}>[хто ми?]</button></div>
-            <div><button class="fspan_02 hover:text-[#BDFD02]" class:active={contact} on:click={() => {goto("/contact")}}><span>[career]</span></button></div>
+            <div><button class="fspan hover:text-[#BDFD02]" on:click={() => {handleWhoClick()}}>[хто ми?]</button></div>
+            <div><button class="fspan_02 hover:text-[#BDFD02]" class:active={contact} on:click={() => {goto("/career")}}><span>[приєднатися]</span></button></div>
             <div><button class="fspan_03 hover:text-[#BDFD02]" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
         </div>
         <div class="frame-57">

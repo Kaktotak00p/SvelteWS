@@ -2,6 +2,18 @@
 	import ContactForm from '../desktop/ContactForm.svelte';
 	import ContactFormTablet from './ContactFormTablet.svelte';
 	import ContactFormMobile from './ContactFormTablet.svelte';
+	import {page } from '$app/state';
+	import {onMount} from 'svelte';
+
+	onMount(() => {
+		const section = new URLSearchParams(window.location.search).get('section');
+		if (section) {
+			const targetSection = document.getElementById(section);
+			if (targetSection) {
+				targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			}
+		}
+	});
 
 	let isOpen = false;
 </script>

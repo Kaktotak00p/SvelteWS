@@ -1,6 +1,18 @@
 <script>
 	import ContactFormMobile from "./ContactFormMobile.svelte";
 
+	import {page } from '$app/state';
+	import {onMount} from 'svelte';
+
+	onMount(() => {
+		const section = new URLSearchParams(window.location.search).get('section');
+		if (section) {
+			const targetSection = document.getElementById(section);
+			if (targetSection) {
+				targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			}
+		}
+	});
     let isOpen = false;
 </script>
 <div class="w-full h-[972px] relative bg-black overflow-hidden mx-auto" id="landing">

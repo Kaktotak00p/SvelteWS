@@ -1,4 +1,4 @@
-<div class="inline-flex w-full flex-col items-center justify-center gap-[50px]">
+<div class="inline-flex w-full flex-col items-center justify-center gap-[50px]" id="who">
 	<div class="flex w-full flex-col items-center justify-center gap-2.5">
 		<div class="inline-flex w-[700px] items-center justify-center gap-[25px]">
 			<div class="justify-start font-['Craftwork_Grotesk'] text-2xl font-bold uppercase text-white">
