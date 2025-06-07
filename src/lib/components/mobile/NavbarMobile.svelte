@@ -4,6 +4,8 @@
     import { onMount } from 'svelte';
     import { currentLang, switchLanguage } from '$lib/stores/language';
 	import { goto } from "$app/navigation";
+    import { page } from '$app/state';
+
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -16,11 +18,11 @@
         return () => window.removeEventListener('scroll', handleScroll);
     });
     // Add language state management
-    let menuOpen = false;
+    let menuOpen = $state(false);
 
-    let isOpen = false; 
+    let isOpen = $state(false); 
     
-    let scrolled = false;
+    let scrolled = $state(false);
 
     function handleScroll() {
         scrolled = (window.scrollY > 20) && !menuOpen;

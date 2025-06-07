@@ -20,6 +20,16 @@
   src: url('/Helvetica Verbundene.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Cabinet Grotesk';
+
+  font-style: normal;
+
+  font-display: swap;
+
+  src: url('/CabinetGrotesk-Variable.ttf') format('truetype');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -3769,6 +3779,11 @@ select {
   height: auto;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-full {
   height: 100%;
 }
@@ -4056,6 +4071,14 @@ select {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[390px\] {
+  width: 390px;
 }
 
 .min-w-\[120\%\] {
@@ -4913,6 +4936,10 @@ select {
   gap: 2.5rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-14 {
   gap: 3.5rem;
 }
@@ -5014,6 +5041,11 @@ select {
   row-gap: 2rem;
 }
 
+.gap-x-28 {
+  -moz-column-gap: 7rem;
+       column-gap: 7rem;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -5086,6 +5118,10 @@ select {
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
 }
 
 .border {
@@ -5343,6 +5379,20 @@ select {
   padding-bottom: 14px;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -5437,10 +5487,6 @@ select {
 
 .font-\[sans\] {
   font-family: sans;
-}
-
-.font-\[\'Helvetica_Verbundene\'\] {
-  font-family: 'Helvetica Verbundene';
 }
 
 .text-2xl {
@@ -5581,6 +5627,10 @@ select {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-\[800\] {
+  font-weight: 800;
 }
 
 .uppercase {

@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="flex flex-col content-center justify-between items-center flex-wrap w-full h-auto min-h-[208px]">
-            <div class="flex flex-wrap justify-center items-start gap-x-32 gap-y-8 w-full">
+            <div class="flex flex-wrap justify-center items-start gap-x-28 gap-y-8 w-full">
                 <div class="inline-flex flex-col justify-start items-start gap-4 w-[399px]">
                     <div class="flex flex-col justify-center w-full">
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk'] whitespace-nowrap">Розпочати кар'єру в TraffHub</span>

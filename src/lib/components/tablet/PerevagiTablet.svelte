@@ -1,6 +1,6 @@
-<div class="h-[650px] mx-auto w-[95%] center py-10">
+<div class="h-[650px] mx-auto w-[95%] center py-10 overflow-hidden">
     <div class="text- w-full mx-auto"><span class="fspan">//:НАШІ ПЕРЕВАГИ</span></div>
-    <div class="w-full relative">
+    <div class="w-full relative px-14">
         <div class="inline-flex w-full gap-[65px] justify-end mb-8">
             <div class="w-[260px] h-48 relative">
                 <div class="w-64 h-44 left-0 top-[10px] absolute bg-lime-400 rounded-md"></div>

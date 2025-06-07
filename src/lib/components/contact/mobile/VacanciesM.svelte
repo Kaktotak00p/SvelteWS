@@ -66,14 +66,15 @@
                             <span class="text-[#bdfd00] text-lg font-normal font-['Inter']">{vacancy.id}</span>
                             <span class="text-white text-lg font-normal font-['Inter']"> </span>
                         </div>
-                        <div class="justify-start text-white text-lg font-bold font-['Craftwork_Grotesk'] uppercase ">{vacancy.title}</div>
+                        <div class="justify-start text-white text-lg font-[800] font-['Craftwork_Grotesk'] uppercase ">{vacancy.title}</div>
                     </div>
                     <div class="flex justify-between items-center">
                         <div class="size- flex justify-start items-center gap-[5px]">
                         <button 
                             on:click={() => toggleVacancy(vacancy.id)}>
-                            <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300" 
+                            <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300 rounded-[20px]" 
                                  class:rotate-180={vacancy.isOpen}
+                                 class:shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] = {!vacancy.isOpen}
                                  src="/images/arrowPink.png" 
                                  alt="arrow" />
                         </button>

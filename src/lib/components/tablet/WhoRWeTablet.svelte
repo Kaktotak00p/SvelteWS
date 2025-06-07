@@ -17,7 +17,7 @@
 			<img class="h-[34px] w-[137px] bg-black/20" src="/images/advantages2t.png" />
 		</div>
 		<div class="inline-flex w-full items-center justify-between gap-6">
-			<img class="h-[34px] w-[424px]" src="/images/advantages3t.png" />
+			<img class="h-[34px] w-[390px]" src="/images/advantages3t.png" />
 			<div
 				class="justify-start font-['Craftwork_Grotesk'] text-2xl font-semibold uppercase text-white"
 			>

@@ -67,7 +67,7 @@
                             <span class="text-[#bdfd00] text-lg font-normal font-['Inter']">{vacancy.id}</span>
                             <span class="text-white text-lg font-normal font-['Inter']"> </span>
                         </div>
-                        <div class="justify-start text-white text-lg font-bold font-['Craftwork_Grotesk'] uppercase">{vacancy.title}</div>
+                        <div class="justify-start text-white text-lg font-[800] font-['Craftwork_Grotesk'] uppercase">{vacancy.title}</div>
                     </div>
                     <div class="w-[328px] flex justify-between items-center">
                         

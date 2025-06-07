@@ -52,8 +52,8 @@
         <img src="/images/cross.svg" alt="logo">
     </button>
 <div class="w-[110%] h-[900px] fixed top-[100px] left-[-1%] inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 mx-auto border border-white  shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10">
-    <div class="w-full mx-auto inline-flex flex-col justify-start items-start gap-14">
-        <div class="w-[90%] self-stretch flex flex-col justify-start items-start gap-10 mx-auto">
+    <div class="w-full mx-auto inline-flex flex-col justify-start items-start gap-14 pb-10">
+        <div class="w-[90%] self-stretch flex flex-col justify-start items-start gap-12 mx-auto">
         <input 
             id="name"
             type="text"
