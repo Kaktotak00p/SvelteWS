@@ -12,7 +12,7 @@
     import { onMount } from 'svelte';
 	import { goto } from "$app/navigation";
 
-    let contact =$derived( page.url.pathname === "/contact");
+    let contact =$derived( page.url.pathname === "/career");
 
     
     onMount(() => {

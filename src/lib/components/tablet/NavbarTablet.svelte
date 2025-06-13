@@ -12,7 +12,7 @@
     import { onMount } from 'svelte';
 	import { goto } from "$app/navigation";
 
-    let contact =$derived( page.url.pathname === "/contact");
+    let contact =$derived( page.url.pathname === "/career");
 
     
     onMount(() => {
@@ -48,7 +48,7 @@
         <div class="frame-56 flex-col md:flex-row items-center gap-4 md:gap-100">
             <div><button class="fspan hover:text-[#BDFD02]" on:click={() => {handleWhoClick()}}>[хто ми?]</button></div>
             <div><button class="fspan_02 hover:text-[#BDFD02]" class:active={contact} on:click={() => {goto("/career")}}><span>[приєднатися]</span></button></div>
-            <div><button class="fspan_03 hover:text-[#BDFD02]" on:click={() => scrollToSection("footer")}>[контакти]</button></div>
+            <div><button class="fspan_03 hover:text-[#BDFD02]" on:click={() => {scrollToSection("footer")}}>[контакти]</button></div>
         </div>
         <div class="frame-57">
             <div class="frame-111">

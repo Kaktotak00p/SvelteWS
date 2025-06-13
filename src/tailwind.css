@@ -8,10 +8,10 @@
 }
 
 @font-face {
-  font-family: 'Helvetica Verbundene';
+  font-family: 'Helvetia_Verbundene';
   font-style: normal;
   font-display: swap;
-  src: url('/Helvetica Verbundene.ttf') format('truetype');
+  src: url('/helvetica_verbundene-webfont.ttf') format('truetype');
 }
 
 @font-face {

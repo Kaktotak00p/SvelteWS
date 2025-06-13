@@ -9,7 +9,7 @@
             <div class="flex flex-wrap items-start gap-y-8 w-full px-[25px]">
                 <div class="inline-flex flex-col justify-start items-start gap-4 w-[399px]">
                     <div class="flex flex-col justify-center w-full">
-                        <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk'] whitespace-nowrap">Розпочати кар'єру в TraffHub</span>
+                        <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">Розпочати кар'єру в TraffHub</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
                         <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @hrtraffhub</a>

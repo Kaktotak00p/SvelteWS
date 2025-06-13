@@ -51,7 +51,7 @@
     <button on:click={() => onClose()} class="absolute top-5 right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-<div class="w-[680px] h-[832px] fixed top-[100px] inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 mx-auto border border-white rounded-[10px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10">
+<div class="w-[680px] h-[632px] fixed top-[100px] inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 mx-auto border border-white rounded-[10px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10">
     <div class="w-full mx-auto inline-flex flex-col justify-start items-start gap-14">
         <div class="w-[90%] self-stretch flex flex-col justify-start items-start gap-10 mx-auto">
         <input 
@@ -78,12 +78,11 @@
         <input 
             id="name"
             type="text"
-            placeholder="Нік в Telegram*"
+            placeholder="Коментар"
             class="w-[539px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
-            required
         />
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
-                <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо*</div>
+                <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо <span class=" text-slate-600">(опцiональ)</span></div>
                 <div class="inline-flex justify-start items-center gap-5">
                     <div class="w-16 h-16 relative bg-white/0 border border-fuchsia-500 rounded-[5px] flex justify-center items-center">
                         <img src="/images/fileIcon.svg">
@@ -114,16 +113,6 @@
                     </div>
                 </div>
             </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-4">
-            <label for="reasons" class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">
-                3 причини, щоб дати тобі джоб-оффер від TraffHub
-            </label>
-            <textarea 
-                id="reasons"
-                class="w-[539px] min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
-                required
-            ></textarea>
-        </div>
             <button class="w-64 h-14 px-5 py-3.5 bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5 mx-auto">
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>

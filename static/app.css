@@ -11,13 +11,13 @@
 }
 
 @font-face {
-  font-family: 'Helvetica Verbundene';
+  font-family: 'Helvetia_Verbundene';
 
   font-style: normal;
 
   font-display: swap;
 
-  src: url('/Helvetica Verbundene.ttf') format('truetype');
+  src: url('/helvetica_verbundene-webfont.ttf') format('truetype');
 }
 
 @font-face {
@@ -3788,6 +3788,10 @@ select {
   height: 100%;
 }
 
+.h-\[632px\] {
+  height: 632px;
+}
+
 .min-h-\[120px\] {
   min-height: 120px;
 }
@@ -4032,6 +4036,10 @@ select {
   width: 767px;
 }
 
+.w-\[770px\] {
+  width: 770px;
+}
+
 .w-\[785px\] {
   width: 785px;
 }
@@ -4071,10 +4079,6 @@ select {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[770px\] {
-  width: 770px;
 }
 
 .min-w-\[120\%\] {
@@ -5713,6 +5717,16 @@ select {
 .text-zinc-500 {
   --tw-text-opacity: 1;
   color: rgb(113 113 122 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
 }
 
 .shadow-\[2px_2px_34px_0px_rgba\(255\2c 65\2c 223\2c 0\.80\)\] {
