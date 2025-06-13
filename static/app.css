@@ -3792,6 +3792,18 @@ select {
   height: 632px;
 }
 
+.h-\[540px\] {
+  height: 540px;
+}
+
+.h-\[570px\] {
+  height: 570px;
+}
+
+.max-h-none {
+  max-height: none;
+}
+
 .min-h-\[120px\] {
   min-height: 120px;
 }
@@ -4099,6 +4111,10 @@ select {
 
 .max-w-\[200px\] {
   max-width: 200px;
+}
+
+.max-w-none {
+  max-width: none;
 }
 
 .shrink {
