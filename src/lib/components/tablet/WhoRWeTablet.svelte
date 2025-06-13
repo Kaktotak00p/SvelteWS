@@ -7,7 +7,7 @@
 		</div>
 		<img class="h-[60px] w-[785px]" src="/images/advantages1t.png" />
 	</div>
-	<div class="flex flex-col items-center justify-center gap-5 2-[700px] text-nowrap">
+	<div class="flex flex-col items-center justify-center gap-5 w-[770px] text-nowrap">
 		<div class="inline-flex w-full items-center justify-between">
 			<div
 				class="justify-start font-['Craftwork_Grotesk'] text-2xl font-semibold uppercase text-white"

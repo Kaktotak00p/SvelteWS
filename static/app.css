@@ -3976,12 +3976,12 @@ select {
   width: 374px;
 }
 
-.w-\[399px\] {
-  width: 399px;
+.w-\[390px\] {
+  width: 390px;
 }
 
-.w-\[424px\] {
-  width: 424px;
+.w-\[399px\] {
+  width: 399px;
 }
 
 .w-\[438px\] {
@@ -4073,12 +4073,8 @@ select {
   width: 100%;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[390px\] {
-  width: 390px;
+.w-\[770px\] {
+  width: 770px;
 }
 
 .min-w-\[120\%\] {
@@ -5032,6 +5028,11 @@ select {
   gap: 70px;
 }
 
+.gap-x-28 {
+  -moz-column-gap: 7rem;
+       column-gap: 7rem;
+}
+
 .gap-x-32 {
   -moz-column-gap: 8rem;
        column-gap: 8rem;
@@ -5039,11 +5040,6 @@ select {
 
 .gap-y-8 {
   row-gap: 2rem;
-}
-
-.gap-x-28 {
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
 }
 
 .self-stretch {
@@ -5092,6 +5088,10 @@ select {
   border-radius: 10px;
 }
 
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .rounded-\[32\.11px\] {
   border-radius: 32.11px;
 }
@@ -5118,10 +5118,6 @@ select {
 
 .rounded-sm {
   border-radius: 0.125rem;
-}
-
-.rounded-\[20px\] {
-  border-radius: 20px;
 }
 
 .border {
@@ -5294,6 +5290,11 @@ select {
   padding-right: 3rem;
 }
 
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -5377,16 +5378,6 @@ select {
 .py-\[14px\] {
   padding-top: 14px;
   padding-bottom: 14px;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
 }
 
 .pb-10 {
@@ -5605,6 +5596,10 @@ select {
   font-weight: 700;
 }
 
+.font-\[800\] {
+  font-weight: 800;
+}
+
 .font-\[900\] {
   font-weight: 900;
 }
@@ -5627,10 +5622,6 @@ select {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-\[800\] {
-  font-weight: 800;
 }
 
 .uppercase {
