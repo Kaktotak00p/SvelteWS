@@ -5245,6 +5245,16 @@ select {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\#FF41df\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 65 223 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#BDFD00\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(189 253 0 / var(--tw-border-opacity, 1));
+}
+
 .bg-\[\#020202\] {
   --tw-bg-opacity: 1;
   background-color: rgb(2 2 2 / var(--tw-bg-opacity, 1));
@@ -5300,6 +5310,16 @@ select {
 .bg-zinc-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 216 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#FF41df\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 65 223 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#BDFD00\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(189 253 0 / var(--tw-bg-opacity, 1));
 }
 
 .object-cover {
@@ -5769,6 +5789,16 @@ select {
   color: rgb(113 113 122 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#FF41df\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 65 223 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#BDFD00\] {
+  --tw-text-opacity: 1;
+  color: rgb(189 253 0 / var(--tw-text-opacity, 1));
+}
+
 .shadow-\[2px_2px_34px_0px_rgba\(255\2c 65\2c 223\2c 0\.80\)\] {
   --tw-shadow: 2px 2px 34px 0px rgba(255,65,223,0.80);
   --tw-shadow-colored: 2px 2px 34px 0px var(--tw-shadow-color);
@@ -5843,6 +5873,10 @@ select {
 
 .outline-zinc-400 {
   outline-color: #a1a1aa;
+}
+
+.outline-\[\#BDFD00\] {
+  outline-color: #BDFD00;
 }
 
 .blur {

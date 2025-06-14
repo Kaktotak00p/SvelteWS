@@ -137,7 +137,7 @@
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо*</div>
                 <div class="inline-flex justify-start items-center gap-5">
-                    <div class="w-16 h-16 relative bg-white/0 border border-fuchsia-500 rounded-[5px] flex justify-center items-center">
+                    <div class="w-16 h-16 relative bg-white/0 border border-[#FF41df] rounded-[5px] flex justify-center items-center">
                         <img src="/images/fileIcon.svg">
                     </div>
                     <div class="w-80 inline-flex flex-col justify-start items-start gap-2.5">
@@ -151,10 +151,10 @@
                         <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-start items-center gap-7">
                             <button 
                                 on:click={() => fileInputRef.click()} 
-                                class="px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-lime-400 flex justify-start items-center gap-2.5"
+                                class="px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-[#BDFD00] flex justify-start items-center gap-2.5"
                             >
                                 <div class="flex justify-center items-center gap-3.5">
-                                    <div class="justify-start {selectedFile ? 'text-fuchsia-500' : 'text-lime-400'} text-base font-medium font-['Poppins'] leading-snug truncate max-w-[200px]">
+                                    <div class="justify-start {selectedFile ? 'text-[#FF41df]' : 'text-[#BDFD00]'} text-base font-medium font-['Poppins'] leading-snug truncate max-w-[200px]">
                                         {fileName}
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@
             ></textarea>
         </div>
 
-            <button class="w-64 h-14 px-5 py-3.5 bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5 mx-auto">
+            <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto">
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>
         </div>

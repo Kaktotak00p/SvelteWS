@@ -101,9 +101,9 @@
             </div>
             <div class="w-72 inline-flex flex-col justify-start items-start gap-2.5">
                 <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-start items-center gap-5">
-                    <div class="px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-lime-400 flex justify-start items-center gap-2.5">
+                    <div class="px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-[#BDFD00] flex justify-start items-center gap-2.5">
                         <div class="flex justify-center items-center gap-3.5">
-                            <div class="justify-start text-lime-400 text-base font-medium font-['Poppins'] leading-snug">Choose File</div>
+                            <div class="justify-start text-[#BDFD00] text-base font-medium font-['Poppins'] leading-snug">Choose File</div>
                         </div>
                     </div>
                     <div class="flex justify-center items-center gap-2.5">
@@ -122,7 +122,7 @@
                 {#if item === source}
                     <div class="w-fit h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-white inline-flex flex-col justify-center items-start gap-2.5">
                         <div class="inline-flex justify-start items-center gap-1.5">
-                            <div class="w-5 h-5 rounded-full border bg-fuchsia-500"></div>
+                            <div class="w-5 h-5 rounded-full border bg-[#FF41df]"></div>
                             <div class="justify-center text-white text-xl font-normal font-['Craftwork_Grotesk']">{item}</div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                 {#if item === source}
                     <div class="w-fit h-8 px-[5px] py-1 rounded outline outline-1 outline-offset-[-1px] outline-white inline-flex flex-col justify-center items-start gap-2.5">
                         <div class="inline-flex justify-start items-center gap-1.5">
-                            <div class="w-5 h-5 rounded-full border bg-fuchsia-500"></div>
+                            <div class="w-5 h-5 rounded-full border bg-[#FF41df]"></div>
                             <div class="justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] text-nowrap">{item}</div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
         <div class="w-96 h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
     </div>
     <div class="w-full flex justify-center">
-        <div class="w-64 h-14 px-5 py-3.5 bg-fuchsia-500 rounded inline-flex justify-center items-center gap-2.5 mt-2">
+        <div class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mt-2">
             <button class="text-center justify-center text-white text-xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</button>
         </div>
     </div>
