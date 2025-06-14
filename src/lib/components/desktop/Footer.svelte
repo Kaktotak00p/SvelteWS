@@ -12,7 +12,7 @@
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk'] whitespace-nowrap">Розпочати кар'єру в TraffHub</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @hrtraffhub</a>
+                        <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2" target="_blank"><img src="/images/telegram.svg">TG: @hrtraffhub</a>
                     </div>
                 </div>
                 <div class="inline-flex flex-col justify-start items-start gap-4">
@@ -20,7 +20,7 @@
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">Партнерство з TraffHub</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/glebtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @glebtraffhub</a>
+                        <a href="https://t.me/glebtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2" target="_blank"><img src="/images/telegram.svg">TG: @glebtraffhub</a>
                     </div>
                 </div>
                 <div class="inline-flex flex-col justify-start items-start gap-4">
@@ -28,19 +28,19 @@
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">PR та медіа-партнерство</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/PR_traffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2"><img src="/images/telegram.svg">TG: @PR_traffhub</a>
+                        <a href="https://t.me/PR_traffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2" target="_blank"><img src="/images/telegram.svg">TG: @PR_traffhub</a>
                     </div>
                 </div>
             </div>
             <div class="inline-flex items-center justify-around gap-10 w-[508px] mt-8">
                 <div class="flex flex-col justify-center text-center">
-                    <a href="https://www.instagram.com/traffhub.ua/" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">Instagram</a>
+                    <a href="https://www.instagram.com/traffhub.ua/" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase" target="_blank">Instagram</a>
                 </div>
                 <div class="flex flex-col justify-center text-center">
-                    <a href="https://www.linkedin.com/company/traffhub/" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">LinkedIn</a>
+                    <a href="https://www.linkedin.com/company/traffhub/" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase" target="_blank">LinkedIn</a>
                 </div>
                 <div class="flex flex-col justify-center text-center">
-                    <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase text-nowrap">Контакт HR</a>
+                    <a href="https://t.me/hrtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase text-nowrap" target="_blank">Контакт HR</a>
                 </div>
             </div>
         </div>

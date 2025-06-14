@@ -101,7 +101,6 @@
     word-wrap: break-word;
 }
 
-
 .frame-56 {
     justify-content: flex-start;
     align-items: center;
