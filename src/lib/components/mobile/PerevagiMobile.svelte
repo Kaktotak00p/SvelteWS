@@ -1,5 +1,5 @@
 <div class="relative">
-    <div class="left-0 top-0 absolute justify-start text-white text-3xl font-normal font-['Craftwork_Grotesk'] uppercase">//:НАШІ ПЕРЕваги</div>
+    <div class="left-[15px] top-0 absolute justify-start text-white text-3xl font-normal font-['Craftwork_Grotesk'] uppercase">//:НАШІ ПЕРЕваги</div>
     <div class="relative w-full overflow-x-auto">
         <div class="w-[2000px] h-48 mt-10 px-[15px] inline-flex gap-[65px]">
             <div class="w-72 h-48 relative">

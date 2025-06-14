@@ -3494,6 +3494,11 @@ select {
   margin-bottom: 8rem;
 }
 
+.mx-\[5\%\] {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
