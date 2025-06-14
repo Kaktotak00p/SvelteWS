@@ -6,8 +6,8 @@
 </script>
 
 
-<div class="w-full h-[781px] relative bg-[#020202] overflow-hidden">
-    <div class="w-[374px] h-[108px] inline-flex justify-start items-center px-[25px] text-nowrap">
+<div class="w-[1440px] h-[781px] relative bg-[#020202] overflow-hidden mx-auto">
+    <div class="w-[374px] h-[108px] inline-flex justify-start items-center text-nowrap">
         <div class="justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">[Що буде?]</div>
         <img class="w-[88px] h-[88px] rotate-[225deg] " src="/images/arrowWhite.png" />
         <div class="justify-start text-white text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">ГРОШІ!</div>
@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-    <div class="left-[25px] justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase px-[25px] py-5">ПРИКЛАД:</div>
+    <div class="left-[0px] justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase py-5">ПРИКЛАД:</div>
     <div class="items-center flex flex-col w-[722px] h-[289px] mx-auto">
         <div class="text-center justify-start relative z-10 pt-10">
             <span class="text-black text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase">Чистий профіт - кости команди = </span><span class="text-[#ff41df] text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">$5000  </span>

@@ -9,7 +9,7 @@
         <img class="size-[50px] origin-top-left scale-x-[-1]" src="/images/arrowGreen.png" />
         <img class="size-[50px] origin-top-left scale-x-[-1]" src="/images/arrowGreen.png" />
     </div>
-    <div class="w-full absolute left-0 top-[200px] inline-flex flex-col px-[25px] gap-5">
+    <div class="w-[1440px] absolute left-1/2 -translate-x-1/2 top-[200px] inline-flex flex-col gap-5 mx-auto">
         <div class="justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">[Як це працює?]</div>
         <div class="w-full inline-flex flex-row flex-nowrap justify-center gap-10">
             <div class="inline-flex justify-between gap-10">

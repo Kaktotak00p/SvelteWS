@@ -56,7 +56,7 @@
 </script>
 
 <div class="w-full flex flex-col justify-center items-center py-5">
-    <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase w-full px-10">//:вакансії</div>
+    <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase w-full px-[25px]">//:вакансії</div>
     <div class="w-full px-20 py-20 ">
         {#each vacancies as vacancy}
             <div class="w-full">
