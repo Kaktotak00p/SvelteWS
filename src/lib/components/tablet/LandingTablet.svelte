@@ -759,7 +759,7 @@
 				u
 			</div>
 	<img
-		class="h-[419px] w-[361px] absolute top-0 left-[-40px]"
+		class="h-[419px] w-[361px] absolute top-[-1px] left-[-40px]"
 		src="/images/1ff360105e966717442a58e5236d152dfefc9687.png"
 	/>
 		</div>
