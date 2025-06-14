@@ -3445,6 +3445,10 @@ select {
   right: 5px;
 }
 
+.-right-5 {
+  right: -1.25rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -4211,6 +4215,18 @@ select {
   width: 1440px;
 }
 
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-\[93\%\] {
+  width: 93%;
+}
+
 .min-w-\[120\%\] {
   min-width: 120%;
 }
@@ -4278,6 +4294,16 @@ select {
 }
 
 .-translate-x-\[1\%\] {
+  --tw-translate-x: -1%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-\[-1\%\] {
+  --tw-translate-x: 1%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-1\%\] {
   --tw-translate-x: -1%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -5593,6 +5619,16 @@ select {
 .py-\[14px\] {
   padding-top: 14px;
   padding-bottom: 14px;
+}
+
+.px-\[8px\] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb-10 {
