@@ -3441,6 +3441,10 @@ select {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -3483,6 +3487,11 @@ select {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .mb-24 {
@@ -3535,6 +3544,14 @@ select {
 
 .mt-\[-5px\] {
   margin-top: -5px;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .block {
@@ -4095,6 +4112,10 @@ select {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
 }
 
 .min-w-\[120\%\] {
