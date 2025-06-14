@@ -1,4 +1,4 @@
-<div class="w-full h-[626px] relative bg-[#020202] overflow-hidden">
+<div class="w-full h-[426px] relative bg-[#020202] overflow-hidden">
     <div class="size- left-[25px] top-[50px] absolute inline-flex flex-col justify-start items-start gap-2.5">
         <img src="/images/Vector 73.svg" class="absolute scale-[1.2]"/>
         <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase">//:реферальна програм</div>
@@ -11,7 +11,7 @@
     </div>
     <div class="w-full absolute left-0 top-[200px] inline-flex flex-col px-[25px] gap-5">
         <div class="justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">[Як це працює?]</div>
-        <div class="w-full inline-flex flex-row flex-wrap justify-center gap-10">
+        <div class="w-full inline-flex flex-row flex-nowrap justify-center gap-10">
             <div class="inline-flex justify-between gap-10">
                 <div class="w-[295px] h-40 relative">
                     <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">

@@ -74,7 +74,6 @@
                             on:click={() => toggleVacancy(vacancy.id)}>
                             <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300 rounded-[20px]" 
                                  class:rotate-180={vacancy.isOpen}
-                                 class:shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] = {!vacancy.isOpen}
                                  src="/images/arrowPink.png" 
                                  alt="arrow" />
                         </button>
@@ -103,7 +102,7 @@
                                 <div class="self-stretch justify-start text-[#ff41df] text-lg font-bold font-['Craftwork_Grotesk']">Що важливо:</div>
                                 <div class="self-stretch justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">
                                     {#each vacancy.requirements as requirement}
-                                        {requirement}<br/>
+                                        - {requirement}<br/>
                                     {/each}
                                 </div>
                             </div>
@@ -114,7 +113,7 @@
                                 <div class="self-stretch justify-start text-[#ff41df] text-lg font-bold font-['Craftwork_Grotesk']">Що ми даємо:</div>
                                 <div class="self-stretch justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">
                                     {#each vacancy.benefits as benefit}
-                                        {benefit}<br/>
+                                        - {benefit}<br/>
                                     {/each}
                                 </div>
                             </div>

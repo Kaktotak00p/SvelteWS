@@ -1,6 +1,7 @@
 <script>
 	import CLanding from "$lib/components/contact/desktop/CLanding.svelte";
 	import Referal2D from "$lib/components/contact/desktop/Referal2D.svelte";
+	import ReferalD from "$lib/components/contact/desktop/ReferalD.svelte";
 	import VacanciesD from "$lib/components/contact/desktop/VacanciesD.svelte";
 	import CardsM from "$lib/components/contact/mobile/CardsM.svelte";
 	import CLandingM from "$lib/components/contact/mobile/CLandingM.svelte";
@@ -28,7 +29,7 @@
   <CLanding />
   <CardsT />
   <VacanciesD />
-  <ReferalT />
+  <ReferalD />
   <Referal2D />
   <Art />
   <Footer />

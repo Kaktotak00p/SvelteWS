@@ -3800,6 +3800,10 @@ select {
   height: 100%;
 }
 
+.h-\[626px\] {
+  height: 626px;
+}
+
 .max-h-none {
   max-height: none;
 }
