@@ -103,7 +103,7 @@
                                 <div class="self-stretch justify-start text-[#ff41df] text-lg font-bold font-['Craftwork_Grotesk']">Що важливо:</div>
                                 <div class="self-stretch justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">
                                     {#each vacancy.requirements as requirement}
-                                        {requirement}<br/>
+                                        - {requirement}<br/>
                                     {/each}
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                                 <div class="self-stretch justify-start text-[#ff41df] text-lg font-bold font-['Craftwork_Grotesk']">Що ми даємо:</div>
                                 <div class="self-stretch justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">
                                     {#each vacancy.benefits as benefit}
-                                        {benefit}<br/>
+                                        - {benefit}<br/>
                                     {/each}
                                 </div>
                             </div>

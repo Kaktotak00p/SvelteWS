@@ -18,7 +18,7 @@
 
 <div class="flex flex-col h-[655px] mb-24" id="landing">
     <div class="w-full h-full relative bg-[#020202] overflow-hidden px-10">
-        <div class="absolute top-0 -left-[10%] z-[1] h-full bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center"></div>
+        <div class="absolute top-0 -left-[10%] z-[2] h-full bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center "></div>
         <div class="relative"></div>
         <div class="relative z-[2] w-full h-full min-w-full min-h-full flex justify-between items-center">
             <div class="relative w-[679px] h-[430px]">
@@ -2777,6 +2777,7 @@
     word-wrap: break-word;
 }
 
+
 .copy-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhub-traffhubtraffhubtraffhubtraffhubtraffhub_135 {
     left: 443.41px;
     top: 199.78px;
@@ -2886,7 +2887,7 @@
 .rectangle--1 {
     height: 567px;
     left: 0px;
-    top: 44px;
+    top: 43px;
     position: absolute;
     box-shadow: 4px 4px 24px -42px rgba(0, 0, 0, 0.35);
     border-radius: 40px;
