@@ -121,15 +121,17 @@
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
             
             {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-black z-50">
-                {#each positions as position}
+            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c] z-40 rounded-b-md px-5 pb-1">
+                {#each positions as position, i}
                     <button 
                         on:click={() => selectPosition(position)}
-                        class="self-stretch h-8 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:bg-zinc-800"
+                        class="self-stretch h-8 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:color-[#FF41df] "
                     >
                         {position}
                     </button>
-                    <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-zinc-400"></div>
+                    {#if i < positions.length - 1}
+                    <div class="w-full h-0 outline outline-1 outline-offset-[-0.50px] outline-white"></div>
+                    {/if}
                 {/each}
             </div>
             {/if}
