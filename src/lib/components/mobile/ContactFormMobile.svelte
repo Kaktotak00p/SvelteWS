@@ -51,7 +51,7 @@
     <button on:click={() => onClose()} class="absolute top-5 right-5 invert overflow-y-auto overflow-x-hidden z-39">
         <img src="/images/cross.svg" alt="logo">
     </button>
-<div class="w-[110%] h-fit -translate-x-[1%] inset-0 bg-black z-40 mx-auto border border-white  shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 z-41 mt-[120px]">
+<div class="w-[110%] h-fit -translate-x-[1%] inset-0 bg-black z-41 mx-auto border border-white shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 z-41 mt-[120px]">
     <div class="w-full h-fit mx-auto inline-flex flex-col justify-start items-start gap-14 pb-10">
         <div class="w-[90%] h-full self-stretch flex flex-col justify-start items-start mx-auto gap-12">
         <input 
