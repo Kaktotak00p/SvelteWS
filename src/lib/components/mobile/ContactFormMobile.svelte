@@ -46,14 +46,45 @@
 </script>
 {#if isOpen}
 
-
-<div class="fixed inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 mx-auto">
-    <button on:click={() => onClose()} class="absolute top-5 right-5 invert overflow-y-auto overflow-x-hidden z-39">
+<div class="fixed inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 mx-auto">
+<div class="w-full h-full fixed bg-black overflow-hidden p-2">
+    <div class="w-[1914px] h-[233px] relative">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[953px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1914px] top-0 absolute  blur-[17px]">
+    </div>
+    <div class="w-[1914px] h-[233px] relative">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] -left-[317px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[636px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
+    </div>
+    <div class="w-[1915px] h-[233px] relative">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[953px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1914px] top-0 absolute  blur-[17px]">
+    </div>
+    <div class="w-[1914px] h-[233px] relative">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] -left-[317px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[636px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
+    </div>
+    <div class="w-[1914px] h-[233px] relative">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[953px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1914px] top-0 absolute  blur-[17px]">
+    </div>
+    <div class="w-[1914px] h-[233px] relative">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] -left-[317px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[636px] top-0 absolute  blur-[17px]">
+        <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
+    </div>
+</div>
+    <button on:click={() => onClose()} class="absolute top-[43px] right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-<div class="w-[110%] h-fit -translate-x-[1%] inset-0 bg-black z-41 mx-auto border border-white shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 z-41 mt-[120px]">
-    <div class="w-full h-fit mx-auto inline-flex flex-col justify-start items-start gap-14 pb-10">
-        <div class="w-[90%] h-full self-stretch flex flex-col justify-start items-start mx-auto gap-12">
+<div class="w-[110%] h-fit my-32 relative inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 rounded-[30px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
+    <div class=" w-[93%] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
+        <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
         <input 
             id="name"
             type="text"
@@ -75,6 +106,7 @@
             class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
+
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">На яку позицію відгукуєтесь?*</div>
                 <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
@@ -89,7 +121,7 @@
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
             
             {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c] z-50 pb-1 px-5 rounded-b-md">
+            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-md">
                 {#each positions as position, i}
                     <button 
                         on:click={() => selectPosition(position)}
@@ -107,7 +139,7 @@
                 </div>
             </div>
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
-                <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо*</div>
+                <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо</div>
                 <div class="inline-flex justify-start items-center gap-5">
                     <div class="w-16 h-16 relative bg-white/0 border border-[#FF41df] rounded-[5px] flex justify-center items-center">
                         <img src="/images/fileIcon.svg">
@@ -119,6 +151,7 @@
                             on:change={handleFileSelect}
                             accept=".jpg,.pdf,.csv"
                             class="hidden"
+                            required
                         />
                         <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-start items-center gap-7">
                             <button 
@@ -160,57 +193,23 @@
                 {/each}
                 </div>
             </div>
-            <div class="self-stretch flex flex-col justify-start items-start gap-4">
-            <label for="reasons" class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">
-                3 причини, щоб дати тобі джоб-оффер від TraffHub
+
+        <div class="self-stretch flex flex-col justify-start items-start gap-4">
+            <label for="reasons" class="self-stretch justify-center text-white text-2xl font-normal px-[8px] font-['Craftwork_Grotesk']">
+                Коментарі
             </label>
             <textarea 
                 id="reasons"
-                class="w-[539px] min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
+                class="w-full min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
                 required
             ></textarea>
         </div>
-
             <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto">
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>
         </div>
     </div>
-    <div class="w-96 h-96 left-[855px] top-[159px] absolute bg-zinc-300"></div>
 </div>
-<div class="left-[35px] top-[43px] absolute justify-start text-white text-3xl font-normal font-['Craftwork_Grotesk'] uppercase">//:відгукнутись на вакансію</div>
-    <div class="fixed w-full h-full top-0 left-0 z-30 pointer-events-none">
-        <div class="w-[1914px] h-[233px] relative">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[953px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1914px] top-0 absolute  blur-[17px]">
-        </div>
-        <div class="w-[1914px] h-[233px] relative">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] -left-[317px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[636px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
-        </div>
-        <div class="w-[1915px] h-[233px] relative">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[953px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1914px] top-0 absolute  blur-[17px]">
-        </div>
-        <div class="w-[1914px] h-[233px] relative">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] -left-[317px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[636px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
-        </div>
-        <div class="w-[1914px] h-[233px] relative">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[953px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1914px] top-0 absolute  blur-[17px]">
-        </div>
-        <div class="w-[1914px] h-[233px] relative">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] -left-[317px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[636px] top-0 absolute  blur-[17px]">
-            <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
-        </div>
-    </div>
+<div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:відгукнутись на вакансію</div>
 </div>
-
 {/if}

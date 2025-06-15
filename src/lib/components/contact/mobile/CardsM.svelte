@@ -1,4 +1,4 @@
-<div class="w-full overflow-auto">
+<div class="w-full overflow-auto pt-5">
     <div class="inline-flex flex-nowrap items-center justify-center px-9 gap-10 mx-auto">
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:1</span>
