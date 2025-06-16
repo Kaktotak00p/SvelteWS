@@ -25,17 +25,19 @@
         <div class="w-[100%] h-96 left-0 top-[533px] absolute">
             <div class="w-[100%] h-96 left-0 top-0 ">
                 <div class=" w-full inline-flex flex-col justify-start items-center text-nowrap gap-16 mt-12 px-12">
-                    <img src="/images/unionCounter.svg" class="absolute w-full px-8 h-[570px] object-fill max-h-none max-w-none">
+                    <!-- <img src="/images/unionCounter.svg" class="absolute w-full px-8 h-[570px] object-fill max-h-none max-w-none"> -->
+                    <img src="/images/Vector 72M.svg" class="absolute top-10 left-1/3 -translate-x-1/2 w-full px-8 h-[600px] object-fill max-h-none max-w-none">
+                    <img src="/images/Vector 73M.svg" class="absolute top-10 right-1/4 translate-x-1/2 w-full px-8 h-[600px] object-fill max-h-none max-w-none">
                     <div class="w-48 flex flex-col justify-start items-center mt-20">
                         <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']">31 336 372</div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>
                     </div>
-                    <div class="w-full h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+                    <div class="w-[30%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
                     <div class="w-36 flex flex-col justify-start items-center">
                         <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']">iGaming</div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">вертикаль</div>
                     </div>
-                    <div class="w-full h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+                    <div class="w-[30%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
                     <div class="self-stretch flex flex-col justify-start items-center">
                         <div class="text-center justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']">FB |ASO |IN-APP</div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">джерела</div>
