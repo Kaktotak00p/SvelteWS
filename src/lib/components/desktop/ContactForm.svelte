@@ -141,9 +141,9 @@
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо*</div>
                 <div class="inline-flex justify-start items-center gap-5">
-                    <div class="w-16 h-16 relative bg-white/0 border border-[#FF41df] rounded-[5px] flex justify-center items-center">
+                    <!-- <div class="w-16 h-16 relative bg-white/0 border border-[#FF41df] rounded-[5px] flex justify-center items-center">
                         <img src="/images/fileIcon.svg">
-                    </div>
+                    </div> -->
                     <div class="w-80 inline-flex flex-col justify-start items-start gap-2.5">
                         <input 
                             type="file" 
@@ -153,20 +153,22 @@
                             class="hidden"
                             required
                         />
-                        <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-start items-center gap-7">
+                        <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-between items-center">
                             <button 
                                 on:click={() => fileInputRef.click()} 
-                                class="px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-[#BDFD00] flex justify-start items-center gap-2.5"
+                                class="{selectedFile ? 'w-full' : ''} px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-[#BDFD00] flex justify-center items-center gap-2.5"
                             >
                                 <div class="flex justify-center items-center gap-3.5">
-                                    <div class="justify-start {selectedFile ? 'text-[#FF41df]' : 'text-[#BDFD00]'} text-base font-medium font-['Poppins'] leading-snug truncate max-w-[200px]">
+                                    <div class="justify-start {selectedFile ? 'text-[#FF41df]' : 'text-[#BDFD00]'} text-base font-medium font-['Craftwork_Grotesk'] leading-snug truncate max-w-[200px]">
                                         {fileName}
                                     </div>
                                 </div>
                             </button>
+                            {#if !selectedFile}
                             <div class="flex justify-center items-center gap-2.5">
                                 <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF, CVS</div>
                             </div>
+                            {/if}
                         </div>
                     </div>
                 </div>

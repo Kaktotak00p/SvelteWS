@@ -46,7 +46,7 @@
 </script>
 {#if isOpen}
 
-<div class="fixed inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 mx-auto">
+<div class="fixed inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 -mr-4">
 <div class="w-full h-full fixed bg-black overflow-hidden p-2">
     <div class="w-[1914px] h-[233px] relative">
         <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
@@ -82,35 +82,35 @@
     <button on:click={() => onClose()} class="absolute top-[43px] right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-<div class="w-[110%] h-fit my-32 relative inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 rounded-[30px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
+<div class="w-[110%] h-fit my-32 relative inset-0 bg-black overflow-y-auto z-40 translate-x-[-1%] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
     <div class=" w-[93%] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
         <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
         <input 
             id="name"
             type="text"
             placeholder="Ім'я"
-            class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
         <input 
             id="name"
             type="text"
             placeholder="E-mail"
-            class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
         <input 
             id="name"
             type="text"
             placeholder="Нік в Telegram"
-            class="w-[90%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
         />
 
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">На яку позицію відгукуєтесь?*</div>
                 <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
-        <div class="w-[90%] flex flex-col justify-start items-start gap-[5px] relative">
+        <div class="w-[100%] flex flex-col justify-start items-start gap-[5px] relative">
             <button 
                 on:click={toggleDropdown} 
                 class="w-full flex flex-row justify-between cursor-pointer"
@@ -212,6 +212,6 @@
         </div>
     </div>
 </div>
-<div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:відгукнутись на вакансію</div>
+<div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase pointer-events-none">//:відгукнутись на вакансію</div>
 </div>
 {/if}
