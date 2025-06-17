@@ -1,3 +1,8 @@
+<script>
+	import CounterLogic from "../counterLogic.svelte";
+
+</script>
+
 <div class="section-small" id="who">
 	<div class="frame-80">
 		<div class="mx-auto w-[1370px]"><span class="fspan">//:ХТО МИ</span></div>
@@ -37,7 +42,7 @@
 				<div class="size- inline-flex items-center justify-start gap-[70px]">
 					<div class="size- inline-flex flex-col items-start justify-start">
 						<div class="justify-start font-['Craftwork_Grotesk'] text-4xl font-medium text-white">
-							31 336 372
+							<CounterLogic />	
 						</div>
 						<div
 							class="justify-start self-stretch font-['Craftwork_Grotesk'] text-xl font-semibold text-white"

@@ -1,3 +1,8 @@
+<script>
+
+	import CounterLogic from "../counterLogic.svelte";
+
+</script>
 <div class="inline-flex w-full flex-col items-center justify-center gap-[50px]" id="who">
 	<div class="flex w-full flex-col items-center justify-center gap-2.5">
 		<div class="inline-flex w-[700px] items-center justify-center gap-[25px]">
@@ -37,7 +42,7 @@
 		<div class="inline-flex w-full items-center justify-around pt-10">
 			<div class="size- inline-flex flex-col items-start justify-start">
 				<div class="justify-start font-['Craftwork_Grotesk'] text-3xl font-medium text-white">
-					31 336 372
+					<CounterLogic />	
 				</div>
 				<div
 					class="justify-start self-stretch font-['Craftwork_Grotesk'] text-xl font-semibold text-white"

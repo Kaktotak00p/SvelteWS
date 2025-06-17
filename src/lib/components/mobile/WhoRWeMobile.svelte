@@ -1,3 +1,7 @@
+<script>
+	import CounterLogic from "../counterLogic.svelte";
+
+</script>
 <div class="w-[100%] h-[1300px] relative bg-black overflow-hidden mx-auto" id="who">
     <div class=" w-[100%] h-[924px] relative">
         <div class="left-[15px] top-0 absolute text-white text-3xl font-normal font-['Craftwork_Grotesk'] uppercase">//:ХТО МИ</div>
@@ -29,7 +33,7 @@
                     <img src="/images/Vector 72M.svg" class="absolute top-10 left-1/3 -translate-x-1/2 w-full px-8 h-[600px] object-fill max-h-none max-w-none">
                     <img src="/images/Vector 73M.svg" class="absolute top-10 right-1/4 translate-x-1/2 w-full px-8 h-[600px] object-fill max-h-none max-w-none">
                     <div class="w-48 flex flex-col justify-start items-center mt-20">
-                        <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']">31 336 372</div>
+                        <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']"><CounterLogic /></div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>
                     </div>
                     <div class="w-[30%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
