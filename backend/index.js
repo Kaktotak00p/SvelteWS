@@ -1,10 +1,42 @@
 import { WebSocketServer } from "ws";
+import express from "express";
+import path from "path";
+import multer from "multer";
 
 const PORT = 8080;
 const wss = new WebSocketServer({ port: PORT });
 
 let currentCount= 10000;
 
+// Initialize Express app
+const app = express();
+
+app.use(express.static(path.join(__dirname, "public")));
+
+const upload = multer({dest: path.join(__dirname, "uploads/")}); 
+
+app.post('/api/apply', upload.single('resume'), (req, res) => {
+    const {name, email, telegram, selectedPosition, source, reasons} = req.body;
+    const file = req.file;
+
+    console.log("Received application:", {
+        name,
+        email,
+        telegram,
+        selectedPosition,
+        source,
+        reasons,
+        file: file ? file.originalname : "No file uploaded"
+    });
+
+    res.json({success: true, message: "Application received successfully!"});
+});
+
+app.get('*',(req, res) => {
+    res.sendFile(path.join(__dirname, "public/index.html"));
+});
+
+//methods
 async function fetchFtdCount() {
     return currentCount+1;  
 };

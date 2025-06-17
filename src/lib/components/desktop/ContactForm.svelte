@@ -4,10 +4,16 @@
 
     let source = "";
     let isDropdownOpen = false;
-    let selectedPosition = "Обрати";
+    let selectedPositionDefault = "Обрати";
+    let selectedPosition = selectedPositionDefault;
     let selectedFile = null;
     let fileInputRef;
     let fileName = "Choose File";
+
+    let name = "";
+    let email = "";
+    let telegram = "";
+    let reasons = "";
 
     const positions = [
         "Media Buyer",
@@ -42,6 +48,19 @@
             selectedFile = file;
             fileName = file.name;
         }
+    }
+
+    function handleSubmit() {
+        if (!selectedFile) {
+            alert("Please select a file.");
+            return;
+        }
+        if (!name || !email || !telegram || selectedPosition==selectedPositionDefault || !source || !reasons) {
+            alert("Please fill in all required fields.");
+            return;
+        }
+        
+        onClose(); // Close the modal after submission
     }
 </script>
 {#if isOpen}
@@ -84,37 +103,42 @@
         <img src="/images/cross.svg" alt="logo">
     </button>
 <div class="w-[680px] h-fit my-32 relative inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 mx-auto rounded-[30px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
-    <div class=" w-fit mx-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
-        <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
-        <input 
-            id="name"
-            type="text"
+    <form on:submit|preventDefault={() => {handleSubmit()}}>
+
+        <div class=" w-fit mx-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
+            <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
+                <input 
+                id="name"
+                type="text"
             placeholder="Ім'я*"
+            bind:value={name}
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
-        />
-        <input 
+            />
+            <input 
             id="name"
             type="text"
             placeholder="E-mail*"
+            bind:value={email}
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
-        />
-        <input 
+            />
+            <input 
             id="name"
             type="text"
             placeholder="Нік в Telegram*"
+            bind:value={telegram}
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             required
-        />
+            />
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">На яку позицію відгукуєтесь?*</div>
                 <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
-        <div class="w-full flex flex-col justify-start items-start gap-[5px] relative">
+                    <div class="w-full flex flex-col justify-start items-start gap-[5px] relative">
             <button 
-                on:click={toggleDropdown} 
+            on:click={toggleDropdown} 
                 class="w-full flex flex-row justify-between cursor-pointer"
-            >
+                >
                 <div class="w-fit h-8 {selectedPosition === 'Обрати' ? 'text-zinc-500' : 'text-white'} text-xl font-normal font-['Craftwork_Grotesk']">{selectedPosition}</div>
                 <img src="./images/Vector 16.svg" class:rotate-180={isDropdownOpen} />
             </button>
@@ -124,7 +148,7 @@
             <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-40 rounded-b-md px-5 pb-1">
                 {#each positions as position, i}
                     <button 
-                        on:click={() => selectPosition(position)}
+                    on:click={() => selectPosition(position)}
                         class="self-stretch h-8 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:color-[#FF41df] "
                     >
                         {position}
@@ -191,7 +215,7 @@
                             <div class="justify-center text-neutral-400 text-xl font-normal font-['Craftwork_Grotesk'] text-nowrap">{item}</div>
                         </div>
                     </button>
-                {/if}
+                    {/if}
                 {/each}
                 </div>
             </div>
@@ -202,14 +226,16 @@
             <textarea 
                 id="reasons"
                 class="w-full min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
+                bind:value={reasons}
                 required
-            ></textarea>
+                ></textarea>
         </div>
             <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto">
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>
         </div>
     </div>
+</form>
 </div>
 <div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:відгукнутись на вакансію</div>
 </div>
