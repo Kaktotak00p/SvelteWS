@@ -50,7 +50,7 @@
         }
     }
 
-    function handleSubmit() {
+    async function handleSubmit() {
         if (!selectedFile) {
             alert("Please select a file.");
             return;
@@ -59,8 +59,35 @@
             alert("Please fill in all required fields.");
             return;
         }
-        
-        onClose(); // Close the modal after submission
+
+        const formData = new FormData();
+        formData.append("name", name);
+        formData.append("email", email);
+        formData.append("telegram", telegram);
+        formData.append("position", selectedPosition);
+        formData.append("source", source);
+        formData.append("reasons", reasons);
+        formData.append("resume", selectedFile);
+
+        try {
+            const response = await fetch("/api/apply", {
+                method: "POST",
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                alert("Form submitted successfully!");
+                onClose(); // Close the modal after submission
+            } else {
+                throw new Error(result.message || "Failed to submit form");
+            }
+        } catch (error) {
+            console.error("Error submitting form:", error);
+            alert("There was an error submitting your form. Please try again later.");
+            return;
+        }
     }
 </script>
 {#if isOpen}

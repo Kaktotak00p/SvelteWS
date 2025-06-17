@@ -50,11 +50,14 @@ refreshCount();
 const upload = multer({ dest: path.join(__dirname, 'uploads/') });
 
 app.post('/api/apply', upload.single('resume'), (req, res) => {
-    // ... your form handling logic ...
     console.log("Received application:", req.body);
     res.json({ success: true, message: "Application received successfully!" });
 });
 
+app.post('/api/referal', upload.single('referal'), (req, res) => {
+    console.log("Received referal:", req.body);
+    res.json({ success: true, message: "Referal received successfully!" });
+});
 
 // --- SvelteKit Middleware ---
 // This must be the LAST middleware.

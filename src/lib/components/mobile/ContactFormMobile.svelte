@@ -9,6 +9,11 @@
     let fileInputRef;
     let fileName = "Choose File";
 
+    let name = "";
+    let email = "";
+    let telegram = "";
+    let reasons = "";
+
     const positions = [
         "Media Buyer",
         "Media Buyer",
@@ -41,6 +46,46 @@
         if (file) {
             selectedFile = file;
             fileName = file.name;
+        }
+    }
+
+    async function handleSubmit() {
+        if (!selectedFile) {
+            alert("Please select a file.");
+            return;
+        }
+        if (!name || !email || !telegram || selectedPosition==selectedPositionDefault || !source || !reasons) {
+            alert("Please fill in all required fields.");
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append("name", name);
+        formData.append("email", email);
+        formData.append("telegram", telegram);
+        formData.append("position", selectedPosition);
+        formData.append("source", source);
+        formData.append("reasons", reasons);
+        formData.append("resume", selectedFile);
+
+        try {
+            const response = await fetch("/api/apply", {
+                method: "POST",
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                alert("Form submitted successfully!");
+                onClose(); // Close the modal after submission
+            } else {
+                throw new Error(result.message || "Failed to submit form");
+            }
+        } catch (error) {
+            console.error("Error submitting form:", error);
+            alert("There was an error submitting your form. Please try again later.");
+            return;
         }
     }
 </script>
@@ -82,6 +127,7 @@
     <button on:click={() => onClose()} class="absolute top-[43px] right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
+    <form on:submit|preventDefault={handleSubmit}>
 <div class="w-[110%] h-fit my-32 relative inset-0 bg-black overflow-y-auto z-40 translate-x-[-1%] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
     <div class=" w-[93%] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
         <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
@@ -90,6 +136,7 @@
             type="text"
             placeholder="Ім'я"
             class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            bind:value={name}
             required
         />
         <input 
@@ -97,6 +144,7 @@
             type="text"
             placeholder="E-mail"
             class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            bind:value={email}
             required
         />
         <input 
@@ -104,6 +152,7 @@
             type="text"
             placeholder="Нік в Telegram"
             class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
+            bind:value={telegram}
             required
         />
 
@@ -203,6 +252,7 @@
             <textarea 
                 id="reasons"
                 class="w-full min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
+                bind:value={reasons}
                 required
             ></textarea>
         </div>
@@ -212,6 +262,7 @@
         </div>
     </div>
 </div>
+</form>
 <div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase pointer-events-none">//:відгукнутись на вакансію</div>
 </div>
 {/if}
