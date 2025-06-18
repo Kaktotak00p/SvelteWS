@@ -14,12 +14,12 @@
   src: url('/helvetica_verbundene-webfont.ttf') format('truetype');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Cabinet Grotesk';
   font-style: normal;
   font-display: swap;
-  src: url('/CabinetGrotesk-Variable.ttf') format('truetype');
-}
+  src:
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 

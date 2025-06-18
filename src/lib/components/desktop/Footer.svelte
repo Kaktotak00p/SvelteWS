@@ -20,7 +20,7 @@
                         <span class="text-[#BDFD02] text-[26px] font-bold font-['Craftwork_Grotesk']">Партнерство з TraffHub</span>
                     </div>
                     <div class="flex flex-col justify-center w-full">
-                        <a href="https://t.me/glebtraffhub" class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2" target="_blank"><img src="/images/telegram.svg">TG: @glebtraffhub</a>
+                        <a href="https://t.me/blessergb " class="text-white hover:text-[#BDFD02] text-[26px] font-normal font-['Craftwork_Grotesk'] flex flex-row gap-2" target="_blank"><img src="/images/telegram.svg">TG: @blessergb</a>
                     </div>
                 </div>
                 <div class="inline-flex flex-col justify-start items-start gap-4">

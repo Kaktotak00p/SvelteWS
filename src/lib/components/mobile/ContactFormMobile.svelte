@@ -204,14 +204,14 @@
                                 class=" {selectedFile ? 'w-full' : ''} px-5 py-2.5 rounded-[5px] outline outline-1 outline-offset-[-0.50px] outline-[#BDFD00] flex justify-center items-center gap-2.5"
                             >
                                 <div class="flex justify-center items-center gap-3.5">
-                                    <div class="justify-start {selectedFile ? 'text-[#FF41df]' : 'text-[#BDFD00]'} text-base font-medium font-['Poppins'] leading-snug truncate max-w-[200px]">
+                                    <div class="justify-start {selectedFile ? 'text-[#FF41df]' : 'text-[#BDFD00]'} text-base font-medium font-['Craftwork_Grotesk'] leading-snug truncate max-w-[200px]">
                                         {fileName}
                                     </div>
                                 </div>
                             </button>
                             <div class="flex justify-center items-center gap-2.5">
                                 {#if !selectedFile}
-                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF</div>
+                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug mr-[70px]">JPG, PDF</div>
                                 {/if}
                             </div>
                         </div>

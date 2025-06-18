@@ -63,7 +63,7 @@
                 <div class="w-full inline-flex justify-between items-center">
                     <div class="flex justify-start items-end gap-2.5">
                         <div class="justify-start my-auto">
-                            <span class="text-[#bdfd00] text-lg font-normal font-['Inter']">{vacancy.id}</span>
+                            <span class="text-[#bdfd00] text-lg font-normal font-['Inter']">//: {vacancy.id}</span>
                             <span class="text-white text-lg font-normal font-['Inter']"> </span>
                         </div>
                         <div class="justify-start text-white text-lg font-[800] font-['Craftwork_Grotesk'] uppercase ">{vacancy.title}</div>
@@ -73,7 +73,7 @@
                         <button 
                             on:click={() => toggleVacancy(vacancy.id)}>
                             <img class="size-[35px] origin-center scale-x-[-1] transition-transform duration-300 rounded-[20px]" 
-                                 class:rotate-180={vacancy.isOpen}
+                                 class:-rotate-90={vacancy.isOpen}
                                  src="/images/arrowPink.png" 
                                  alt="arrow" />
                         </button>
@@ -84,7 +84,7 @@
 
                         <button 
                             on:click={() => {isOpen = true;}}
-                            class="justify-start text-[#bdfd02] text-lg font-normal font-['Cabinet_Grotesk']">
+                            class="justify-start text-[#bdfd02] text-lg font-normal font-['Craftwork_Grotesk']">
                             [відгукнутись]
                         </button>
                     </div>

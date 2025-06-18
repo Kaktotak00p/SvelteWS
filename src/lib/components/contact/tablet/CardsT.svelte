@@ -2,7 +2,11 @@
     <div class="flex inline-flex justify-between gap-10">
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:1</span>
-            <span class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk']">Наша база - наші люди, комфорт і інтереси команди завжди на першому місці</span>
+            <div class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk'] w-[90%] h-[100px] flex items-center justify-center">
+                <div>
+                    Наша база - наші люди, комфорт і інтереси команди завжди на першому місці
+                </div>
+            </div>
             <img src="/images/card-bg.svg" class="absolute top-0 right-0"/>
             <img src="/images/line.svg" class="absolute top-[165px] left-[10px]"/>
             <img src="/images/Vector 5 Dark.svg" class="absolute right-[-5px] top-[-5px]" />
@@ -10,7 +14,11 @@
         </div>
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:2</span>
-            <span class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk']">Автоматизація, відсутність незрозумілої бюрократії</span>
+            <div class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk'] w-[90%] h-[100px] flex items-center justify-center">
+                <div>
+                    Автоматизація, відсутність незрозумілої бюрократії
+                </div>
+            </div>
             <img src="/images/card-bg.svg" class="absolute top-0 right-0"/>
             <img src="/images/line.svg" class="absolute top-[165px] left-[10px]"/>
             <img src="/images/Vector 5 Dark.svg" class="absolute right-[-5px] top-[-5px]" />
@@ -18,7 +26,11 @@
         </div>
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:3</span>
-            <span class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk']">Здорова атмосфера, не любимо токсиків ;)</span>
+            <div class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk'] w-[90%] h-[100px] flex items-center justify-center">
+                <div>
+                    Здорова атмосфера, не любимо токсиків ;)
+                </div>
+            </div>
             <img src="/images/card-bg.svg" class="absolute top-0 right-0"/>
             <img src="/images/line.svg" class="absolute top-[165px] left-[10px]"/>
             <img src="/images/Vector 5 Dark.svg" class="absolute right-[-5px] top-[-5px]" />
@@ -28,7 +40,11 @@
     <div class="flex inline-flex justify-between gap-10">
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:4</span>
-            <span class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk']">Можливість бустанутися кожному, завжди готові до нових ідей та масштабів</span>
+            <div class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk'] w-[90%] h-[100px] flex items-center justify-center">
+                <div>
+                    Можливість бустанутися кожному, завжди готові до нових ідей та масштабів
+                </div>
+            </div>
             <img src="/images/card-bg.svg" class="absolute top-0 right-0"/>
             <img src="/images/line.svg" class="absolute top-[165px] left-[10px]"/>
             <img src="/images/Vector 5 Dark.svg" class="absolute right-[-5px] top-[-5px]" />
@@ -36,7 +52,11 @@
         </div>
         <div class="relative w-[219px] h-[238px]">
             <span class="absolute text-black z-10 left-[10px] top-[5px] font-['Craftwork_Grotesk'] font-bold">//:5</span>
-            <span class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk']">Ми за чесність, шейву в нашій команді ти не зустрінеш</span>
+            <div class="absolute text-black z-10 left-[10px] top-[45px] font-['Craftwork_Grotesk'] w-[90%] h-[100px] flex items-center justify-center">
+                <div>
+                    Ми за чесність, шейву в нашій команді ти не зустрінеш
+                </div>
+            </div>
             <img src="/images/card-bg.svg" class="absolute top-0 right-0"/>
             <img src="/images/line.svg" class="absolute top-[165px] left-[10px]"/>
             <img src="/images/Vector 5 Dark.svg" class="absolute right-[-5px] top-[-5px]" />

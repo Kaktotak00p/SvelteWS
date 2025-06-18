@@ -210,7 +210,7 @@
                             </button>
                             {#if !selectedFile}
                             <div class="flex justify-center items-center gap-2.5">
-                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF</div>
+                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug mr-[70px]">JPG, PDF</div>
                             </div>
                             {/if}
                         </div>

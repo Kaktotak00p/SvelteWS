@@ -44,7 +44,7 @@
     </div>
     <div class="w-[70%] flex flex-col justify-center items-center my-10 mx-auto">
         <button on:click={()=>{isOpen=true}} class="h-[60px] px-[21px] py-3.5 bg-[#ff41df] rounded-sm inline-flex justify-center items-center">
-            <div class="justify-center text-white text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">Залишити кандідата</div>
+            <div class="justify-center text-white text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">Залишити кандидата</div>
         </button>
     </div>
 </div>

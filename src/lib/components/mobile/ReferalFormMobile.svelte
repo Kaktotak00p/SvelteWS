@@ -105,14 +105,14 @@
         <input 
             id="name"
             type="text"
-            placeholder="E-mail*"
+            placeholder="Твій нік в Telegram*"
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={email}
         />
         <input 
             id="name"
             type="text"
-            placeholder="Нік в Telegram*"
+            placeholder="Нік кандидата в Telegram*"
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={telegram}
         />
@@ -144,7 +144,7 @@
                             </button>
                             {#if !selectedFile}
                             <div class="flex justify-center items-center gap-2.5">
-                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF</div>
+                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug mr-[70px]">JPG, PDF</div>
                             </div>
                             {/if}
                         </div>

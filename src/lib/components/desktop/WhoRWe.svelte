@@ -91,7 +91,6 @@
 
 	.fspan {
 		color: white;
-		letter-spacing: -0.04em;
 		font-size: 36px;
 		font-family: Craftwork Grotesk;
 		font-weight: 400;
