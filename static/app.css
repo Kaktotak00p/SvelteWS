@@ -5803,6 +5803,10 @@ select {
   font-size: 150px;
 }
 
+.text-\[80px\] {
+  font-size: 80px;
+}
+
 .font-\[36px\] {
   font-weight: 36px;
 }
