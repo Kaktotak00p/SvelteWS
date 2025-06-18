@@ -36,12 +36,12 @@
                         <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']"><CounterLogic /></div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>
                     </div>
-                    <div class="w-[30%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+                    <div class="w-[100%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
                     <div class="w-36 flex flex-col justify-start items-center">
                         <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']">iGaming</div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">вертикаль</div>
                     </div>
-                    <div class="w-[30%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+                    <div class="w-[100%] h-0 rounded outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
                     <div class="self-stretch flex flex-col justify-start items-center">
                         <div class="text-center justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']">FB |ASO |IN-APP</div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">джерела</div>

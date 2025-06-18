@@ -19,10 +19,6 @@
     }
 
     async function handleSubmit() {
-        if (!selectedFile) {
-            alert("Please select a file.");
-            return;
-        }
         if (!name || !email || !telegram  || !reasons) {
             alert("Please fill in all required fields.");
             return;
@@ -33,6 +29,10 @@
         formData.append("email", email);
         formData.append("telegram", telegram);
         formData.append("reasons", reasons);
+        if (selectedFile) {
+            // Ensure a file is selected before appending
+            formData.append("resume", selectedFile);
+        } 
         formData.append("resume", selectedFile);
 
         try {
@@ -131,7 +131,7 @@
                             type="file" 
                             bind:this={fileInputRef}
                             on:change={handleFileSelect}
-                            accept=".jpg,.pdf,.csv"
+                            accept=".jpg,.pdf"
                             class="hidden"
                         />
                         <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-between items-center">
@@ -147,7 +147,7 @@
                             </button>
                             {#if !selectedFile}
                             <div class="flex justify-center items-center gap-2.5">
-                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF, CVS</div>
+                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF</div>
                             </div>
                             {/if}
                         </div>

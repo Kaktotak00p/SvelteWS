@@ -19,10 +19,6 @@
     }
 
     async function handleSubmit() {
-        if (!selectedFile) {
-            alert("Please select a file.");
-            return;
-        }
         if (!name || !email || !telegram || !reasons) {
             alert("Please fill in all required fields.");
             return;
@@ -33,8 +29,9 @@
         formData.append("email", email);
         formData.append("telegram", telegram);
         formData.append("reasons", reasons);
-        formData.append("resume", selectedFile);
-
+        if(selectedFile) {            
+            formData.append("resume", selectedFile);
+        }
         try {
             const response = await fetch("/api/referal", {
                 method: "POST",
@@ -147,7 +144,7 @@
                             </button>
                             {#if !selectedFile}
                             <div class="flex justify-center items-center gap-2.5">
-                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF, CVS</div>
+                                <div class="justify-start text-zinc-400 text-base font-normal font-['Inter'] leading-snug">JPG, PDF</div>
                             </div>
                             {/if}
                         </div>
