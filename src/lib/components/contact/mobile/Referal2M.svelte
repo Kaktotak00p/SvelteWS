@@ -33,11 +33,11 @@
     <div class="relative w-[363px] items-center flex flex-col mx-auto">
         <img src="/images/Vector 5 Dark.svg" class="absolute top-[-5px] right-[-5px] z-10">
         <img src="/images/star1.svg" class="absolute right-[5px] bottom-[5px] w-[55px] h-[55px] z-10" >
-        <div class="text-center justify-start relative z-10 pt-2">
-            <span class="text-black text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">Чистий профіт - кости <br>команди = </span><span class="text-[#ff41df] text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">$5000  </span>
+        <div class="text-center justify-start relative z-10 pt-6">
+            <span class="text-black text-[24px] font-[900] font-['Craftwork_Grotesk'] uppercase text-nowrap">Чистий профіт - кости <br>команди = </span><span class="text-[#ff41df] text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">$5000  </span>
         </div>
         <div class="text-center justify-start text-[#a0a0a0] text-lg font-[36px] font-['Craftwork_Grotesk'] leading-[18px] relative z-10">(середній дохід баєра)</div>
-        <div class="text-center justify-start relative z-10 pt-6 pb-[35px]"><span class="text-black text-[40px] font-bold font-['Craftwork_Grotesk'] uppercase">5% від $5000 = <br></span><span class="text-[#ff41df] text-[40px] font-black font-['Craftwork_Grotesk'] uppercase">$250 ТВОЇХ!</span></div>
+        <div class="text-center justify-start relative z-10 pt-6 pb-[22px]"><span class="text-black text-[40px] font-bold font-['Craftwork_Grotesk'] uppercase">5% від $5000 = <br></span><span class="text-[#ff41df] text-[40px] font-black font-['Craftwork_Grotesk'] uppercase">$250 ТВОЇХ!</span></div>
         <img src="/images/lineL.svg" class="w-[624px] h-1 z-10">
         <div class="justify-start text-neutral-500 text-[16px] font-['Craftwork_Grotesk'] leading-[18px] relative z-10 pt-4 pb-20">+ $250 щомісяця протягом 5 місяців = $1250 </div>
         <img src="/images/cardBigM.svg" class="absolute">
