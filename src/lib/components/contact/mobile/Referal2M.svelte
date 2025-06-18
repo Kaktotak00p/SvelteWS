@@ -34,7 +34,7 @@
         <img src="/images/Vector 5 Dark.svg" class="absolute top-[-5px] right-[-5px] z-10">
         <img src="/images/star1.svg" class="absolute right-[5px] bottom-[5px] w-[55px] h-[55px] z-10" >
         <div class="text-center justify-start relative z-10 pt-2">
-            <span class="text-black text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">Чистий профіт - кости <br>команди = </span><span class="text-[#ff41df] text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">$5000  </span>
+            <span class="text-black text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">Чистий профіт - кости <br>команди = </span><span class="text-[#ff41df] text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">$5000  </span>
         </div>
         <div class="text-center justify-start text-[#a0a0a0] text-lg font-[36px] font-['Craftwork_Grotesk'] leading-[18px] relative z-10">(середній дохід баєра)</div>
         <div class="text-center justify-start relative z-10 pt-6 pb-[35px]"><span class="text-black text-[40px] font-bold font-['Craftwork_Grotesk'] uppercase">5% від $5000 = <br></span><span class="text-[#ff41df] text-[40px] font-black font-['Craftwork_Grotesk'] uppercase">$250 ТВОЇХ!</span></div>
