@@ -166,7 +166,7 @@
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
             
             {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-[20px] h-fit">
+            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/50 backdrop-blur-[30px] z-50 border border-white pb-1 px-5 rounded-b-[20px] h-fit pt-2">
                 {#each positions as position, i}
                     <button 
                         type="button"
