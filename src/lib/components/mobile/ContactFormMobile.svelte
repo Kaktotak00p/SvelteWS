@@ -166,12 +166,12 @@
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
             
             {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-[20px]">
+            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-[20px] h-fit">
                 {#each positions as position, i}
                     <button 
                         type="button"
                         on:click={() => {selectPosition(position)}}
-                        class="self-stretch h-8 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:bg-zinc-800"
+                        class="self-stretch h-fit justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:bg-zinc-800"
                     >
                         {position}
                     </button>
