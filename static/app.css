@@ -2133,6 +2133,10 @@ select {
   right: -10%;
 }
 
+.right-\[-15px\] {
+  right: -15px;
+}
+
 .right-\[-5px\] {
   right: -5px;
 }
@@ -2193,8 +2197,16 @@ select {
   top: 0px;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
 .top-5 {
   top: 1.25rem;
+}
+
+.top-\[-15px\] {
+  top: -15px;
 }
 
 .top-\[-1px\] {
@@ -3489,26 +3501,6 @@ select {
   top: 100%;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
-.right-\[-20px\] {
-  right: -20px;
-}
-
-.top-\[-20px\] {
-  top: -20px;
-}
-
-.right-\[-15px\] {
-  right: -15px;
-}
-
-.top-\[-15px\] {
-  top: -15px;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -3567,11 +3559,6 @@ select {
   margin-bottom: 2.5rem;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .my-32 {
   margin-top: 8rem;
   margin-bottom: 8rem;
@@ -3582,14 +3569,14 @@ select {
   margin-bottom: 1.25rem;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .my-\[13px\] {
   margin-top: 13px;
   margin-bottom: 13px;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .-mr-4 {
@@ -3662,10 +3649,6 @@ select {
 
 .mt-\[140px\] {
   margin-top: 140px;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .block {
@@ -3931,14 +3914,6 @@ select {
   height: 100%;
 }
 
-.h-\[106px\] {
-  height: 106px;
-}
-
-.h-\[140px\] {
-  height: 140px;
-}
-
 .max-h-none {
   max-height: none;
 }
@@ -4027,6 +4002,10 @@ select {
   width: 100.99px;
 }
 
+.w-\[106px\] {
+  width: 106px;
+}
+
 .w-\[110\%\] {
   width: 110%;
 }
@@ -4049,6 +4028,10 @@ select {
 
 .w-\[1400px\] {
   width: 1400px;
+}
+
+.w-\[140px\] {
+  width: 140px;
 }
 
 .w-\[1440px\] {
@@ -4248,14 +4231,6 @@ select {
   width: 100%;
 }
 
-.w-\[106px\] {
-  width: 106px;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
 .min-w-\[120\%\] {
   min-width: 120%;
 }
@@ -4297,6 +4272,11 @@ select {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .translate-x-\[-1\%\] {
   --tw-translate-x: -1%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4304,11 +4284,6 @@ select {
 
 .translate-x-\[60px\] {
   --tw-translate-x: 60px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -5242,10 +5217,6 @@ select {
   gap: 70px;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
 .gap-x-28 {
   -moz-column-gap: 7rem;
        column-gap: 7rem;
@@ -5736,6 +5707,14 @@ select {
   font-family: sans;
 }
 
+.font-\[\'\'\] {
+  font-family: '';
+}
+
+.font-\[\'Cabinet_Grotesk\'\] {
+  font-family: 'Cabinet Grotesk';
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -5753,6 +5732,10 @@ select {
 
 .text-\[110px\] {
   font-size: 110px;
+}
+
+.text-\[150px\] {
+  font-size: 150px;
 }
 
 .text-\[16px\] {
@@ -5819,6 +5802,10 @@ select {
   font-size: 78px;
 }
 
+.text-\[80px\] {
+  font-size: 80px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -5842,14 +5829,6 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[150px\] {
-  font-size: 150px;
-}
-
-.text-\[80px\] {
-  font-size: 80px;
 }
 
 .font-\[36px\] {
@@ -6019,16 +5998,12 @@ select {
   outline-width: 1px;
 }
 
-.outline-\[3px\] {
-  outline-width: 3px;
-}
-
-.outline-\[\.1px\] {
-  outline-width: .1px;
-}
-
 .outline-\[1px\] {
   outline-width: 1px;
+}
+
+.outline-\[3px\] {
+  outline-width: 3px;
 }
 
 .outline-offset-\[-0\.50px\] {
@@ -6065,10 +6040,6 @@ select {
 
 .outline-zinc-400 {
   outline-color: #a1a1aa;
-}
-
-.outline-white\/80 {
-  outline-color: rgb(255 255 255 / 0.8);
 }
 
 .blur {
