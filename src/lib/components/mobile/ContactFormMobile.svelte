@@ -16,10 +16,10 @@
     let reasons = "";
 
     const positions = [
-        "Media Buyer",
-        "Media Buyer",
-        "Media Buyer",
-        "Media Buyer"
+        "Affiliate Manager",
+        "Team Lead of Media Buying (FB)",
+        "Middle / Senior Media Buyer (FB)",
+        "Motion Designer"
     ];
 
     const sources = [
