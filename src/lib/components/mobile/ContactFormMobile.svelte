@@ -123,7 +123,7 @@
         <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-[1597px] top-0 absolute  blur-[17px]">
     </div>
 </div>
-    <button on:click={() => onClose()} class="absolute top-[25px] right-[40px] invert">
+    <button on:click={() => onClose()} class="absolute top-[33px] right-[40px] invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
     <form>
