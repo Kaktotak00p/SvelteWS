@@ -61,7 +61,7 @@
     <img class="w-[465px] h-[396px] rounded-[10px] shadow-[4px_4px_0px_0px_rgba(255,65,223,1.00)]" src="/images/office1.jpg" alt="office" />
     <div class="w-[800px] px-10 py-20">
         {#each vacancies as vacancy}
-            <div class="w-full">
+            <div class="w-full my-[13px]">
                 <div class="w-full inline-flex justify-between items-center">
                     <div class="flex justify-start items-end gap-2.5">
                         <div class="justify-start">

@@ -59,7 +59,7 @@
     <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase w-full px-[25px]">//:вакансії</div>
     <div class="w-full px-20 py-20 ">
         {#each vacancies as vacancy}
-            <div class="w-full">
+            <div class="w-full my-[13px]">
                 <div class="w-full inline-flex justify-between items-center">
 
                     <div class="flex justify-start items-end gap-2.5">

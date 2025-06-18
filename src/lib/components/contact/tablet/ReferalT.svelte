@@ -11,8 +11,8 @@
     </div>
     <div class="w-full absolute left-0 top-[200px] inline-flex flex-col px-[25px] gap-5">
         <div class="pl-[174px] justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">[Як це працює?]</div>
-        <div class="w-full inline-flex flex-row flex-wrap justify-center gap-10">
-            <div class="inline-flex justify-between gap-10">
+        <div class="w-[70%] inline-flex flex-row flex-wrap justify-center gap-10 mx-auto">
+            <div class="inline-flex justify-between gap-20">
                 <div class="w-[295px] h-40 relative">
                     <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">
                         <div class="justify-start text-white text-[110px] font-[900] font-['Craftwork_Grotesk'] uppercase">1</div>

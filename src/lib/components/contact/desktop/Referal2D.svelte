@@ -33,7 +33,7 @@
     </div>
     <div class=" pl-[174px] justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase py-5">ПРИКЛАД:</div>
     <div class=" relative items-center flex flex-col w-[722px] h-[289px] mx-auto">
-        <img src="/images/Vector 5 Dark.svg" class="absolute top-[-5px] right-[-5px] z-10">
+        <img src="/images/Vector 5 Dark.svg" class="absolute w-[140px] top-[-15px] right-[-15px] z-10">
         <img src="/images/star1.svg" class="absolute right-[5px] bottom-[5px] w-[55px] h-[55px] z-10" >
         <div class="text-center justify-start relative z-10 pt-10">
             <span class="text-black text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase">Чистий профіт - кости команди = </span><span class="text-[#ff41df] text-[26px] font-black font-['Craftwork_Grotesk'] uppercase">$5000  </span>
