@@ -7,7 +7,7 @@
 	<div class="flex w-full flex-col items-center justify-center gap-2.5">
 		<div class="inline-flex w-[700px] items-center justify-center gap-[25px]">
 			<div class="justify-start font-['Craftwork_Grotesk'] text-2xl font-bold uppercase text-white">
-				TraffHub – це компанія у сфери iGaming
+				TraffHub – це компанія у Сфері iGaming
 			</div>
 		</div>
 		<img class="h-[60px] w-[785px]" src="/images/advantages1t.png" />

@@ -9,7 +9,7 @@
             <div class="self-stretch flex flex-col justify-start items-start gap-[5px]">
                 <div class="self-stretch justify-start text-white text-2xl font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap text-justify">TraffHub – це компанія</div>
                 <div class="w-full inline-flex justify-between items-center">
-                    <div class="justify-center text-white text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">у сфери iGaming</div>
+                    <div class="justify-center text-white text-[22px] font-bold font-['Craftwork_Grotesk'] uppercase text-nowrap">у Сфері iGaming</div>
                     <img class="image w-[150px] h-[26px]" src="/images/advantages1m.png" />
                 </div>
             </div>
@@ -30,8 +30,8 @@
             <div class="w-[100%] h-96 left-0 top-0 ">
                 <div class=" w-full inline-flex flex-col justify-start items-center text-nowrap gap-16 mt-12 px-12">
                     <!-- <img src="/images/unionCounter.svg" class="absolute w-full px-8 h-[570px] object-fill max-h-none max-w-none"> -->
-                    <img src="/images/Vector 72M.svg" class="absolute top-10 left-1/3 -translate-x-1/2 w-full px-8 h-[600px] object-fill max-h-none max-w-none">
-                    <img src="/images/Vector 73M.svg" class="absolute top-10 right-1/4 translate-x-1/2 w-full px-8 h-[600px] object-fill max-h-none max-w-none">
+                    <img src="/images/Vector 72M.svg" class="absolute left-[22%] top-[170px] object-none scale-[1.5]">
+                    <img src="/images/Vector 73M.svg" class="absolute right-[20%] top-[170px] object-none scale-[1.5]">
                     <div class="w-48 flex flex-col justify-start items-center mt-20">
                         <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']"><CounterLogic /></div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>

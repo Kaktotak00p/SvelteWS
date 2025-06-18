@@ -44,7 +44,7 @@
     </div>
     <div class="w-full flex flex-col justify-center items-center mt-10">
         <button onclick={()=>isOpen=true} class="h-[60px] px-[21px] py-3.5 bg-[#ff41df] rounded-sm inline-flex justify-center items-center">
-            <div class="justify-center text-white text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase">залишити  кандидата</div>
+            <div class="justify-center text-white text-[26px] font-bold font-['Craftwork_Grotesk'] uppercase">Залишити кандідата</div>
         </button>
     </div>
 </div>

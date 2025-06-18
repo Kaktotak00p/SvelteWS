@@ -26,7 +26,7 @@
             <div class="w-72 h-48 relative">
                 <div class="w-64 h-44 left-0 top-[10px] absolute bg-[#FF41DF] rounded-md"></div>
                 <div class="w-60 h-40 left-[5px] top-[15px] absolute rounded-md border border-fuchsia-800"></div>
-                <div class="w-56 left-[18px] top-[117px] absolute justify-start text-white text-xl font-bold font-['Craftwork_Grotesk'] uppercase">СЕРЕДНЯ ЗП БАЙЕРА</div>
+                <div class="w-56 left-[18px] top-[117px] absolute justify-start text-white text-xl font-bold font-['Craftwork_Grotesk'] uppercase">СЕРЕДНЯ ЗП байєра</div>
                 <div class="left-[18px] top-[5px] absolute justify-start text-white text-[55px] font-bold font-['Craftwork_Grotesk'] uppercase">5000$</div>
                 <img class="w-20 h-20 left-[188px] top-0 absolute rounded" src="/images/Vector 5.svg"/>
             </div>

@@ -11,7 +11,7 @@
 				<div class="frame-62">
 					<div><span class="traffhub_span text-nowrap">TraffHub – це компанія</span></div>
 					<img class="image" src="/images/advantages1.png" />
-					<div><span class="igaming_span text-nowrap">у сфери iGaming</span></div>
+					<div><span class="igaming_span text-nowrap">у Сфері iGaming</span></div>
 				</div>
 				<div class="frame-63">
 					<div class="frame-61">
