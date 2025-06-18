@@ -114,8 +114,9 @@
 
 .partner-block {
   /* your existing sizing… */
-  width: 140px;
-  height: 140px;
+  min-width: 180px;
+  min-height: 180px;
+  object-fit: none;
   position: relative;
 }
 

@@ -128,7 +128,7 @@
         <img src="/images/cross.svg" alt="logo">
     </button>
     <form on:submit|preventDefault={handleSubmit}>
-<div class="w-[110%] h-fit my-32 relative inset-0 bg-black overflow-y-auto z-40 translate-x-[-1%] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
+<div class="w-[110%] h-fit mt-[140px] mb-16 relative inset-0 bg-black overflow-y-auto z-40 translate-x-[-1%] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
     <div class=" w-[93%] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
         <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
         <input 
@@ -170,7 +170,7 @@
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
             
             {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-md">
+            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-[20px]">
                 {#each positions as position, i}
                     <button 
                         on:click={() => selectPosition(position)}
@@ -263,6 +263,6 @@
     </div>
 </div>
 </form>
-<div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase pointer-events-none">//:відгукнутись на вакансію</div>
+<div class="left-[35px] top-[25px] absolute justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase pointer-events-none">//:відгукнутись <br>на вакансію</div>
 </div>
 {/if}

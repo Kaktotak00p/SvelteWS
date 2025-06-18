@@ -96,7 +96,7 @@
         <img src="/images/cross.svg" alt="logo">
     </button>
     <form on:submit|preventDefault={handleSubmit} >
-<div class="w-[680px] h-fit my-32 relative inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 mx-auto border border-white rounded-[30px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
+<div class="w-[680px] h-fit my-32 relative inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 mx-auto rounded-[30px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
     <div class=" w-[680px] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
         <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
         <input 
@@ -123,16 +123,6 @@
             bind:value={telegram}
             required
         />
-        <div class="self-stretch flex flex-col justify-start items-start gap-4">
-            <label for="reasons" class="self-stretch justify-center text-white text-2xl font-normal px-[8px] font-['Craftwork_Grotesk']">
-                Коментарі
-            </label>
-            <textarea 
-                id="reasons"
-                class="w-full min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
-                bind:value={reasons}
-            ></textarea>
-        </div>
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо</div>
                 <div class="inline-flex justify-start items-center gap-5">
@@ -167,13 +157,23 @@
                     </div>
                 </div>
             </div>
+        <div class="self-stretch flex flex-col justify-start items-start gap-4">
+            <label for="reasons" class="self-stretch justify-center text-white text-2xl font-normal px-[8px] font-['Craftwork_Grotesk']">
+                Коментарі
+            </label>
+            <textarea 
+                id="reasons"
+                class="w-full min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
+                bind:value={reasons}
+            ></textarea>
+        </div>
             <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto">
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>
         </div>
     </div>
 </div>
-<div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:відгукнутись на вакансію</div>
+<div class="left-[35px] top-[43px] absolute justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:реферальна програм</div>
     </form>
 </div>
 

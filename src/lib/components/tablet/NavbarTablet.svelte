@@ -40,7 +40,7 @@
         }
     }
 </script>
-<div class="frame- fixed top-0 w-full z-10 pr-4" class:scrolled>
+<div class="frame- fixed top-0 w-full z-20 pr-4" class:scrolled>
     <button on:click={() => {goto("/");scrollToSection("landing");}}>
         <img src="/images/лого.svg" class="ml-12" alt="logo">
     </button>

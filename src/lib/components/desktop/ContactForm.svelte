@@ -172,7 +172,7 @@
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
             
             {#if isDropdownOpen}
-            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-40 rounded-b-md px-5 pb-1">
+            <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-40 rounded-b-[20px] px-5 pb-1">
                 {#each positions as position, i}
                     <button 
                     on:click={() => selectPosition(position)}

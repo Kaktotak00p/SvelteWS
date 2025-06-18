@@ -18,7 +18,7 @@
                 </div>
                 <div class="w-[295px] h-40 relative">
                     <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">
-                        <div class="justify-start text-white text-[110px] font-black font-['Craftwork_Grotesk'] uppercase">1</div>
+                        <div class="justify-start text-white text-[110px] font-black font-['Craftwork_Grotesk'] uppercase">2</div>
                         <div class="w-[244px] justify-start"><span class="text-white text-lg font-bold font-['Craftwork_Grotesk']">Надсилаєш контакт кандидата нашій HR <br/>в Telegram </span><span class="text-white text-lg font-medium font-['Craftwork_Grotesk']">@hrtraffhub</span></div>
                     </div>
                     <div class="w-72 h-[154px] right-0 top-[6px] absolute bg-[#ff41df] rounded-md border border-black"></div>
@@ -27,7 +27,7 @@
                 </div>
             <div class="w-[295px] h-40 relative">
                 <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">
-                    <div class="justify-start text-white text-[110px] font-black font-['Craftwork_Grotesk'] uppercase">1</div>
+                    <div class="justify-start text-white text-[110px] font-black font-['Craftwork_Grotesk'] uppercase">3</div>
                     <div class="w-[244px] justify-start"><span class="text-white text-lg font-bold font-['Craftwork_Grotesk']">Надсилаєш контакт кандидата нашій HR <br/>в Telegram </span><span class="text-white text-lg font-medium font-['Craftwork_Grotesk']">@hrtraffhub</span></div>
                 </div>
                 <div class="w-72 h-[154px] right-0 top-[6px] absolute bg-[#ff41df] rounded-md border border-black"></div>
