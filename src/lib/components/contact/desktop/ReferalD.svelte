@@ -11,11 +11,11 @@
     </div>
     <div class="w-[1440px] absolute left-1/2 -translate-x-1/2 top-[200px] inline-flex flex-col gap-5 mx-auto">
         <div class="pl-[174px] justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">[Як це працює?]</div>
-        <div class="w-full inline-flex flex-row flex-nowrap justify-center gap-10">
-            <div class="inline-flex justify-between gap-10">
+        <div class="w-full inline-flex flex-row flex-nowrap justify-center gap-20">
+            <div class="inline-flex justify-between gap-20">
                 <div class="w-[295px] h-40 relative">
-                    <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">
-                        <div class="justify-start text-white text-[110px] font-[900] font-['Craftwork_Grotesk'] uppercase">1</div>
+                    <div class="absolute right-0 top-1/2 -translate-y-1/2 inline-flex justify-start items-center gap-[20px] z-10">
+                        <div class="justify-start text-white text-[150px] font-[900] font-['Craftwork_Grotesk'] uppercase">1</div>
                         <div class="w-[244px] justify-start"><span class="text-white text-lg font-bold font-['Craftwork_Grotesk']">Надсилаєш контакт кандидата нашій HR <br/>в Telegram </span><span class="text-white text-lg font-medium font-['Craftwork_Grotesk'] ml-1">@hrtraffhub</span></div>
                     </div>
                     <div class="w-72 h-[154px] right-0 top-[6px] absolute bg-[#ff41df] rounded-md border border-black"></div>
@@ -23,8 +23,8 @@
                     <img class="w-[83px] h-[88px] right-[-5px] top-0 absolute" src="/images/Vector 5.svg">
                 </div>
                 <div class="w-[295px] h-40 relative">
-                    <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">
-                        <div class="justify-start text-white text-[110px] font-black font-['Craftwork_Grotesk'] uppercase">2</div>
+                    <div class="absolute right-0 top-1/2 -translate-y-1/2 inline-flex justify-start items-center gap-[20px] z-10">
+                        <div class="justify-start text-white text-[150px] font-black font-['Craftwork_Grotesk'] uppercase">2</div>
                         <div class="w-[244px] justify-start"><span class="text-white text-lg font-bold font-['Craftwork_Grotesk']">Додаєш пару речень про кандидата: хто, звідки, в чому сильний</div>
                     </div>
                     <div class="w-72 h-[154px] right-0 top-[6px] absolute bg-[#ff41df] rounded-md border border-black"></div>
@@ -33,8 +33,8 @@
                 </div>
             </div>
             <div class="w-[295px] h-40 relative">
-                <div class="absolute right-0 inline-flex justify-start items-center gap-[20px] z-10">
-                    <div class="justify-start text-white text-[110px] font-black font-['Craftwork_Grotesk'] uppercase">3</div>
+                <div class="absolute right-0 top-1/2 -translate-y-1/2 inline-flex justify-start items-center gap-[20px] z-10">
+                    <div class="justify-start text-white text-[150px] font-black font-['Craftwork_Grotesk'] uppercase">3</div>
                     <div class="w-[244px] justify-start"><span class="text-white text-lg font-bold font-['Craftwork_Grotesk']">І залишаєшся на зв’язку</div>
                 </div>
                 <div class="w-72 h-[154px] right-0 top-[6px] absolute bg-[#ff41df] rounded-md border border-black"></div>

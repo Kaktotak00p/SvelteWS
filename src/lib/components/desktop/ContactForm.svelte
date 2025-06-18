@@ -175,7 +175,7 @@
                         {position}
                     </button>
                     {#if i < positions.length - 1}
-                    <div class="w-full h-0 outline outline-1 outline-offset-[-0.50px] outline-white"></div>
+                    <div class="w-full h-0 outline outline-[1px] outline-white"></div>
                     {/if}
                 {/each}
             </div>
