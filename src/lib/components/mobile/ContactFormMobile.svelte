@@ -160,7 +160,7 @@
                 on:click={toggleDropdown} 
                 class="w-full flex flex-row justify-between cursor-pointer"
             >
-                <div class="px-5 w-fit h-8 text-zinc-500 text-xl font-normal font-['Craftwork_Grotesk']">{selectedPosition}</div>
+                <div class="px-5 w-fit h-8 {selectedPosition===selectedPositionDefault ? 'text-zinc-500': 'text-white'} text-xl font-normal font-['Craftwork_Grotesk']">{selectedPosition}</div>
                 <img src="./images/Vector 16.svg" class:rotate-180={isDropdownOpen} />
             </button>
             <div class="w-full h-0 rounded outline outline-1 outline-offset-[-0.50px] outline-white"></div>
@@ -176,7 +176,7 @@
                         {position}
                     </button>
                     {#if i < positions.length - 1}
-                    <div class="w-80 h-0 outline outline-1 outline-offset-[-0.50px] outline-white"></div>
+                    <div class="w-[100%] h-0 outline outline-1 outline-offset-[-0.50px] outline-white"></div>
                     {/if}
                 {/each}
             </div>
