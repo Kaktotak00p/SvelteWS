@@ -4,7 +4,8 @@
 
     let source = "";
     let isDropdownOpen = false;
-    let selectedPosition = "Media Buyer";
+    let selectedPositionDefault = "Обрати";
+    let selectedPosition = selectedPositionDefault;
     let selectedFile = null;
     let fileInputRef;
     let fileName = "Choose File";
@@ -127,7 +128,7 @@
     <button on:click={() => onClose()} class="absolute top-[43px] right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-    <form on:submit|preventDefault={handleSubmit}>
+    <form>
 <div class="w-[110%] h-fit mt-[140px] mb-16 relative inset-0 bg-black overflow-y-auto z-40 translate-x-[-1%] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
     <div class=" w-[93%] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
         <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
@@ -137,7 +138,6 @@
             placeholder="Ім'я"
             class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={name}
-            required
         />
         <input 
             id="name"
@@ -145,7 +145,6 @@
             placeholder="E-mail"
             class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={email}
-            required
         />
         <input 
             id="name"
@@ -153,7 +152,6 @@
             placeholder="Нік в Telegram"
             class="w-[100%] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={telegram}
-            required
         />
 
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
@@ -173,7 +171,8 @@
             <div class="absolute top-full left-0 inline-flex flex-col justify-start items-start gap-[5px] w-full bg-[#9c9c9c]/40 backdrop-blur z-50 pb-1 px-5 rounded-b-[20px]">
                 {#each positions as position, i}
                     <button 
-                        on:click={() => selectPosition(position)}
+                        type="button"
+                        on:click={() => {selectPosition(position)}}
                         class="self-stretch h-8 justify-center text-white text-xl font-normal font-['Craftwork_Grotesk'] w-full text-left hover:bg-zinc-800"
                     >
                         {position}
@@ -200,7 +199,6 @@
                             on:change={handleFileSelect}
                             accept=".jpg,.pdf,.csv"
                             class="hidden"
-                            required
                         />
                         <div class="self-stretch p-2.5 bg-neutral-700 rounded-[5px] inline-flex justify-between items-center">
                             <button 
@@ -253,10 +251,11 @@
                 id="reasons"
                 class="w-full min-h-[120px] bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border border-slate-600 rounded-[5px] p-3 focus:border-white focus:outline-none resize-y"
                 bind:value={reasons}
-                required
             ></textarea>
         </div>
-            <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto">
+            <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto" 
+            on:click={handleSubmit}
+            >
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>
         </div>

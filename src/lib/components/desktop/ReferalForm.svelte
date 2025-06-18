@@ -23,7 +23,7 @@
             alert("Please select a file.");
             return;
         }
-        if (!name || !email || !telegram || selectedPosition==selectedPositionDefault || !source || !reasons) {
+        if (!name || !email || !telegram  || !reasons) {
             alert("Please fill in all required fields.");
             return;
         }
@@ -105,7 +105,6 @@
             placeholder="Ім'я*"
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={name}
-            required
         />
         <input 
             id="name"
@@ -113,7 +112,6 @@
             placeholder="E-mail*"
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={email}
-            required
         />
         <input 
             id="name"
@@ -121,7 +119,6 @@
             placeholder="Нік в Telegram*"
             class="w-full bg-transparent text-white text-2xl font-normal font-['Craftwork_Grotesk'] border-0 border-b border-slate-600 focus:border-white focus:outline-none"
             bind:value={telegram}
-            required
         />
             <div class="self-stretch flex flex-col justify-start items-start gap-4">
                 <div class="self-stretch justify-center text-white text-2xl font-normal font-['Craftwork_Grotesk']">Резюме/портфоліо</div>
@@ -167,7 +164,9 @@
                 bind:value={reasons}
             ></textarea>
         </div>
-            <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto">
+            <button class="w-64 h-14 px-5 py-3.5 bg-[#FF41df] rounded inline-flex justify-center items-center gap-2.5 mx-auto"
+            on:click={handleSubmit}
+            >
                 <span class="w-56 self-stretch justify-center text-white text-2xl font-bold font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ</span>
             </button>
         </div>
