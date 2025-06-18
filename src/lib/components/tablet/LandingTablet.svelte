@@ -21,7 +21,7 @@
 <div class="relative h-[505px] w-full overflow-hidden bg-[#020202] mt-[-5px]">
 		<div class="absolute right-[-10%] top-[0px] h-[485px] w-[120%] border border-[#caff11]"></div>
 	<div class="flex h-full w-full flex-row justify-between items-end">
-		<div class="">
+		<div class=" font-[600]">
 			<div
 				class="absolute left-[152px] top-[107px] justify-start font-['Craftwork_Grotesk'] text-[38px] font-semibold uppercase text-white"
 			>

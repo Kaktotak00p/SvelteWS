@@ -1,35 +1,69 @@
+@font-face {
+  font-family: 'Craftwork Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/CraftworkGrotesk-Regular.ttf') format('truetype');
+}
+
 
 @font-face {
   font-family: 'Craftwork Grotesk';
   font-style: normal;
   font-display: swap;
-  /* “truetype” is the proper format name for .ttf files */
-  src: url('/CraftworkGroteskGX.ttf') format('truetype');
+  font-weight: 500;
+  src: url('/CraftworkGrotesk-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Helvetia_Verbundene';
+  font-family: 'Craftwork Grotesk';
   font-style: normal;
   font-display: swap;
-  src: url('/helvetica_verbundene-webfont.ttf') format('truetype');
+  font-weight: 600;
+  src: url('/CraftworkGrotesk-SemiBold.ttf') format('truetype');
 }
 
-/* @font-face {
+@font-face {
+  font-family: 'Craftwork Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('/CraftworkGrotesk-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Craftwork Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url('/CraftworkGrotesk-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetia Verbundene';
+  font-style: normal;
+  font-display: swap;
+  src: url('/HelveticaVerbundene.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Cabinet Grotesk';
   font-style: normal;
   font-display: swap;
-  src:
-} */
+  src: url('/CabinetGrotesk-Variable.ttf') format('truetype');
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  src: url('/Inter-VariableFont.ttf') format('truetype');
+}
 
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-    .card {
-      position: relative;
-      background-color: #b4ff00; /* Bright green card color */
-      border-radius: 6px;
-    }

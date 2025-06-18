@@ -64,7 +64,7 @@
 
                     <div class="flex justify-start items-end gap-2.5">
                         <div class="justify-start m-auto">
-                            <span class="text-[#bdfd00] text-lg font-normal font-['Inter']">//: {vacancy.id}</span>
+                            <span class="text-[#bdfd00] text-lg font-[400] font-['Inter']">//: {vacancy.id}</span>
                             <span class="text-white text-lg font-normal font-['Inter']"> </span>
                         </div>
                         <div class="justify-start text-white text-lg font-[800] font-['Craftwork_Grotesk'] uppercase">{vacancy.title}</div>

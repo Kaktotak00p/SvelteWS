@@ -39,7 +39,7 @@
 		<img src="/images/leftCont.svg" class="absolute left-4 h-[200px]"/>
 		<img src="/images/rightCont.svg" class="absolute right-4 h-[200px]"/>
 		<!-- <img src="/images/UnionT.svg" class="absolute z-0 object-cover object-fill px-4" /> -->
-		<div class="inline-flex w-full items-center justify-around pt-10">
+		<div class="inline-flex w-full items-center justify-around pt-10 font-[600]">
 			<div class="size- inline-flex flex-col items-start justify-start">
 				<div class="justify-start font-['Craftwork_Grotesk'] text-3xl font-medium text-white">
 					<CounterLogic />	

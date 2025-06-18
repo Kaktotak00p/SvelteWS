@@ -16,8 +16,8 @@
     let isOpen = false;
 </script>
 <div class="w-full h-[972px] relative bg-black overflow-hidden mx-auto" id="landing">
-    <div class="left-[10px] top-[68px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">медіабаїнгова</div>
-    <div class="right-[10px] top-[111px] absolute justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">компанія</div>
+    <div class="left-[10px] top-[68px] absolute justify-start font-[600] text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">медіабаїнгова</div>
+    <div class="right-[10px] top-[111px] absolute justify-start font-[600] text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">компанія</div>
     <div class="w-96 h-[455.18px] left-1/2 -translate-x-1/2 top-[145.33px] absolute mx-auto">
         <div class="left-[363px] top-[210.17px] absolute origin-top-left rotate-[91.55deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">T</div>
         <div class="left-[362.61px] top-[221.45px] absolute origin-top-left rotate-[94.20deg] justify-center text-white text-base font-normal font-['Craftwork_Grotesk']">r</div>
@@ -166,7 +166,7 @@
         <div class="justify-center text-white text-l font-bold font-['Craftwork_Grotesk'] text-nowrap">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</div>
     </button>
 <div class="absolute left-[0px] top-[700px] w-full px-4 pb-8 border-b-[2px] border-[#CAFF11]">
-    <div class="w-full inline-flex flex-col justify-start items-end gap-[5px]">
+    <div class="w-full inline-flex flex-col font-[600] justify-start items-end gap-[5px]">
         <div class="self-stretch justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">залив  із</div>
         <div class="self-stretch text-right justify-start text-white text-4xl font-semibold font-['Craftwork_Grotesk'] uppercase">сенсом</div>
         <div class="self-stretch inline-flex justify-start items-center gap-20">

@@ -39,7 +39,7 @@
 				class="flex h-28 flex-col items-center justify-center gap-2.5 self-stretch text-nowrap py-3.5"
 			>
 				<img src="/images/Union.svg" class=" absolute z-0 object-cover" />
-				<div class="size- inline-flex items-center justify-start gap-[70px]">
+				<div class="size- inline-flex items-center justify-start gap-[70px] font-[600]">
 					<div class="size- inline-flex flex-col items-start justify-start">
 						<div class="justify-start font-['Craftwork_Grotesk'] text-4xl font-medium text-white">
 							<CounterLogic />	
