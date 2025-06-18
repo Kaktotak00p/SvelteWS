@@ -71,7 +71,7 @@
                         <div class="justify-start text-white text-lg font-[800] font-['Craftwork_Grotesk'] uppercase">{vacancy.title}</div>
                     </div>
                     <div class="w-[328px] flex justify-between items-center">
-                        <div class="justify-start text-white text-lg font-normal font-['Craftwork_Grotesk']">{vacancy.location}</div>
+                        <div class="justify-start text-white text-lg font-[400] font-['Craftwork_Grotesk']">{vacancy.location}</div>
                         <div class="size- flex justify-start items-center gap-[5px]">
                             <button 
                                 on:click={() => toggleVacancy(vacancy.id)}>

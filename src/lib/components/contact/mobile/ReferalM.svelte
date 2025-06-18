@@ -1,8 +1,8 @@
 <div class="w-full h-[890px] relative bg-[#020202] overflow-hidden">
     <div class="size- top-[50px] absolute inline-flex flex-col justify-start items-start gap-2.5">
-        <img src="/images/ReferalM.png" class="absolute scale-[1.4]"/>
+        <img src="/images/ReferalM.svg" class="absolute scale-[130%]"/>
         <div class="justify-start text-white text-[32px] font-normal font-['Craftwork_Grotesk'] uppercase pl-[25px] ">//:реферальна <br> програм</div>
-        <div class="w-full text-white font-normal text-[25px] font-['Craftwork_Grotesk'] pl-[45px]">З тебе – люди, з нас – гроші</div>
+        <div class="w-full text-white font-normal text-[18px] font-['Craftwork_Grotesk'] pl-[45px]">З тебе – люди, з нас – гроші</div>
     </div>
     <div class="w-full absolute left-0 top-[240px] inline-flex flex-col px-[25px] gap-5">
         <div class="justify-start text-white text-[26px] font-normal font-['Craftwork_Grotesk'] uppercase">[Як це працює?]</div>

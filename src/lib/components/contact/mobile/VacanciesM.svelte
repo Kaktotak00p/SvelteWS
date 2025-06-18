@@ -122,7 +122,7 @@
                 {/if}
             </div>
         {/each}
-    <img class="w-[465px] h-[396px] rounded-[10px] shadow-[4px_4px_0px_0px_rgba(255,65,223,1.00)] mx-auto" src="/images/office1.jpg" alt="office" />
+    <img class="w-[465px] h-[396px] rounded-[10px] shadow-[4px_4px_0px_0px_rgba(255,65,223,1.00)] mx-auto mt-10" src="/images/office1.jpg" alt="office" />
     </div>
 </div>
 

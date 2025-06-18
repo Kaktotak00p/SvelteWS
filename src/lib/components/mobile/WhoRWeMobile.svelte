@@ -30,8 +30,8 @@
             <div class="w-[100%] h-96 left-0 top-0 ">
                 <div class=" w-full inline-flex flex-col justify-start items-center text-nowrap gap-16 mt-12 px-12">
                     <!-- <img src="/images/unionCounter.svg" class="absolute w-full px-8 h-[570px] object-fill max-h-none max-w-none"> -->
-                    <img src="/images/Vector 72M.svg" class="absolute left-[22%] top-[170px] object-none scale-[1.5]">
-                    <img src="/images/Vector 73M.svg" class="absolute right-[20%] top-[170px] object-none scale-[1.5]">
+                    <img src="/images/Vector 72M.svg" class="absolute left-[11%] top-[170px] object-none scale-[1.3]">
+                    <img src="/images/Vector 73M.svg" class="absolute right-[10%] top-[170px] object-none scale-[1.3]">
                     <div class="w-48 flex flex-col justify-start items-center mt-20">
                         <div class="self-stretch justify-start text-white text-4xl font-medium font-['Craftwork_Grotesk']"><CounterLogic /></div>
                         <div class="justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk']">FTD</div>

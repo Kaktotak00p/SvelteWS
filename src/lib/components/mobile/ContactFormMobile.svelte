@@ -91,7 +91,7 @@
 </script>
 {#if isOpen}
 
-<div class="fixed inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 -mr-4">
+<div class="fixed inset-0 bg-black overflow-x-hidden overflow-y-auto z-40 -mr-4 pr-4">
 <div class="w-full h-full fixed bg-black overflow-hidden p-2">
     <div class="w-[1914px] h-[233px] relative">
         <img src="/images/TRAFFHUB.png" class="w-[961px] h-[233px] left-0 top-0 absolute  blur-[17px]">
