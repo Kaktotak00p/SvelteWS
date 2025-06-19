@@ -30,7 +30,7 @@
         formData.append("telegram", telegram);
         formData.append("reasons", reasons);
         if(selectedFile) {            
-            formData.append("resume", selectedFile);
+            formData.append("referal", selectedFile);
         }
         try {
             const response = await fetch("/api/referal", {

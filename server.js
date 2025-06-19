@@ -65,9 +65,9 @@ async function forwardToTelegram(title, data, file) {
         return;
     }
 
-    let message = "<b>${title}</b>\n\n";
+    let message = `<b>${title}</b>\n\n`;
     for (const [key, value] of Object.entries(data)) {
-        message += `<b>${key}:</b> ${value || 'N\A'}\n`;
+        message += `<b>${key}:</b> ${value || 'N/A'}\n`;
     }
 
     try {
@@ -88,6 +88,7 @@ async function forwardToTelegram(title, data, file) {
             } catch (unlinkError) {
                 console.error("Error deleting temporary file:", unlinkError);
             }
+        }
     } 
 }
 
@@ -95,7 +96,7 @@ async function forwardToTelegram(title, data, file) {
 // **IMPORTANT**: The path for uploads is now relative to the root.
 const upload = multer({ dest: path.join(__dirname, 'uploads/') });
 
-app.post('/api/apply', upload.single('resume'), (req, res) => {
+app.post('/api/apply', upload.single('resume'), async (req, res) => {
     console.log("Received application:", req.body);
     console.log("Resume file:", req.file);
 
@@ -104,12 +105,12 @@ app.post('/api/apply', upload.single('resume'), (req, res) => {
     res.json({ success: true, message: "Application received successfully!" });
 });
 
-app.post('/api/referal', upload.single('referal'), (req, res) => {
+app.post('/api/referal', upload.single('referal'), async (req, res) => {
     console.log("Received referal:", req.body);
     console.log("Referal file:", req.file);
 
     await forwardToTelegram("New Referal", req.body, req.file);
-    
+
     res.json({ success: true, message: "Referal received successfully!" });
 });
 

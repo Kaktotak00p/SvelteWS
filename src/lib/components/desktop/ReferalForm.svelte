@@ -31,9 +31,8 @@
         formData.append("reasons", reasons);
         if (selectedFile) {
             // Ensure a file is selected before appending
-            formData.append("resume", selectedFile);
+            formData.append("referal", selectedFile);
         } 
-        formData.append("resume", selectedFile);
 
         try {
             const response = await fetch("/api/referal", {
@@ -95,7 +94,7 @@
     <button on:click={() => onClose()} class="absolute top-[43px] right-5 invert">
         <img src="/images/cross.svg" alt="logo">
     </button>
-    <form on:submit|preventDefault={handleSubmit} >
+    <form>
 <div class="w-[680px] h-fit my-32 relative inset-0 bg-black overflow-y-auto overflow-x-hidden z-40 mx-auto rounded-[30px] shadow-[2px_2px_34px_0px_rgba(255,65,223,0.80)] pt-10 ">
     <div class=" w-[680px] px-8 inline-flex flex-col justify-start items-center gap-14 pb-10">
         <div class="w-full self-stretch flex flex-col justify-center items-start gap-12">
