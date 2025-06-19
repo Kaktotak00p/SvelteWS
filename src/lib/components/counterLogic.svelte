@@ -4,7 +4,10 @@
 	let ws;
 
     function connect() {
-        ws = new WebSocket("ws://localhost:8080");
+        const protocol = window.location.protocol === "https:" ? "wss" : "ws";
+        const host = window.location.host;
+        const wsUrl = `${protocol}://${host.split(':')[0]}:8080`;
+        ws = new WebSocket(wsUrl);
         
         ws.addEventListener("open", () => {
             console.log("WS open");
