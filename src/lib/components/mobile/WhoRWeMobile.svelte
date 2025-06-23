@@ -2,7 +2,7 @@
 	import CounterLogic from "../counterLogic.svelte";
 
 </script>
-<div class="w-[100%] h-[1300px] relative bg-black overflow-hidden mx-auto" id="who">
+<div class="w-[100%] h-[1100px] relative bg-black overflow-hidden mx-auto" id="who">
     <div class=" w-[100%] h-[924px] relative">
         <div class="left-[15px] top-0 absolute text-white text-3xl font-normal font-['Craftwork_Grotesk'] uppercase">//:ХТО МИ</div>
         <div class="w-full px-[15px] relative inline-flex flex-col justify-start items-start gap-10 mt-20">
@@ -26,7 +26,7 @@
             </div>
             <div class="self-stretch justify-start text-white text-xl font-semibold font-['Craftwork_Grotesk'] uppercase text-justify"> і працювати з командою, <br>яка надихає результатами</div>
         </div>
-        <div class="w-[100%] h-96 left-0 top-[533px] absolute">
+        <div class="w-[100%] h-96 left-0 top-[420px] absolute">
             <div class="w-[100%] h-96 left-0 top-0 ">
                 <div class=" w-full inline-flex flex-col justify-start items-center text-nowrap gap-16 mt-12 px-12">
                     <!-- <img src="/images/unionCounter.svg" class="absolute w-full px-8 h-[570px] object-fill max-h-none max-w-none"> -->

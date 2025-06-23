@@ -65,7 +65,17 @@
     {:else}
     <div class="self-stretch flex flex-col justify-start items-center gap-4 mt-4">
         <div class="w-full inline-flex justify-between items-center">
-            <div class=" pl-[20px] flex justify-start items-center gap-24">
+            <button on:click={()=>openMenu()} class="w-[110px] inline-flex flex-col justify-start items-center gap-2.5">
+                <div class="w-10 h-0 outline outline-[2px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+                <div class="w-10 h-0 outline outline-[2px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+                <div class="w-10 h-0 outline outline-[2px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
+            </button>
+
+            <button on:click={() => {goto("/");scrollToSection("landing")}}>
+                <img src="/images/лого.svg" alt="logo" class="w-[120px]">
+            </button>
+
+            <div class=" pr-[20px] flex justify-start items-center gap-24">
                 <div class="flex justify-start items-center gap-2.5">
                <button 
                     class="lang-button" 
@@ -83,16 +93,6 @@
                 </button>
                 </div>
             </div>
-
-            <button on:click={() => {goto("/");scrollToSection("landing")}}>
-                <img src="/images/лого.svg" alt="logo" class="w-20">
-            </button>
-
-            <button on:click={()=>openMenu()} class="w-[110px] inline-flex flex-col justify-start items-center gap-2.5">
-                <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
-                <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
-                <div class="w-10 h-0 outline outline-[3px] outline-offset-[-1.50px] outline-[#BDFD00]"></div>
-            </button>
         </div>
         <div class="w-full h-0 outline outline-1 outline-offset-[-0.50px] outline-[#BDFD00]"></div>
     </div>
@@ -111,7 +111,7 @@
 
 .lang-button span {
     color: #C6C6C6;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     word-wrap: break-word;
 }
