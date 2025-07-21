@@ -17,8 +17,8 @@
     let isOpen = false;
 </script>
 
-<div class="flex flex-col h-[655px] mb-24" id="landing">
-    <div class="absolute top-[16px] -left-[10%] h-[655px] z-[2] bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center "></div>
+<div class="flex flex-col h-[655px] mb-24 overflow-hidden" id="landing">
+    <div class="absolute top-[16px] h-[655px] z-[2] bg-transparent border-y border-[#CAFF11] min-w-[100%] flex flex-col justify-center items-center "></div>
     <div class="max-w-[1282px] h-full relative bg-[#020202] overflow-hidden px-10 mx-auto">
         <div class="relative"></div>
         <div class="relative z-[2] w-full h-full min-w-full min-h-full flex justify-between items-center">
