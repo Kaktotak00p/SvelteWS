@@ -1,3 +1,7 @@
+<script>
+	import CardsT from "./CardsT.svelte";
+
+</script>
 <div class="w-[767px] h-[470px] relative bg-[#020202] overflow-hidden mx-auto mt-20">
   <div class="text-center text-white text-[27px] font-[900] font-['Craftwork_Grotesk'] uppercase w-full">Хочеш  нарешті  знайти  нормальну тіму?</div>
   <img src="/images/timu.svg" class="right-[20px] absolute" />
