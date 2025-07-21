@@ -1,5 +1,5 @@
+<div class=" w-[1370px] ml-12 self-stretch justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:Партнери</div>
 <div class="w-full inline-flex flex-col justify-start items-start gap-10">
-    <div class=" w-[1370px] mx-auto self-stretch justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase">//:Партнери</div>
     <div class="partners-scroll">
         <div class="scroll-track">
           <div class="track">

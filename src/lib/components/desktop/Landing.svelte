@@ -3,6 +3,7 @@
 
 	import {page } from '$app/state';
 	import {onMount} from 'svelte';
+	import Button from "../Button.svelte";
 
 	onMount(() => {
 		const section = new URLSearchParams(window.location.search).get('section');
@@ -17,8 +18,8 @@
 </script>
 
 <div class="flex flex-col h-[655px] mb-24" id="landing">
-    <div class="w-full h-full relative bg-[#020202] overflow-hidden px-10">
-        <div class="absolute top-0 -left-[10%] z-[2] h-full bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center "></div>
+    <div class="absolute top-[16px] -left-[10%] h-[655px] z-[2] bg-transparent border border-[#CAFF11] min-w-[120%] flex flex-col justify-center items-center "></div>
+    <div class="max-w-[1282px] h-full relative bg-[#020202] overflow-hidden px-10 mx-auto">
         <div class="relative"></div>
         <div class="relative z-[2] w-full h-full min-w-full min-h-full flex justify-between items-center">
             <div class="relative w-[679px] h-[430px]">
@@ -44,12 +45,15 @@
                         <span class="text-white text-[50px] font-[600] font-['Craftwork_Grotesk'] uppercase">///</span>
                     </div>
                 </div>
-                <button class="absolute left-0 top-[370px] h-[60px] px-[21px] py-[14px] bg-[#FF41DF] rounded-[4px] flex justify-center items-center gap-[10px]" 
+                <!-- <button class="absolute left-0 top-[370px] h-[60px] px-[21px] py-[14px] bg-[#FF41DF] rounded-[4px] flex justify-center items-center gap-[10px]" 
                         on:click={() => {isOpen = true}}>
                     <div class="flex flex-col justify-center text-nowrap">
                         <span class="text-white text-[26px] font-[700] font-['Craftwork_Grotesk']">ВІДГУКНУТИСЬ НА ВАКАНСІЮ</span>
                     </div>
-                </button>
+                </button> -->
+                <div class="absolute left-0 top-[370px] h-[60px] px-[21px] py-[14px]">
+                    <Button state="normal" text="ПРИЄДНАТИСЯ" width="100%" height="56px" onClick={() => {isOpen = true}} />
+                </div>
             </div>
 
 

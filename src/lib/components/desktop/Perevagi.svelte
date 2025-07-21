@@ -1,5 +1,5 @@
+<div class="w-[1232px] justify-start text-white text-4xl font-normal font-['Craftwork_Grotesk'] uppercase ml-12">//:НАШІ ПЕРЕваги</div>
 <div class="h-[650px] mx-auto max-w-[1370px] center py-10">
-    <div class="text- w-full mx-auto"><span class="fspan">//:НАШІ ПЕРЕВАГИ</span></div>
     <div class="w-full relative">
         <div class="inline-flex w-full gap-[65px] justify-end mb-8">
             <div class="w-[260px] h-48 relative">
