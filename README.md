@@ -1,3 +1,7 @@
+# !!! 
+
+The project is no longer maintained as i didnt get paid for it
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
